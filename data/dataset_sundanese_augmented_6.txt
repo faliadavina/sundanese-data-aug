@@ -1,0 +1,1613 @@
+0	Ku margi rumaos abot, Ujang kersaeun nyandak lalangsé tina gédéng pangkulemannana.
+0	Ku margi rumaos abot, Ujang kersaeun nyandak lalangsé tina gédéng pangkulemannana.
+0	Ku margi rumaos moal abot, Ujang henteu kersaeun nyandak lalangsé tina gédéng pangkulemannana.
+0	Ku margi rumaos abot, ngarasa Ujang henteu kersaeun nyandak lalangsé tina gédéng pangkulemannana.
+1	Lamun pijodoeun mah ditempo tepi ka agamana
+1	Lamun pijodoeun mah ditempo tepi ka agamana
+1	Kuring mah kakara mayar kuliah ku kituna meunang jas almamater di ahir-ahir waktu
+1	Kuring mah kakara mayar kuliah ku kituna meunang jas almamater di ahir-ahir waktu
+1	Kuring mah kakara mayar kuliah bieu ku kituna meunang jas almamater di karek ahir-ahir waktu
+1	Ulah sok mikiran dunya sabab ahirna mah urang bakal maot
+1	Ulah sok mikiran dunya sabab ahirna mah urang bakal maot
+1	Ulah sok mikiran dunya teuing sabab ahirna mah urang bakal kojor maot
+1	Ulah sok abdi mikiran dunya teuing sabab ahirna mah urang bakal maot
+0	Pak Ustadz keur ngawulang perkara perkawis ahlak ka para santri
+0	Pak Ustadz keur ngawulang perkawis perkara ahlak ka para santri
+0	Diajar Basa Sunda tepi ka akar-akarna pikeun ngarti
+0	Diajar Basa Sunda tepi ka akar-akarna pikeun ngarti
+0	Diajar Basa Sunda kudu tepi ka akar-akarna kanggo pikeun ngarti pisan
+0	Lamun kakara asup sakola tahun ajaran anyar, budak sakola kantongna sok anak alanyar
+0	Lamun kakara asup sakola tahun ajaran anyar, budak sakola kantongna lebet sok alanyar
+0	Budak téh indit ti imah tapi alesanana jelas
+0	Budak téh indit ti imah tapi alesanana jelas
+0	Budak téh indit ti bumi imah tapi alesanana teu jelas
+0	Budak téh indit ti imah tapi alesanana angkat teu jelas
+0	Dusun Pelangi katelah aman eujeung jeung éndah
+0	Dusun Pelangi katelah eujeung aman jeung éndah
+1	Bungah manéhna boga motor anyar.
+1	Bungah manéhna boga motor anyar.
+1	gaduh Bungah pisan manéhna boga motor anyar.
+1	Bungah pisan manéhna boga motor gaduh anyar.
+1	Jadi, tong boro nyorang ieu jalan, dalah mulang ka lembur kawilang arang
+1	Jadi, tong boro nyorang ieu jalan, dalah mulang ka lembur kawilang arang
+1	Jadi, kalih tong boro nyorang ieu jalan, dalah mulang ka lembur oge kawilang arang
+1	cai santen abdi kuring asin.
+1	cai santen abdi kuring asin.
+1	Ah, si Kabayan kalah meuli mangga atah, padahal pek uing ménta nu asak!
+1	Ah, si Kabayan kalah meuli mangga pek atah, padahal uing ménta nu asak!
+1	buahna butut awon
+1	butut buahna awon
+1	Ceuk mamah lamun néangan tutut nu eusina ayaan
+1	Ceuk mamah lamun néangan tutut nu eusina ayaan
+1	anu Ceuk mamah lamun néangan tutut kudu nu eusina ayaan
+1	Ceuk mamah lamun néangan tutut kudu nu anu eusina ayaan
+0	eta barudak badegong
+0	eta barudak badegong
+0	Budi mah budak bageur lantaran kaluar imah
+0	Budi mah budak bageur lantaran kaluar imah
+0	Budi mah budak bageur margi lantaran tara kaluar imah
+0	Budi margi mah budak bageur lantaran tara kaluar imah
+0	ulin di leuweung matak bahaya!
+0	ulin di leuweung matak bahaya!
+0	ulah entong ulin di leuweung matak bahaya!
+0	ulah entong ulin di leuweung matak bahaya!
+0	si rika geulis irungna bangir
+0	si rika geulis irungna bangir
+0	budak bangor henteu mah moal dipikaresep ku batur
+0	budak anak bangor mah moal dipikaresep ku batur
+0	Pamungkas nincak ka dieu teh mun salah mah basa rek ngalegalisir STTB ka kepala SMP
+0	Pamungkas nincak ka dieu teh mun salah mah basa rek ngalegalisir STTB ka kepala SMP
+0	adeuk Pamungkas nincak ka dieu teh mun teu salah mah basa rek ngalegalisir STTB ka kepala SMP
+0	Pamungkas nincak ka dieu teh mun tincak teu salah mah basa rek ngalegalisir STTB ka kepala SMP
+1	Sanaos awakna enggal bayuhyuh tapi Budi mah mun lumpat gancang
+1	Sanaos awakna bayuhyuh tapi Budi mah mun lumpat enggal gancang
+1	Geus kolot mah belegug sok belet ngagunakeun HP.
+1	Geus kolot mah sok belegug belet ngagunakeun HP.
+1	Naha ningan calana anu kamari karék diseueuh belok?
+1	Naha ningan calana anu kamari karék diseueuh belok?
+1	Naha ningan kiwari calana anu kamari karék diseueuh ayeuna geus belok?
+1	Naha ningan calana anu kamari karék diseueuh ayeuna kiwari geus belok?
+1	Gawéan si Ujang bener, manéhna dihukum sabeurat-beuratna!
+1	Gawéan si Ujang bener, manéhna dihukum sabeurat-beuratna!
+1	Lamun ka indomaret pantona dibetot
+1	Lamun ka indomaret pantona dibetot
+1	Ku sabab rumasa beurat, Ujang daékeun mawa rérégan ti gigir kamerna.
+1	Ku sabab rumasa beurat, Ujang daékeun mawa rérégan ti gigir kamerna.
+1	Rina milih lipensetip anu beureum burahay kusabab cocok jeung bajuna nu cenah.
+1	nu Rina milih lipensetip anu beureum burahay kusabab cocok jeung bajuna cenah.
+0	Gagantian kasebut dibatalkan mulih dina taun 1932 ku kituna balik deui maké kalender biasa.
+0	Gagantian kasebut dibatalkan dina taun 1932 ku warsi kituna balik deui maké kalender biasa.
+0	Lamun kolot mah sok rada biko kana ngagunakeun téknologi.
+0	Lamun kolot mah sok rada biko kana ngagunakeun téknologi.
+0	Lamun sepuh geus kolot mah sok rada biko kana ngagunakeun téknologi.
+0	rumaos kuring ngarasa bingah lantaran juara
+0	kuring atoh ngarasa bingah lantaran juara
+0	Ah kalakah jadi ramé kiyeu, bitan ah urang mah, bung miluan deui.
+0	Ah kalakah jadi ramé kiyeu, bitan ah urang mah, bung miluan deui.
+0	Di Pasar Sukahaji budak nu tempatna jual beuli sato, aya dijual bocokok atawa anak buhaya
+0	Di atanapi Pasar Sukahaji nu tempatna jual beuli sato, aya dijual bocokok atawa anak buhaya
+0	jadi jalma bodo
+0	jadi jalma bodo
+0	jadi jalma ulah entong bodo
+0	jadi jalma entong ulah bodo
+1	Teu bisa saé margi sorangan lantaran borangan
+1	margi Teu bisa saé sorangan lantaran borangan
+1	Lamun Ani ngomong enya bujeng, hartina bisa datang
+1	Lamun Ani ngomong enya bujeng, hartina bisa datang
+1	Lamun Ani geus ngomong enya nyarios bujeng, hartina bisa datang
+1	nyarios Lamun Ani geus ngomong enya bujeng, hartina bisa datang
+1	buru geura era diacuk, tong buligir, isin ku batur!
+1	buru geura diacuk, tong buligir, isin ku era batur!
+1	geus gaduh boga buntut
+1	gaduh geus boga buntut
+1	buntut lodaya maung
+1	buntut lodaya maung
+1	Bumi nu dibagi jadi dua puluh opat wewengkon wayah anu béda.
+1	Bumi dibagi jadi dua puluh opat wewengkon wayah nu anu béda.
+0	sepuh Kudu béréhan ka kolot téh!
+0	Kudu béréhan sepuh ka kolot téh!
+0	margi cacad lantaran kacilakaan
+0	cacad margi lantaran kacilakaan
+0	Kuring keur cageur ku kituna waka bisa kamana-mana
+0	Kuring keur cageur ku kituna waka bisa kamana-mana
+0	Kuring keur teu cageur ku damang kituna teu waka bisa kamana-mana
+0	Kuring keur teu damang cageur ku kituna teu waka bisa kamana-mana
+0	getol budak téh mani calakan
+0	anak budak téh mani calakan
+0	Manéhna mah ngawadul abdi waé, kuring mah cangcaya
+1	Urang capé néwak hayamna Pa Haji, ku manéh wé lah!
+1	Urang capé néwak hayamna Pa Haji, ku manéh wé lah!
+1	Kuring meuli comro nu babari buruk di si Ibu péngkolan
+1	Kuring meuli comro nu babari buruk di si Ibu péngkolan
+1	Kuring meuli comro nu teu babari buruk di si anu Ibu péngkolan
+1	Kuring meuli comro nu anu teu babari buruk di si Ibu péngkolan
+1	Kuring keur damang ku kituna waka asup sakola
+1	Kuring keur damang ku kituna waka asup sakola
+1	Kuring keur teu damang ku kituna teu waka asup lebet sakola
+1	Kuring keur teu damang ku kituna teu waka lebet asup sakola
+1	reureuh di jalan anu datar
+1	reureuh di jalan anu datar
+1	reureuh heula di jalan anu nu datar
+1	reureuh heula di nu jalan anu datar
+0	Ulah deukeut bisi katajong
+0	Ulah deukeut bisi katajong
+0	duka Ulah deukeut teuing bisi katajong
+0	Ulah deukeut teuing caket bisi katajong
+1	Lamun ka indomaret pantona di dorong
+1	Lamun ka indomaret pantona di dorong
+0	Nyieun KTP di kalurahan mah gancang.
+0	Nyieun KTP di kalurahan mah gancang.
+0	Geus gaya kieu mah dibawa apel
+0	Geus gaya kieu mah dibawa apel
+0	Geblah-gebloh sia mah, baju karék dipaké génan ledok deui.
+0	Geblah-gebloh sia mah, baju karék dipaké génan ledok deui.
+0	Geus gélo budak téh, uing papatahan abdi malah ngalawan!
+0	Geus gélo budak abdi téh, uing papatahan malah ngalawan!
+0	Ani nyaéta murid paling geulis di garong sakola kuring
+0	Ani nyaéta murid paling geulis di sakola abdi kuring
+1	sakumna warga sukan-sukan tur gumbira bari olahraga
+1	sakumna warga sukan-sukan tur gumbira bari olahraga
+1	sareng atoh sakumna warga sukan-sukan tur gumbira bari olahraga
+1	sareng sakumna warga sukan-sukan tur eujeung gumbira bari olahraga
+1	Domba garut nu manéhna galeuh beuli kaasup hadé
+1	galeuh Domba garut nu manéhna beuli kaasup hadé
+1	lumpat jadi halabhab
+1	lumpat jadi halabhab
+1	haus geus lumpat jadi halabhab
+1	geus lumpat jadi haus halabhab
+1	keur haus hanaang kieu mah ngeunahna nginum cai és
+1	keur hanaang kieu mah eueut ngeunahna nginum cai és
+1	mandi ibak ku cai haneut
+1	mandi ku ibak cai haneut
+1	abdi hanjakal lanjut kuliah
+1	abdi hanjakal lanjut kuliah
+1	abdi hanjakal teu lanjut sim kuliah
+1	abdi hanjakal teu lanjut sim kuliah
+0	Jumatan di neda balé désa supaya meunang dahar haratis
+0	neda Jumatan di balé désa supaya meunang dahar haratis
+0	Riko asup sekolah soalna keur hareeng
+0	Riko asup sekolah soalna keur hareeng
+0	lebet Riko teu asup sekolah soalna keur hareeng
+0	Riko teu asup sekolah soalna keur lebet hareeng
+0	hareudang kieu mah eueut ngeunahna nginum es kalapa
+0	hareudang kieu mah ngeunahna bayeungyang nginum es kalapa
+0	lawas Tong lami teuing, mamah hariwang
+0	rampus Ulah hawek kana harta
+1	Korsi téh heubeul tapi awét jeung katingali kuat kénéh.
+1	Korsi téh heubeul tapi awét jeung katingali kuat kénéh.
+1	Korsi téh geus heubeul tapi awét jeung eujeung katingali kuat kénéh.
+1	eujeung Korsi téh geus heubeul tapi awét jeung katingali kuat kénéh.
+1	Hipu ieu korsi
+1	Hipu ieu korsi
+1	Sok horéam ari poé Minggu indit-inditan téh
+1	Sok horéam ari poé Minggu indit-inditan téh
+0	Kuring indit ka pasar enjing-enjing jeung indung batur tadi isuk-isuk
+0	Kuring indit ka pasar jeung eujeung indung batur tadi isuk-isuk
+1	mung Jauh-jauh ti Cianjur datang ngan dagang bubur
+1	Jauh-jauh ti Cianjur datang ngan dongkap dagang bubur
+0	Ka makam weh lamun neang tempat nu manawi jempling mah
+0	Ka makam weh lamun neang pilari tempat nu jempling mah
+0	Kuring kaduhung ngajak manéhna ka imah nini sabab jelemana nene culamétan
+0	Kuring kaduhung ngajak manéhna ka bumi imah nini sabab jelemana culamétan
+0	Kela, adeuk kagok rek adzan
+0	Kela, kagok rek adeuk adzan
+1	abdi kapok telat ngerjakeun sim PR
+1	nu Lamun ditetelan alkohol eta anu bareuh osok karangsang nyerina
+1	Lamun ditetelan nu alkohol eta anu bareuh osok karangsang nyerina
+1	amis minuman ie kareueut
+1	minuman ie amis kareueut
+1	Kari daékna hungkul da modal mah aya
+1	Kari daékna hungkul da modal mah aya
+1	Kari tulang hungkul awak na, panyawat béak ku panyakit
+1	Kari tulang hungkul awak na, panyawat béak ku panyakit
+0	Riko kasep lamun cicing
+0	Riko kasep lamun cicing
+0	Riko manawi kasep pisan lamun cicing
+0	Riko kasep manawi pisan lamun cicing
+1	Budi nyaéta budak abdi paling kasép di kelas kuring
+1	Budi nyaéta budak paling kasép di abdi kelas kuring
+1	Nu kayas sakodi.
+1	Nu kayas sakodi.
+0	Kuring keur keuheul ka manéhna sabab datang pas kamari ulin
+0	Kuring keur keuheul ka manéhna sabab datang pas kamari ulin
+0	Kuring keur ameng keuheul ka manéhna sabab teu datang pas kamari ulin
+0	Kuring keur keuheul ka manéhna sabab teu datang pas ameng kamari ulin
+0	Tangan kiwa abdi kuring kacepit
+0	Tangan kenca kiwa kuring kacepit
+0	Péso nu kodol téh diasah méh seukeut deui.
+0	Péso nu kodol téh diasah méh seukeut deui.
+0	Péso nu geus kodol téh anu kudu diasah méh seukeut deui.
+1	abdi Seblak kuring lada pisan.
+1	Seblak kuring lada abdi pisan.
+1	Lamun ngomong lalawora
+1	Lamun ngomong lalawora
+1	Lamun entong ngomong ulah lalawora
+1	entong Lamun ngomong ulah lalawora
+1	mani lawas lami
+1	mani lawas lami
+1	budak leutik eta dahar coklat manih alit lamokot
+1	budak neda leutik eta dahar coklat manih lamokot
+1	Bus ieu jalan laun ku sabab nabrak mobil saacanna.
+1	Bus ieu jalan laun ku sabab nabrak mobil saacanna.
+1	nu Teu pati lembut ah simbut nu ieu mah, béda jeung anu hideung.
+1	Teu pati lembut anu ah simbut nu ieu mah, béda jeung anu hideung.
+0	lepat sabaraha teu leres nomor?
+0	lepat teu leres sabaraha nomor?
+0	pami mapah kedah bener leres
+0	pami mapah bener kedah leres
+0	sanggeus ujan hujan jalan jadi licin
+0	sanggeus hujan jalan jadi ujan licin
+0	Aki lamun ti sawah osok ka leuit bisi loba beurit
+0	Aki lamun ti sawah osok ka leuit bisi loba beurit
+0	Aki baheula lamun geus ti sawah osok ka leuit seeur heula bisi loba beurit
+0	Aki baheula lamun geus manawi ti sawah osok ka leuit heula bisi loba beurit
+0	ninun kaasup pagawéan nu anu leukleuk
+0	ninun kaasup nu pagawéan anu leukleuk
+0	Bapa keur lieur mikiran biaya jangar sakola budakna
+0	Bapa keur lieur mikiran jangar biaya sakola budakna
+1	Teundeun deui dompétna, hilap sakitu limpeuran ogé
+1	sato téh lindeuk
+1	sato téh lindeuk
+1	duit téh mahi artos keur meuli mobil
+0	Budakna Pa Asép mah sering soléh da mindeng ka masigit.
+1	Kuring meuli dahareun nu anu mirah di pengkolan
+1	Mamah miwarang abi ngagaleuh tuangeun di caket réstoran deukeut masigit
+0	Barudak sakola mah aya nu apal hartina ménél téh anak gajah
+0	Barudak sakola mah aya nu apal hartina ménél téh anak gajah
+0	Barudak sakola ayeuna mah budak tara aya nu apal hartina ménél téh anak gajah
+0	Barudak sakola ayeuna mah tara aya nu apal hartina ménél téh anak budak gajah
+0	caah ngaruksak imah bumi warga
+0	caah ngaruksak bumi imah warga
+0	Kuring siga ngora deui!
+0	Kuring siga ngora deui!
+0	Kuring hayang siga ngora jiga deui!
+0	Kuring hayang siga jiga ngora deui!
+0	Nyaan kuring mah, ngawadul.
+0	Nyaan kuring mah, ngawadul.
+0	Nyaan kuring mah, abdi teu ngawadul.
+0	bapak nyalira di abah bumi?
+0	bapak nyalira di abah bumi?
+0	Mamah keur nyangu di bumi imah nini sabab listrikna keur lancar
+0	Mamah keur nyangu di imah nini sabab bumi listrikna keur lancar
+1	asa Kamar meuni pabalatak jiga kapal rusak.
+1	Kuring angkat indit ka Jakarta pagéto saanggeus meuli oléh-oléh
+1	Kuring indit angkat ka Jakarta pagéto saanggeus meuli oléh-oléh
+1	Keur gering mah dahar nanaon gé pait.
+1	Keur gering mah dahar nanaon gé pait.
+1	Keur gering mah dahar nanaon gé asa neda pait.
+1	Keur gering mah dahar nanaon gé asa nyeri pait.
+1	Bandung mah panas.
+1	Bandung mah panas.
+1	kiwari Bandung mah ayeuna panas.
+1	Bandung mah ayeuna kiwari panas.
+1	eta kamar dikanyahokeun mana anoe pangheulana pareum
+1	eta kamar dikanyahokeun mana anoe pangheulana pareum
+1	Pa Guru keur gering parna, nu matak manéhna bisa datang ka sakola.
+1	Pa Guru keur gering parna, nu matak manéhna bisa datang ka sakola.
+1	Pa Guru keur gering parna, nu matak manéhna teu bisa datang anu ka sakola.
+0	Ulah pedit ari jalmi jadi jalma téh!
+1	Ari motorna pejét mah, dipaké deui atuh.
+1	Ari motorna pejét mah, dipaké deui atuh.
+1	Urang téh peka ka kaayaan di sabudeureun urang.
+1	Urang téh peka ka kaayaan di sabudeureun urang.
+0	Pinter anak mamah
+0	Pinter anak mamah
+0	Pinter budak pisan anak mamah
+0	Pinter pisan anak budak mamah
+0	margi Jatinangor poék lantaran keur aliran
+0	Jatinangor poék lantaran margi keur aliran
+1	Panyakit anjeunna TBC jeung HIV nyebabkeun manehna jadi leuwih péot.
+1	Panyakit TBC langkung jeung HIV nyebabkeun manehna jadi leuwih péot.
+1	Risna mah meni rajin jeung calakan apik ngarawat diri.
+1	Risna mah meni rajin jeung eujeung apik ngarawat diri.
+1	bumi di imah téh mani ramé
+1	Isuk-isuk rapih kitu, rék ka mana?
+1	Isuk-isuk rapih kitu, rék ka mana?
+1	Kapulisian rempug gawe sababaraha unsur
+1	Kapulisian rempug gawe sababaraha unsur
+1	eujeung Kapulisian rempug gawe sareng sababaraha unsur
+1	Kapulisian eujeung rempug gawe sareng sababaraha unsur
+0	warga nu aub dina olahrga anu bol voli, ngarasa gumbira tur reueus ka Satgas TMMD
+0	warga nu anu aub dina olahrga bol voli, ngarasa gumbira tur reueus ka Satgas TMMD
+1	Haté ngarasa reugreug lantaran mayar listrik
+1	Haté ngarasa reugreug lantaran mayar listrik
+1	Haté ngarasa reugreug lantaran margi geus mayar listrik
+1	Haté ngarasa reugreug margi lantaran geus mayar listrik
+1	ngasuh dua budak sakaligus téh meni
+1	ngasuh dua budak sakaligus téh meni
+1	ngasuh dua budak sakaligus anak téh meni riweuh
+1	ngasuh dua budak sakaligus téh meni anak riweuh
+1	Tangkal jambu kamari rungkad lantaran katebak ku hujan ujan angin.
+1	Tangkal jambu kamari rungkad lantaran katebak margi ku hujan angin.
+0	Teu salah, tapi bener ogé.
+0	Teu salah, tapi bener ogé.
+0	Teu salah, tapi teu bener leres ogé.
+0	Teu salah, tapi teu leres bener ogé.
+0	Euweuh nu anu sampurna di ieu dunya.
+0	Budi jeung Dani mah saruana lamun diajar sok tepi ka peuting bakat ku rajin
+0	Budi jeung Dani mah saruana lamun diajar sok tepi ka peuting bakat ku rajin
+0	Budi jeung Dani mah saruana lamun geus diajar sok tepi ka peuting bakat eujeung ku rajin
+0	Budi jeung Dani mah eujeung saruana lamun geus diajar sok tepi ka peuting bakat ku rajin
+0	Manéhna mah sok resep ngumpul jeung nu sarupa eujeung jeung manéhna.
+0	Manéhna mah anu sok resep ngumpul jeung nu sarupa jeung manéhna.
+0	Jadi lalaki téh satia.
+0	Jadi lalaki téh satia.
+0	Jadi lalaki téh pameget kudu satia.
+0	pameget Jadi lalaki téh kudu satia.
+1	Geus, sedih waé.
+1	Geus, sedih waé.
+1	Geus, ulah entong sedih waé.
+1	Geus, ulah sedih entong waé.
+1	Tina atos enggeus sepah.
+1	Tina atos enggeus sepah.
+1	sinta keur gering nyeri hulu
+1	sinta keur mastaka nyeri hulu
+1	suan pun alo sesah diatur
+1	pun alo sesah suan diatur
+0	Péso nu dipaké kurban téh seukeut.
+0	Péso nu dipaké kurban téh seukeut.
+0	Péso nu dipaké anu kurban téh kudu seukeut.
+1	Urang siap ngamumulé basa Sunda.
+1	Urang siap ngamumulé basa Sunda.
+1	waktos Urang kudu siap ngamumulé basa Sunda.
+1	Urang kudu siap waktos ngamumulé basa Sunda.
+1	Geus balik ka Bandung si tétéh mah, sibuk waé di Jakarta.
+1	Geus balik ka Bandung si tétéh mah, sibuk waé di Jakarta.
+1	Geus mulih tara balik ka Bandung si tétéh mah, sibuk waé di Jakarta.
+1	Ulah henteu sieun, moal kunanaon
+1	Ulah sieun, moal henteu kunanaon
+0	sirik ku batur
+0	sirik ku batur
+0	ulah entong sirik ku batur
+0	ulah sirik entong ku batur
+0	cinta sok hoream lamun di manawi imah
+0	cinta sok hoream lamun manawi di imah
+0	Riko enteu daek kersa cicing, meuni sologoto
+0	kersa Riko enteu daek cicing, meuni sologoto
+0	Urang sopan ka sasaha waé.
+0	Urang sopan ka sasaha waé.
+0	Ti saprak kolotna maot, manéhna hirup tisaprak sorangan.
+0	Ti saprak kolotna maot, tisaprak manéhna hirup sorangan.
+1	abdi ngiring sim sungkawa
+1	abdi ngiring sim sungkawa
+1	anu ari nu séjén kamana?
+1	ari anu nu séjén kamana?
+1	siéun ka gusti Alloh
+1	siéun ka gusti Alloh
+1	sinta lamun ngegawekeun PR taliti
+1	sinta lamun ngegawekeun PR taliti
+1	sinta lamun manawi ngegawekeun PR taliti pisan
+1	sinta manawi lamun ngegawekeun PR taliti pisan
+1	Motor anyar nu manéhna beuli tarik.
+1	Motor anyar nu manéhna beuli tarik.
+1	anu Motor anyar nu manéhna beuli kacida tarik.
+1	Motor anyar nu manéhna beuli weuteuh kacida tarik.
+1	Bapak urang miboga sikep nu anu teges
+1	Bapak urang nu miboga sikep anu teges
+0	Kamari urang ka abdi acara sakola telat
+0	Kamari urang ka acara abdi sakola telat
+1	Kahirupan masarakat Baduy ti tetep kitu.
+1	Kahirupan masarakat Baduy ti tetep kitu.
+1	Kahirupan heubeul masarakat Baduy ti baheula tetep kitu.
+1	Kahirupan masarakat Baduy ti baheula heubeul tetep kitu.
+1	Teu kosi ka manawi dieu lamun di dinya hujan mah.
+0	Saenggeus kitu, kosi lila datang jelemana.
+0	Saenggeus kitu, kosi lila datang jelemana.
+0	dongkap Saenggeus kitu, teu kosi lila datang jelemana.
+0	Saenggeus lami kitu, teu kosi lila datang jelemana.
+0	saré lila
+0	saré lila
+0	duka saré ulah lila teuing
+0	lami saré ulah lila teuing
+0	tiis di dieu mah
+0	tiis di dieu mah
+0	jamedud téh margi lantaran timburu
+0	jamedud téh margi lantaran timburu
+0	Di dieu tiris
+0	Di dieu tiris
+0	Hawa na tiris
+0	Hawa na tiris
+1	tumut kana aturan
+1	tumut kana aturan
+1	Tujuan tina puasa ogé nyaéta keur ngarasakeun kumaha rasana jalma nu untung.
+1	Tujuan tina puasa ogé nyaéta keur ngarasakeun kumaha rasana jalma nu untung.
+1	Tujuan tina puasa ogé nyaéta anu keur ngarasakeun kumaha rasana jalma nu henteu untung.
+1	Tujuan tina puasa ogé nyaéta keur ngarasakeun kumaha rasana jalma nu moal henteu untung.
+1	Manéh sok wadul ka urang lantaran urang mah apal tiheula
+1	Manéh sok wadul ka urang lantaran urang mah apal tiheula
+1	Manéh abdi ulah sok wadul ka urang lantaran urang mah geus apal tiheula
+1	Manéh ulah sok wadul ka urang lantaran urang mah geus abdi apal tiheula
+1	Pa Guru nuju damang wales, nu mawi anjeunna tiasa sumping ka sakola.
+1	Pa Guru nuju damang wales, nu mawi anjeunna tiasa sumping ka sakola.
+1	Pa cageur Guru nuju teu damang wales, nu mawi anjeunna henteu tiasa sumping ka sakola.
+1	Pa Guru nuju teu damang wales, nu mawi anjeunna henteu tiasa sumping ka anu sakola.
+0	Néng Rani margi katelah wandu lantaran resep maén bola
+0	Néng Rani katelah margi wandu lantaran resep maén bola
+1	Manéhna wani ngalawan rampog di hareupeunna.
+1	Manéhna wani ngalawan rampog di hareupeunna.
+1	Manéhna teu ludeung wani ngalawan rampog di hareupeunna.
+1	Manéhna teu wani ngalawan rampog ludeung di hareupeunna.
+1	sanggem saé wantun maju ka panggung
+1	sanggem saé wantun maju ka panggung
+1	Usum loba bangsat mah siapa
+1	Usum loba bangsat mah siapa
+1	Usum loba bangsat mah kudu seeur siapa
+1	seeur Usum loba bangsat mah kudu siapa
+0	sangu anyar ieu didahar enteulah jeung riko kok weuteuh keneh?
+0	sangu anyar ieu didahar enteulah jeung riko kok weuteuh keneh?
+0	Jadi pamingpin wijaksana
+0	Jadi pamingpin wijaksana
+0	Urang yakin bakal papanggih
+0	Urang yakin bakal papanggih
+0	Urang yakin isuk bakal adeuk papanggih
+0	Urang adeuk yakin isuk bakal papanggih
+0	Kuring émut baé ka manéhna sabab jelemana bageur
+0	Kuring émut baé ka manéhna sabab jelemana bageur
+1	Tepi ka datang, itu jelema nu sok ngagibah tobat-tobat
+1	Tepi ka datang, itu jelema nu sok ngagibah tobat-tobat
+1	Tepi ka ajalna datang, anu itu jelema nu sok ngagibah teu tobat-tobat
+1	Budi mah aya waé sabab lamun urang keur susah, si éta boga waé cara
+1	Budi mah aya waé sabab lamun urang keur susah, si éta boga waé cara
+1	Budi mah akalna aya waé sabab lamun urang keur susah, si abdi éta boga waé cara
+1	Budi mah akalna gaduh aya waé sabab lamun urang keur susah, si éta boga waé cara
+1	Kitu da lamun ngawaro ceuk kolot kawas beunang
+1	Kitu da lamun ngawaro ceuk kolot kawas beunang
+1	manawi Kitu da lamun teu ngawaro ceuk kolot kawas ayeuna beunang akibatna
+1	Kitu da lamun teu ngawaro ceuk kolot kiwari kawas ayeuna beunang akibatna
+1	Aksarana lanceuk kuring mah kurang rapi sabab manéhna biasa ngetik maké laptop
+1	Aksarana lanceuk kuring mah kurang rapi sabab manéhna biasa ngetik maké laptop
+1	aang Aksarana lanceuk kuring mah kurang rapi sabab manéhna geus biasa ngetik maké laptop
+1	Aksarana lanceuk kuring mah kurang rapi sabab abdi manéhna geus biasa ngetik maké laptop
+1	Bapa bingah lamun barudakna
+1	Bapa bingah lamun barudakna
+1	Bapa atoh bingah lamun barudakna alakur
+1	manawi Bapa bingah lamun barudakna alakur
+1	Lamun ngasupkeun Budi detail pikeun kurir bisa nganteurkeun paketna
+1	Lamun ngasupkeun Budi detail pikeun kurir bisa nganteurkeun paketna
+1	Lamun ngasupkeun alamatna Budi kudu detail pikeun kurir bisa kanggo nganteurkeun paketna
+1	Lamun ngasupkeun alamatna Budi kudu detail pikeun kanggo kurir bisa nganteurkeun paketna
+1	anger we dibejaan
+1	anger we dibejaan
+1	anger we kalih dibejaan oge
+1	anger kalih we dibejaan oge
+1	tong kadieu deui!
+1	tong kadieu deui!
+0	Cinta ka kota ceunah
+0	Cinta ka kota ceunah
+0	Cinta arek adeuk ka kota ceunah
+0	Cinta arek ka adeuk kota ceunah
+0	jauh béda
+0	jauh béda
+0	asa tebih teu jauh béda
+0	asa teu tebih jauh béda
+0	nunda duit tadi teh tapi dimana nya?
+0	nunda duit tadi teh tapi dimana nya?
+0	asa nunda duit artos tadi teh tapi dimana nya?
+0	asa nunda duit tadi artos teh tapi dimana nya?
+0	Ayeuna poe téh dinten Minggu
+0	poe Ayeuna téh dinten Minggu
+0	Ulah sembarangan perkara awak mah langsung ka ahlina
+0	Ulah sembarangan perkara awak mah langsung ka ahlina
+0	perkawis Ulah sembarangan perkara awak mah kudu langsung ka ahlina
+0	Ulah salira sembarangan perkara awak mah kudu langsung ka ahlina
+1	Baku ari kolot digawe teh sok sepuh nganganggu
+1	manéhna masih aya
+1	manéhna masih aya
+1	bieu karek manéhna masih aya
+1	bieu manéhna karek masih aya
+0	Cék deui barangna, aya nu kakantun!
+0	Cék deui barangna, aya nu kakantun!
+0	Cék deui barangna, bilih aya nu anu kakantun!
+0	Cék deui barangna, bilih aya anu nu kakantun!
+1	Keun waé dicarék
+1	Keun waé dicarék
+1	Keun entong waé ulah dicarék
+1	Keun waé ulah entong dicarék
+0	Bapa guru asup ka kelas sabab barudakna baraong
+0	Bapa guru asup ka kelas sabab barudakna baraong
+0	Bapa guru geus embung alim asup ka kelas sabab barudakna baraong
+0	alim Bapa guru geus embung asup ka kelas sabab barudakna baraong
+0	Buruan diharepeun imah sok loba
+0	Buruan diharepeun imah sok loba
+0	Buruan diharepeun imah sok loba bumi eurih
+0	Buruan diharepeun imah bumi sok loba eurih
+0	Kabéh ogé pasti néangan calon salaki mah nu
+0	Kabéh ogé pasti néangan calon salaki mah nu
+0	Kabéh ogé pasti néangan calon salaki mah daek hayang nu ganteng
+0	Kabéh ogé pasti néangan calon salaki mah hayang anu nu ganteng
+0	sapuluh taun
+0	sapuluh taun
+0	geus warsi ampir sapuluh taun
+1	Si Jajang kamari meuli imah, éta gén pédah manéhna diinjeuman duit ti bank
+1	Si Jajang kamari meuli imah, éta gén pédah manéhna diinjeuman duit ti bank
+1	Si Jajang kamari karak meuli imah, éta gén pédah artos manéhna geus diinjeuman duit ti bank
+1	Si Jajang kamari karak meuli imah, éta artos gén pédah manéhna geus diinjeuman duit ti bank
+1	Geus paraséa, da kabéh génan saralah
+1	Geus paraséa, da kabéh génan saralah
+1	aing ulin ka Bali
+1	aing ulin ka Bali
+1	aing hayang ulin ka daek Bali
+1	aing ameng hayang ulin ka Bali
+1	entong ulah kamana-mana heula
+1	ulah entong kamana-mana heula
+1	Isukan wén nya urang ka dinyana deui, mah keur bisa euy
+1	Isukan wén nya urang ka dinyana deui, mah keur bisa euy
+1	Isukan wén nya abdi urang ka dinyana deui, isuk mah keur teu bisa euy
+1	Isukan wén nya urang ka dinyana deui, isuk enjing mah keur teu bisa euy
+1	Amun bisa datang mah, wén atuh ka dieuna
+1	Amun bisa datang mah, wén atuh ka dieuna
+1	Amun isuk teu enjing bisa datang mah, isukan wén atuh ka dieuna
+1	Amun isuk dongkap teu bisa datang mah, isukan wén atuh ka dieuna
+0	Aya lapang kaciri lega
+0	Aya lapang kaciri lega
+1	putri nu gareulis lis, lisung halu lu, lurah jeung wadana na
+1	putri nu gareulis lis, lisung halu lu, lurah jeung wadana na
+1	putri nu gareulis lis, lisung anu kadua halu lu, lurah jeung wadana na
+1	Botol-botol urut inumeun mah kosi dipiceun, soalna kénéh dipaké jang wadah cai
+1	Botol-botol urut inumeun mah kosi dipiceun, soalna kénéh dipaké jang wadah cai
+1	Botol-botol urut inumeun mah teu kosi dipiceun, tilas soalna kanjat kénéh dipaké jang wadah cai
+1	Botol-botol kanggo urut inumeun mah teu kosi dipiceun, soalna kanjat kénéh dipaké jang wadah cai
+1	Karunya hirupna Budi mah sabab indungna wéh jeung manéhna di imah
+1	Karunya hirupna Budi mah sabab indungna wéh jeung manéhna di imah
+1	Karunya hirupna Budi ayeuna mah eujeung sabab kantun indungna wéh jeung manéhna di imah
+0	Karak can lila
+0	Karak can lila
+0	Karak lami bieu can lila
+0	Karak bieu can lami lila
+0	Riko dahar dahar dei
+0	Riko dahar dahar dei
+0	neda Riko karek dahar enggeus dahar dei
+0	Riko karek neda dahar enggeus dahar dei
+0	Kari tulang hungkul awak salira na, béak ku panyakit
+0	Kari panyawat tulang hungkul awak na, béak ku panyakit
+0	Karék can lila
+0	Karék can lila
+0	Karék bieu lami can lila
+0	lami Karék bieu can lila
+1	Geus dua jam manéhna diuk, pikiranna
+1	Geus dua jam manéhna diuk, pikiranna
+1	bolu eta dikeureut
+1	bolu eta dikeureut
+1	hayu geura solat lohor!
+1	hayu geura solat lohor!
+1	Maenya manéh naék kelas?
+1	Maenya manéh naék kelas?
+1	Nembé can lami
+1	Nembé can lami
+1	Nembé bieu lawas can lami
+1	karek Nembé bieu can lami
+1	Cik manéh téh percaya diri atuh!
+1	Cik manéh téh percaya diri atuh!
+1	Carogé ngalukis, putra ngalukis, rék nanggeuy gado baé!
+1	Carogé ngalukis, putra ngalukis, rék nanggeuy gado baé!
+1	Carogé anak ngalukis, putra ngalukis, piraku rék nanggeuy gado baé!
+1	Carogé ngalukis, putra ngalukis, piraku rék angkeut nanggeuy gado baé!
+1	genah dahareunna ngeunah pisan
+0	omongkeun sangkan
+0	omongkeun sangkan
+0	Rido ngarasa sanggeus ulangan
+0	Rido ngarasa sanggeus ulangan
+0	Rido ngarasa rieut rumaos sanggeus ulangan
+0	ngasuh dua budak sakaligus téh meni
+0	ngasuh dua budak sakaligus téh meni
+0	ngasuh anak dua budak sakaligus téh meni riweuh
+0	Manéhna ngantosan indungna uih
+0	Manéhna ngantosan indungna uih
+0	Manéhna sabar ngantosan indungna balik uih
+0	Sanes nu hideung tapi anu nu hejo
+0	Sanes nu hideung anu tapi nu hejo
+0	bu guru bapa guru
+0	bu guru bapa guru
+0	eujeung bu guru sareng bapa guru
+0	bu eujeung guru sareng bapa guru
+1	dahar nepi ka
+1	dahar nepi ka
+1	wareg dahar nepi ka seubeuh
+1	dahar neda nepi ka seubeuh
+1	Mugia anjeun hidep séhat walafiat
+1	Mugia hidep anjeun séhat walafiat
+1	Tara nyeri asup budak na da gering
+1	Tara asup budak anak na da gering
+1	Geus meh sapuluh taun nyorang ieu jalan
+1	Geus meh sapuluh taun nyorang ieu jalan
+1	Geus warsi meh sapuluh taun teu nyorang ieu jalan
+1	Geus warsi meh sapuluh taun teu nyorang ieu jalan
+0	Béda skor tanding ieu
+0	Béda skor tanding ieu
+1	Tulus moal mangkat henteu ka Jakarta?
+1	Tulus moal mangkat ka henteu Jakarta?
+1	Sing ari babantu téh
+1	Sing ari babantu téh
+1	Tutup atuh pantona!
+1	Tutup atuh pantona!
+0	basa ngojay, hujan
+0	basa ngojay, hujan
+0	basa ngojay, waktos ujug-ujug hujan
+0	waktos basa ngojay, ujug-ujug hujan
+0	ulah entong cicing atuh
+0	ulah entong cicing atuh
+0	Hal ieu di masarakat Bandung
+0	Hal ieu di masarakat Bandung
+0	tuang dugi ka
+0	tuang dugi ka
+0	tuang datang dugi ka wareg
+0	seubeuh tuang dugi ka wareg
+0	Ké ameng peuting, uing ék ulin ka imahna a Antonio Meucci
+1	Abdi dongkap ka dieu pun Asép
+1	Abdi dongkap ka dieu pun Asép
+1	Abdi dongkap ka dieu sareng pun eujeung Asép
+1	Abdi datang dongkap ka dieu sareng pun Asép
+1	Pun Bapa nuju nyondong di rorompok, ku margi nembé angkat ka sérang
+1	Pun Bapa nuju nyondong di rorompok, ku margi nembé angkat ka sérang
+1	Pun Bapa nuju henteu nyondong di rorompok, ku margi nembé parantos angkat atos ka sérang
+1	Pun Bapa nuju henteu nyondong di rorompok, indit ku margi nembé parantos angkat ka sérang
+1	Ceuk bujang, ‘Tuang rayi sumping, ku tuang rama dipangmeuncitkeun sapi anu panglintuhna, réh putrana sumping deui kalayan kirang sawios-wios’
+1	Ceuk bujang, ‘Tuang rayi sumping, ku tuang rama dipangmeuncitkeun sapi anu panglintuhna, réh putrana sumping deui kalayan kirang sawios-wios’
+1	Ceuk kurang bujang, ‘Tuang rayi sumping, ku tuang rama dipangmeuncitkeun sapi anu panglintuhna, réh putrana abah sumping deui kalayan teu kirang sawios-wios’
+1	Ceuk bujang, ‘Tuang rayi anu sumping, ku tuang rama dipangmeuncitkeun sapi anu panglintuhna, réh putrana nu sumping deui kalayan teu kirang sawios-wios’
+1	Ai sia kuneun euy? Nyorangan bé di diyeu jiga nu boga babaturan
+1	Ai sia kuneun euy? Nyorangan bé di diyeu jiga nu boga babaturan
+1	Ai sia kuneun euy? balad Nyorangan bé di diyeu jiga nu teu boga babaturan
+1	gaduh Ai sia kuneun euy? Nyorangan bé di diyeu jiga nu teu boga babaturan
+0	naha nya hirup kuring kieu-kieu abdi teuing?
+0	naha abdi nya hirup kuring kieu-kieu teuing?
+1	anu mana? anu bodas wé
+1	anu mana? anu bodas wé
+1	palay anu mana? anu bodas nu wé
+1	palay daek anu mana? anu bodas wé
+1	Bapa keur lieu di tempat ngabenerkeun mobil antara milih mesin nu asli atanapi nu asli
+1	Bapa keur lieu di tempat ngabenerkeun mobil antara milih mesin nu asli atanapi nu asli
+1	Bapa keur lieu di tempat ngabenerkeun mobil antara milih atawa mesin nu asli atanapi nu teu asli
+1	Bapa keur lieu di tempat atawa ngabenerkeun mobil antara milih mesin nu asli atanapi nu teu asli
+1	susukan Asep jeung Dadang keur nguseup di walungan
+1	Asep jeung susukan Dadang keur nguseup di walungan
+0	Dahar jeung eujeung naon maneh?
+0	eujeung Dahar jeung naon maneh?
+0	Lamun keur ngabandungann batur ngomong, urang maliré kalawan daria sangkan bisa ngarti kana naon anu diomongkeun
+0	Lamun keur ngabandungann batur ngomong, urang maliré kalawan daria sangkan bisa ngarti kana naon anu diomongkeun
+0	Upami nuju abdi ngaregepkeun nu sanés nyarios, urang kedah merhatoskeun kalayan daria supados tiasa ngartos kana naon anu dicarioskeun
+0	kakompakan katut solidaritas TNI rakyat
+0	kakompakan katut solidaritas TNI rakyat
+0	kakompakan eujeung katut solidaritas TNI sareng rakyat
+0	eujeung kakompakan katut solidaritas TNI sareng rakyat
+0	neda Kumaha lamun dahar di kosan wae?
+0	Kumaha lamun dahar neda di kosan wae?
+0	Nanging sadayana kabeh podo rangerteni lungamu neng endi
+1	eueut Abdi nginum cai es tinu kulkas
+1	Abdi nginum cai es eueut tinu kulkas
+1	kuring gaduh boga adi tilu
+1	kuring boga gaduh adi tilu
+1	Adi abdi beuteung kuring gede kawani
+1	Adi beuteung kuring abdi gede kawani
+1	Nyieun martabak sing ngocokna pikeun adonanana mekar tepi ka ngembang
+1	Nyieun martabak sing ngocokna pikeun adonanana mekar tepi ka ngembang
+1	Nyieun martabak kudu kanggo sing puguh ngocokna pikeun adonanana mekar tepi ka ngembang
+1	Akangna meni kasép matak pikaresepeun deuih ku bageurna
+1	Akangna meni kasép matak pikaresepeun deuih ku bageurna
+1	Akangna meni kasép pisan matak pikaresepeun adeuk deuih ku bageurna
+1	Akangna meni kasép pisan matak pikaresepeun deuih adeuk ku bageurna
+0	Akar tangkal kai anu gedé mah nu rata-rata ngabogaan akar tunggang
+1	Tangkal kalapa boga gaduh mangpaat nu sakitu lobana ti mulai daun tepi ka akarna
+1	Tangkal kalapa boga mangpaat nu sakitu gaduh lobana ti mulai daun tepi ka akarna
+1	Kuring boga gaduh dua aki
+1	gaduh Kuring boga dua aki
+1	Pak Ustadz keur ngawulang mung di asrama ngan euweuh alasna jang diuk
+1	Pak mung Ustadz keur ngawulang di asrama ngan euweuh alasna jang diuk
+0	boga gaduh alo meni kasep
+0	boga alo meni gaduh kasep
+0	Popoéan Ema anu loba nu katebak ku angin
+0	anu Popoéan Ema loba nu katebak ku angin
+0	Risa resep ati dinu manawi bagean hayam lamun digoreng
+0	babaturan saantragan simkuring mah pada nikah
+0	babaturan saantragan simkuring mah pada nikah
+0	babaturan saantragan balad simkuring mah geus pada nikah
+1	Si Luis keur modol dina bagbagan di beol balongna mang Ivan
+1	Kudu rajin nyikat huntu pikeun baham bau
+1	Kudu rajin nyikat huntu pikeun baham bau
+1	Kudu rajin nyikat huntu sungut pikeun baham henteu bau
+1	Kudu rajin nyikat huntu kanggo pikeun baham henteu bau
+1	eueut usum tiris kieu mah ngeunahna nginum bajigur
+1	abdi sim gaduh bal warna bodas
+1	abdi gaduh boga bal warna bodas
+0	kadek Moé papakéan sabet balabur mah sok mantak bangga
+1	haur Bangbung hideung dina awi
+1	Bangbung hideung haur dina awi
+1	Abdi ninggali bangkong di buruan bumi imah
+1	Abdi pakarangan ninggali bangkong di buruan imah
+0	itu nu baju biru baraya manéh dulur lain?
+0	itu dulur nu baju biru baraya manéh lain?
+0	Susu téh bari
+0	Susu téh bari
+1	Bedul, meuni balaga éta budak
+1	Bedul, meuni balaga éta budak
+1	Bedul, anak meuni balaga kacida éta budak
+1	Bedul, meuni balaga anak kacida éta budak
+1	Indit siah! Dasar jalma kalakuan jalmi jiga belis!
+1	Indit asa siah! Dasar jalma kalakuan jiga belis!
+1	Dina waktu tengek kurban beuheung sapi sok jadi bagéan anu dipeuncit
+1	Dina waktu kurban beuheung sapi sok jadi bagéan nu anu dipeuncit
+1	di imah dinya loba bumi beurit
+1	di seeur imah dinya loba beurit
+1	biang ambu na saha?
+1	biang na ambu saha?
+0	biang ambu masalah
+0	ambu biang masalah
+1	biang na ambu eta!
+1	ambu biang na eta!
+1	gaduh Kuring boga tilu bibi
+1	gaduh Kuring boga tilu bibi
+0	anak budak bikang
+0	budak anak bikang
+0	kunyuk gableg monyet dua bobocos
+0	kunyuk gableg monyet dua bobocos
+1	Bulu hayam dibersihan samemeh dipasak
+1	Bulu hayam dibersihan samemeh dipasak
+1	hayu urang meuli abdi burayot ka Garut!
+1	hayu urang meuli abdi burayot ka Garut!
+1	bancet wati meser buyur anyar
+1	weuteuh wati meser buyur anyar
+1	abdi bébéné haté kuring
+1	abdi bébéné haté kuring
+0	Lamun mendung, béntangna katingali
+0	Lamun mendung, béntangna katingali
+1	Bésan kuring abdi urang lembur
+1	abdi Bésan kuring urang lembur
+0	Aing neuleu cacaka dina daun pek tangkal mangga
+0	pek Aing neuleu cacaka dina daun tangkal mangga
+0	Oh, jadi manéh leuwih percaya ka si Georgy Zhukov? Cak siah nya, keun wén tah deuleukeun kumaha kalakuan éta jelma.
+0	Oh, jadi manéh leuwih percaya ka si Georgy Zhukov? Cak siah nya, keun wén tah deuleukeun kumaha kalakuan éta jelma.
+0	Oh, jadi manéh leuwih percaya enjing ka si Georgy Zhukov? Cak siah nya, keun wén tah isukan deuleukeun kumaha kalakuan éta jelma.
+0	langkung leuwih Oh, jadi manéh leuwih percaya ka si Georgy Zhukov? Cak siah nya, keun wén tah isukan deuleukeun kumaha kalakuan éta jelma.
+0	Abdi ninggal cakcak jangkung murag tinu luhur tembok
+0	di tepas loba seeur calacah
+0	di tepas loba seeur calacah
+0	Lamun Ani ngomong keureut cepil hartina bener nu dicaritakeun
+0	Lamun Ani ngomong keureut cepil hartina bener nu dicaritakeun
+0	Lamun Ani geus ngomong nyarios keureut cepil hartina bener nu dicaritakeun
+0	Abdi ninggali ceuhay di bumi buruan imah
+0	Abdi bumi ninggali ceuhay di buruan imah
+1	cinta ka kota ceunah
+1	cinta ka kota ceunah
+1	cinta arek adeuk ka kota ceunah
+1	cinta arek adeuk ka kota ceunah
+1	lamun boboran budak sok dibéré cicis jang meuli és krim
+1	lamun boboran budak sok dibéré cicis jang meuli és krim
+1	lamun boboran budak sok hayang dibéré cicis jang meuli anak és krim
+1	lamun boboran manawi budak sok hayang dibéré cicis jang meuli és krim
+1	Néng Euis meuli ali cingcin di pasar
+1	Mun cokor sia kotor kénéh tong dibanjut ka jero anjeun gogobrog
+1	Kuring meuli comro nu babari buruk di si Ibu péngkolan
+1	Kuring meuli comro nu babari buruk di si Ibu péngkolan
+1	Kuring meuli comro nu gampang teu babari buruk di si Ibu péngkolan
+1	Kuring meuli comro nu teu babari buruk di si anu Ibu péngkolan
+0	ulin ka curug
+0	ulin ka curug
+0	isukan enjing ulin ka curug
+0	ameng isukan ulin ka curug
+1	Kamari urang abdi labuh jol nyeridada
+0	Mantenna kagungan dua boga dampal kanggé dianggé nyacat
+0	Mantenna kagungan dua boga dampal kanggé dianggé nyacat
+0	Sayur kanggo daun katuk téh alus pikeun kaséhatan
+0	Sayur daun katuk kanggo téh alus pikeun kaséhatan
+0	dinten naon poe ayeuna? Senen
+0	dinten poe naon ayeuna? Senen
+0	Domba kuring diangon ku abdi kuring
+0	abdi Domba kuring diangon ku kuring
+1	bawa bantun ember téh
+1	bantun bawa ember téh
+1	Engkang mulih ti balik mana?
+1	balik Engkang mulih ti mana?
+1	eujeung Adi jeung Lisna ulin ka kebon entéh
+1	Adi jeung Lisna ulin eujeung ka kebon entéh
+1	Hirup mah bisa dipikiran wungkul ku cara nanggeuy gado
+1	Hirup mah bisa dipikiran wungkul ku cara nanggeuy gado
+1	Hirup mah teu bisa dipikiran wungkul ku cara mung nanggeuy gado
+1	Hirup mah teu bisa dipikiran wungkul ku cara angkeut nanggeuy gado
+1	Karunya si Asép can narima gajih bulan letoy ayeuna!
+1	Karunya letoy si Asép can narima gajih bulan ayeuna!
+1	Nincak awal taun pasti loba nu neang pilari ganas ngora
+1	Nincak awal taun pasti loba nu neang pilari ganas ngora
+1	Garila jelma téh
+1	Garila jelma téh
+0	Tong ka seeur dinya, loba nu garila
+0	Tong ka dinya, loba nu anu garila
+0	bojo garwa na pa Budi
+0	garwa bojo na pa Budi
+0	bojo garwa na saha?
+0	bojo garwa na saha?
+0	Riko ngaguling ka gawir
+0	Riko ngaguling ka gawir
+0	Riko jungkrang ampir ngaguling ka gawir
+0	Riko ampir ngaguling ka jungkrang gawir
+1	jiga kawas geni
+1	kawas jiga geni
+1	Muti ical leungit geulang
+1	ical Muti leungit geulang
+1	luna keur weuteuh meser giwang anyar
+1	luna keur meser weuteuh giwang anyar
+1	Géndot leuwih ngeunah mun dipasak jadi langkung oséng
+1	Géndot leuwih ngeunah mun dipasak jadi genah oséng
+1	Riko keur miceun beol hampas kelapa
+1	Riko keur miceun hampas seupah kelapa
+1	jemput payun abdi di hareup pom bénsin
+1	jemput sim abdi di hareup pom bénsin
+0	Di Pasar Banjar, hargi laos naék dinten kamari
+0	Di Pasar Banjar, hargi laos naék dinten kamari
+0	Di Pasar Banjar, hargi poe laos parantos naék dinten kamari
+1	Di Pasar Banjar, harga laja naék poé kamari
+1	Di Pasar Banjar, harga laja naék poé kamari
+1	ngarokok di luar imah béh haseupna ka luar
+1	ngarokok di luar imah béh haseupna ka luar
+1	ngarokok kudu di luar imah béh bumi haseupna ka luar
+1	bumi ngarokok kudu di luar imah béh haseupna ka luar
+1	hayam abdi kuring aya dua
+1	hayam kuring aya abdi dua
+0	anak Sok resep ari nginali budak anu hideng téh
+0	Sok resep ari nginali budak anu hideng nu téh
+0	Kadaharan mun maké honjé seungitna
+0	Kadaharan mun maké honjé seungitna
+0	Tong poho lamun ka manawi Bandung meuli hui cilembu
+0	Tong poho lamun ka hilap Bandung meuli hui cilembu
+0	Ngabersihan imbit orok mah maké anduk husus sabab bisi ruam
+0	Ngabersihan imbit orok mah maké anduk husus sabab bisi ruam
+1	Meni resep ninggal nini keur nene ulin jeung incu di imah
+1	Meni resep ninggal nini keur ulin jeung incu nene di imah
+1	jadi jalma jujur
+1	jadi jalma jujur
+1	jadi jalma jalmi kudu jujur
+1	jadi jalma kudu jalmi jujur
+1	dimana jalmi jalma na
+1	dimana jalmi jalma na
+1	jalma jalmi jahat
+1	jalma jalmi jahat
+1	jadi jalmi jujur
+1	jadi jalmi jujur
+1	jadi jalmi kudu jalma jujur
+1	jadi jalmi kudu jalma jujur
+0	jalma dimana jalmi na
+0	dimana jalma jalmi na
+1	dimana jalmi jalma na
+1	dimana jalmi jalma na
+1	budak anak jalu
+1	budak anak jalu
+0	budak jalu mah menunang ceurik
+0	budak jalu mah menunang ceurik
+0	budak jalu mah teu menunang anak ceurik
+0	budak jalu anak mah teu menunang ceurik
+0	abdi Kamari urang nyukur janggot
+0	Kamari abdi urang nyukur janggot
+0	Bibi abdi ka rumah sakit sim nuju diparios panyakit jantung
+0	Bibi abdi ka rumah sakit nuju panyawat diparios panyakit jantung
+0	Kuring boga dua gaduh japati
+1	jadi jelma jujur
+1	jadi jelma jujur
+1	jelma na boga perasaan
+1	jelma na boga perasaan
+1	gaduh jelma na teu boga perasaan
+1	jelma na gaduh teu boga perasaan
+1	Jeruk buruk euweuh anu nu ngadahar!
+1	Jeruk buruk euweuh nu anu ngadahar!
+0	ririwa ceunah mah dina tatangkalan éta loba jurig ngapung
+0	ceunah mah seeur dina tatangkalan éta loba jurig ngapung
+1	abi boga kabogoh
+1	abi boga kabogoh
+1	abi teu boga gaduh kabogoh
+1	bebene abi teu boga kabogoh
+0	boga Mantenna kagungan kakasih Asép Rusmana
+0	Mantenna kagungan boga kakasih Asép Rusmana
+0	sarta eujeung lomba kaolahan kadu nu diiluan ku PKK jeung DWP
+0	sarta lomba anu kaolahan kadu nu diiluan ku PKK jeung DWP
+0	abdi Kapiadi kuring nuju mulang ka lembur
+0	Étang-étang mulihkeun wanci panghonéngan waktos kapungkur
+0	Étang-étang mulihkeun panghonéngan waktos wanci kapungkur
+1	Tangkal katapang loba dipelak seeur di jalan
+1	Tangkal katapang loba seeur dipelak di jalan
+1	emam kedah nganggé leungeun panangan katuhu
+1	anu bogoh ka nu keling
+1	Imah kentang di Bandung arti imah tina kentang!
+1	Imah kentang di Bandung arti imah tina kentang!
+1	Imah kentang di Bandung lain arti bumi imah tina kentang!
+1	Imah kentang di Bandung lain arti bumi imah tina kentang!
+1	bolu eta dikeureut
+1	bolu eta dikeureut
+1	bolu eta dikeureut
+1	bolu eta dikeureut
+1	Rani dipangmeulikeun kongkorong weuteuh anyar
+1	Rani dipangmeulikeun weuteuh kongkorong anyar
+0	Kamari aing numpak kuda naek di Kebon Binatang
+0	Kamari aing numpak kuda abdi di Kebon Binatang
+1	Kuku Teteh abdi mah alus
+1	Kuku Teteh abdi mah alus
+1	sim Kuku Teteh abdi mah alus pisan
+1	kulawarga abdi mah asli sim ti Garut
+1	sim kulawarga abdi mah asli ti Garut
+0	kulit anu warnana nu koneng umyang biasana mah dipiboga ku urang Sunda
+0	kulit anu warnana koneng umyang biasana mah dipiboga abdi ku urang Sunda
+0	Kulit kai albis biasana babari borok dina ujan usum hujan
+0	ujan Kulit kai albis biasana babari borok dina usum hujan
+0	Pa Harto gaduh boga kumis anu baplang
+0	Pa Harto nu boga kumis anu baplang
+0	Udin eujeung dahar kéjo jeung lauk
+0	Udin dahar kéjo eujeung jeung lauk
+0	Lamun loba dahar lauk asin, kuring mah ngarasa ateul lambey
+0	Lamun loba dahar lauk asin, kuring mah ngarasa ateul lambey
+0	Lamun seeur loba teuing dahar lauk asin, kuring mah ngarasa ateul lambey
+0	Lamun loba teuing rumaos dahar lauk asin, kuring mah ngarasa ateul lambey
+0	galur lampah nu salah
+0	anu lampah nu salah
+1	Langit peuting meni poék, katingali béntang hiji hiji acan
+1	Langit peuting meni poék, katingali béntang hiji hiji acan
+1	Langit peuting ayeuna meni poék, teu katingali béntang hiji wengi hiji acan
+1	Langit peuting kiwari ayeuna meni poék, teu katingali béntang hiji hiji acan
+1	kaen layon na dimana
+1	layon na kaen dimana
+1	layon na dikubur
+1	layon na dikubur
+1	layon kaen na tos dikubur
+1	layon na tos kaen dikubur
+1	lamun sore teh sok ka ambeu bau kembang malati
+1	lamun sore teh sok ka ambeu bau kembang malati
+1	lamun atos sore teh sok manawi ka ambeu bau kembang malati
+1	lamun atos enggeus sore teh sok ka ambeu bau kembang malati
+0	Kuring anu meuli dahareun nu mirah mangkukna di Blok M
+0	anu Kuring meuli dahareun nu mirah mangkukna di Blok M
+0	Mantang mun langkung diseupan bakal karasa leuwih ngeunah
+0	Mantang langkung mun diseupan bakal karasa leuwih ngeunah
+0	jelema boga gaduh dua mata
+0	jelema gaduh boga dua mata
+0	Ai ék balabur mah, langit téh sok medem baé
+0	Ai ék balabur mah, langit téh sok medem baé
+0	Meri kuring aya abdi tilu
+0	Meri kuring abdi aya tilu
+1	ieu abdi mertua kuring
+1	abdi ieu mertua kuring
+1	Ulikan ngeunaan atmosfir mimitina dipigawé pikeun ngajawab masalah kanggo cuaca
+1	jenengan Saha ngaran minantu maneh?
+1	Saha ngaran minantu jenengan maneh?
+1	Mitoha kuring aya abdi dua
+1	Mitoha kuring aya abdi dua
+1	bapa keur eujeung aya di sawah jeung dua munding
+1	gaduh Kuring boga tilu muray
+1	Kuring boga gaduh tilu muray
+1	anjeun Ngaran maneh saha?
+1	anjeun Ngaran maneh saha?
+1	Asana téh langit caang kénéh, naha ngaruy, nya?
+1	Asana téh langit caang kénéh, naha ngaruy, nya?
+1	Asana bieu téh langit caang kénéh, karek naha ayeuna geus ngaruy, nya?
+1	Asana bieu téh langit caang kénéh, karek naha ayeuna geus ngaruy, nya?
+1	Nini kuring abdi boga hayam
+1	Nini gaduh kuring boga hayam
+0	Ieu nu anu urang
+0	Ieu abdi nu urang
+0	abdi keur sim di pabukon
+0	abdi keur sim di pabukon
+0	paha sim abdi
+0	paha sim abdi
+0	nu ngandung palanggeran atanapi atawa etika
+0	anu nu ngandung palanggeran atawa etika
+0	Kuring kamari geubis tina motor nu matak bareuh panangan
+0	Kuring kamari geubis tina motor nu matak bareuh panangan
+0	Kuring kamari geubis tina adeuk motor nu matak ayeuna bareuh panangan
+0	Kuring kamari geubis anu tina motor nu matak ayeuna bareuh panangan
+1	mésér palih dinya, kumargi pangaosna awis
+1	mésér palih dinya, kumargi pangaosna awis
+1	entong ulah mésér palih dinya, kumargi pangaosna awis
+1	ulah mésér palih dinya, kumargi entong pangaosna awis
+1	Gentrasari langkung jangkung luhur pangapungna
+1	Gentrasari langkung luhur jangkung pangapungna
+1	kuring boga gaduh dua panon
+1	kuring boga dua gaduh panon
+1	Tidinja Si Sapar kakara ngarasa sijeun sarta toeloej ngilikan sagala parabot noe aja didinja
+1	Tidinja Si Sapar kakara ngarasa sijeun sarta toeloej ngilikan sagala parabot noe aja didinja
+1	Tidinja Si Sapar kakara ngarasa teu sijeun sarta rumaos toeloej ngilikan sagala parabot noe aja didinja
+1	Mung saratna ngabudjěngna teh ka laut, tumpak kapal, parahu rakit ge montong
+1	Mung saratna ngabudjěngna teh ka laut, tumpak kapal, parahu rakit ge montong
+1	Mung saratna ngabudjěngna entong teh ka laut, ulah tumpak kapal, parahu rakit ge montong
+0	Usum panen pare sok seeur loba jarami di sawah
+1	sarta ki Sěntot mah ngadji paribasa bae sarta djeung pek dilampahkeunnana
+1	sarta ki Sěntot mah ngadji paribasa bae sarta djeung pek dilampahkeunnana
+1	imah deukeut bumi pasir
+1	imah caket deukeut pasir
+0	Ambu masak loba pedes
+0	Ambu masak loba pedes
+0	duka Ambu masak loba teuing pedes
+0	Ambu seeur masak loba teuing pedes
+0	Alusna mah saacan indit ka luar imah, permios ka kolot
+0	Alusna mah saacan indit ka luar imah, permios ka kolot
+0	Alusna mah angkat saacan indit ka luar imah, permios heula ka kolot
+0	Peuyeum Bandung kasohor bari pangaosna mirah
+0	Peuyeum Bandung kasohor bari pangaosna mirah
+0	Kembang caket jawura mucunghul di deukeut puhu daun
+0	caket Kembang jawura mucunghul di deukeut puhu daun
+1	suan Pun alo nuju di dokter
+1	Pun alo nuju di suan dokter
+1	pun biang angkat ambu ka pasar
+1	indit pun biang angkat ka pasar
+1	saha ambu nu ngadamel kuéh? pun biang
+1	anu saha nu ngadamel kuéh? pun biang
+0	Pun nini nuju aya di rorompok
+0	Pun nini nuju aya di rorompok
+0	nene Pun nini nuju teu aya di rorompok
+0	Pun nini bumi nuju teu aya di rorompok
+1	Tong lila hareupeun komputer sabab bisa matak nyeri pungkur
+1	Tong lila hareupeun komputer sabab bisa matak nyeri pungkur
+1	Tong lila teuing hareupeun komputer sabab bisa gering matak nyeri pungkur
+1	Tong lila teuing hareupeun komputer duka sabab bisa matak nyeri pungkur
+1	Di seeur Papandayan loba tangkal puspa
+1	Di Papandayan loba seeur tangkal puspa
+0	mun ngomong matak raheut ka haté batur
+0	mun ngomong matak raheut ka haté batur
+0	mun ngomong tatu ulah matak raheut ka haté batur
+0	mun ngomong ulah matak raheut ka haté entong batur
+0	rama abah na saha?
+0	rama abah na saha?
+0	rarasaan urang indit ti kamari
+0	rarasaan urang indit ti kamari
+0	angkat rarasaan urang geus indit ti kamari
+0	rarasaan urang geus indit angkat ti kamari
+0	Salami di nagara tropis mah wayahna narima lamun di imah loba reungit
+0	Salami di nagara tropis mah wayahna narima lamun di imah loba reungit
+0	Salami di nagara tropis mah wayahna kudu narima lamun di imah bumi loba reungit
+0	Salami di bumi nagara tropis mah wayahna kudu narima lamun di imah loba reungit
+1	abah rumbah bapak diparas
+1	kumis rumbah bapak diparas
+1	Ma Unah mulungan kanggo régang kai nu gararing pikeun dijadikeun suluh
+1	Percaya atawa henteu, di ayeuna jaman kiwari aya propési ngarana modél réma
+1	wewengkon Cipasung jeung sabudeureunna, nyempetkeun keur olahraga warga
+1	wewengkon Cipasung jeung sabudeureunna, nyempetkeun keur olahraga warga
+1	wewengkon Cipasung eujeung jeung sabudeureunna, oge nyempetkeun keur olahraga bareng warga
+1	sadidinten didamel, sontenna maen bola voli
+1	sadidinten didamel, sontenna maen bola voli
+1	Batur mah pada boga salaki, simkuring wéh nu sorangan kénéh
+1	Batur mah pada boga salaki, simkuring wéh nu sorangan kénéh
+1	Batur mah geus gaduh pada boga salaki, simkuring wéh nu sorangan kénéh
+1	Batur mah geus pada boga salaki, simkuring wéh anu nu sorangan kénéh
+1	Maranéhna bungahna ningali salju basa arulin ka Jepang
+1	Maranéhna bungahna ningali salju basa arulin ka Jepang
+1	Maranéhna kacida bungahna ningali waktos salju basa arulin ka Jepang
+0	sampean abi dampal nyeuri tadi labuh didinya
+0	sampean dampal abi nyeuri tadi labuh didinya
+0	Tong poho hilap ngala sampeu satangkal
+0	Tong poho hilap ngala sampeu satangkal
+0	Fungsi utami sampéan téh nyaéta jang kanggo nyacat
+0	Fungsi jang utami sampéan téh nyaéta kanggo nyacat
+1	Barudak tuluy sarakola deui lamun lebet ka sasih Juli
+1	Barudak tuluy sarakola deui lamun lebet ka sasih Juli
+1	Barudak tuluy sarakola deui asup lamun atos lebet ka sasih Juli
+1	Barudak tuluy sarakola manawi deui lamun atos lebet ka sasih Juli
+1	Ami mun dahar biasana make sendok
+1	Ami mun dahar biasana make sendok
+1	Ami mun dahar neda biasana tara make sendok
+1	Ami mun dahar biasana tara make neda sendok
+1	Salian seungit, adeuk séréh matak haneut kana kadaharan
+1	nepangkeun sim abdi ti abdi Bandung
+1	nepangkeun sim sim abdi ti Bandung
+0	Abdi ulin di sawah keur eujeung ninggali simeut jeung tutut
+0	Abdi ulin di sawah keur ninggali ameng simeut jeung tutut
+1	Mamah nganggo waktos sinjang basa nuju mangku rai abi nu kakara orok
+1	Mamah nganggo sinjang basa nuju mangku rai abi adi nu kakara orok
+1	boga gamparan kagungan dua soca
+1	gamparan kagungan boga dua soca
+1	Bakat ku poho neundeun kaca soca geura Bapa meuli deui hilap ka toko optik
+1	Bakat ku poho neundeun kaca soca geura Bapa meuli deui ka toko hilap optik
+0	Fungsi galur utama suku téh nyaéta pikeun leumpang
+0	Fungsi utama suku téh nyaéta pikeun galur leumpang
+0	Bapa mawa bumi susu ti kandang sapi di harepeun imah
+0	Bapa mawa susu bumi ti kandang sapi di harepeun imah
+0	Di seeur gunung loba tangkal suwagi
+0	Di gunung seeur loba tangkal suwagi
+0	talapak sukuna katempo beresih
+0	talapak sukuna katempo beresih
+1	kanggo Taneuh ieu cocok pikeun kahirupan tutuwuhan
+1	Taneuh ieu cocok pikeun kahirupan kanggo tutuwuhan
+1	Lamun Ani ngawaro sanajan digeroan tarik, toél weh éta taraju
+1	Lamun Ani ngawaro sanajan digeroan tarik, toél weh éta taraju
+1	Lamun taktak Ani teu ngawaro sanajan geus digeroan tarik, toél weh éta taraju
+1	Alus Ani mah boga teku téh nu matak manéhna jadi model awakna alus anu tepi ka sampéan
+1	Ani tiasa sumping ka bumi Budi
+1	Ani tiasa sumping ka bumi Budi
+1	datang Ani teu tiasa sumping ka bumi Budi
+1	Ani teu tiasa datang sumping ka bumi Budi
+0	sim tilas rorompok abdi
+0	tilas sim rorompok abdi
+1	bawa bantun timba téh
+1	bantun bawa timba téh
+1	Tiungna masih kénéh cipruk baseuh
+1	Tiungna masih kénéh cipruk baseuh
+0	Ninggali tonggong ti tukang bongkok ku sabab kolot!
+0	Ninggali tonggong ti tukang bongkok ku sabab kolot!
+0	Ninggali tonggong ti pengker tukang geus bongkok ku sabab geus kolot!
+0	ambu tuang ibu kamana?
+0	ambu tuang ibu kamana?
+0	dahar tuang ibu damel dimana?
+0	tuang ibu ambu damel dimana?
+0	tuang rama abah kamana?
+0	tuang abah rama kamana?
+1	Jarum nu kaput miboga liang dina tungtung anu mintulna
+1	Pan gé koréksi téh mondokan malah manjangan
+1	Pan gé koréksi téh mondokan malah manjangan
+1	Pan ayeuna gé koréksi téh lain sanes mondokan malah manjangan
+1	Pan kiwari ayeuna gé koréksi téh lain mondokan malah manjangan
+1	Jadi bongkotna basa téh atawa aya dina pakumbuhan; bijil ngedalkeun kahayang atanapi kanyaho
+1	Jadi bongkotna basa téh aya dina pakumbuhan; bijil ngedalkeun waktos kahayang atanapi kanyaho
+1	Tétéh kuring geulis
+1	Tétéh kuring geulis
+1	Tétéh kuring abdi geulis pisan
+1	abdi Tétéh kuring geulis pisan
+1	Ucing maneh loba
+1	Ucing maneh loba
+1	Ucing seeur maneh loba pisan
+1	Ucing maneh loba seeur pisan
+0	saur ceuk béja mah, si Dana téh aslina urang Brebes
+0	ceuk saur béja mah, si Dana téh aslina urang Brebes
+1	Mun masak loba uyah, pangsét!
+1	Mun masak loba uyah, pangsét!
+1	seeur Mun masak ulah loba teuing uyah, pangsét!
+1	Mun masak ulah loba seeur teuing uyah, pangsét!
+1	Uyut abdi kuring boga domba
+1	Uyut kuring abdi boga domba
+1	Lamun kolot nanya urang waler lantaran sopan
+1	Lamun kolot nanya urang waler lantaran sopan
+1	Lamun kolot abdi nanya urang kudu waler lantaran kudu sopan
+1	Lamun kolot nanya urang kudu waler lantaran sepuh kudu sopan
+0	Lantaran kuat nyeri waos, kuring indit ka rumah sakit
+0	Lantaran kuat nyeri waos, kuring indit ka rumah sakit
+0	Lantaran teu kuat nyeri waos, kuring angkat indit ka rumah sakit
+0	Lantaran teu angkat kuat nyeri waos, kuring indit ka rumah sakit
+0	tong peuting kaluar wengi
+0	tong peuting kaluar wengi
+0	weuteuh imah riko keur genti wuwung anyar
+0	imah riko weuteuh keur genti wuwung anyar
+0	Kocapna sang Prabu deui, kagungan dua putra.
+0	Kocapna sang Prabu deui, kagungan dua putra.
+0	Kocapna sang Prabu deui, boga geus kagungan dua putra.
+1	Peunteun ulangan budak anak eta enol
+1	Peunteun ulangan anak budak eta enol
+1	Unjuk hatur saréh lodaya aya hiji maung ngahakan kuda jeung munding, kagét sang Bupati nyaur kumpulkeun sakabéh abdi nabeuh tanggara lodaya ku kemplong.
+1	Unjuk hatur saréh aya hiji maung ngahakan kuda jeung munding, kagét sang Bupati lodaya nyaur kumpulkeun sakabéh abdi nabeuh tanggara ku beja kemplong.
+1	katampi ku asta oge kalih
+1	katampi ku asta oge kalih
+0	nincak salikur puasa téh
+0	nincak salikur puasa téh
+0	geus tincak nincak salikur puasa téh
+0	carios sawidak carita pondok
+0	carios sawidak carita pondok
+0	Dititah lumpat dua puiran waé gé nyapékeun, angot lamun sapuluh puiran, kapidara meureun.
+0	Dititah lumpat dua puiran waé gé nyapékeun, angot lamun sapuluh puiran, kapidara meureun.
+0	manawi Dititah lumpat dua puiran waé gé geus nyapékeun, angot lamun sapuluh puiran, geus kapidara meureun.
+1	entong ulah kitu atuh
+1	ulah kitu entong atuh
+1	Cuang eusian émbérna maké cai.
+1	Cuang eusian émbérna maké cai.
+1	Ké burit, cuang indit ka konsérna Armin van angkat Buuren.
+1	Jih, kunaeun ai sia téh?, meuni anjeun sok gegeblohan jiga kitu.
+1	Jih, kunaeun ai sia téh?, meuni anjeun sok gegeblohan jiga kitu.
+1	Kalagian sia wayah kieu mulang.
+1	Kalagian sia wayah kieu mulang.
+1	Kalagian anjeun pisan sia wayah kieu geus mulang.
+1	Kalagian pisan sia wayah waktos kieu geus mulang.
+0	Saurang waé gé ripuh, komo lamun opatan, beuki lieur kana hulu.
+0	Saurang waé gé ripuh, komo lamun opatan, beuki lieur kana hulu.
+0	Saurang waé gé jangar geus ripuh, komo lamun opatan, beuki lieur kana hulu.
+1	Geus sababaraha kali éta jelema ngadéoh, mantak uing mah cangcaya.
+1	Geus sababaraha kali éta jelema ngadéoh, mantak uing mah cangcaya.
+1	Geus sababaraha kali éta jelema abdi ngadéoh, mantak uing mah geus cangcaya.
+1	Geus sababaraha kali éta jelema ngadéoh, mantak uing abdi mah geus cangcaya.
+1	Mesing euweuh jelemana gén, sopan ari sangeunahna asup ka imah batur mah.
+1	Mesing euweuh jelemana gén, sopan ari sangeunahna asup ka imah batur mah.
+1	Mesing euweuh lebet jelemana gén, teu sopan ari sangeunahna asup ka imah batur mah.
+1	Mesing euweuh jelemana lebet gén, teu sopan ari sangeunahna asup ka imah batur mah.
+0	dongkap Uing ék datang mesingkeun hujan génan.
+0	Uing ék datang ujan mesingkeun hujan génan.
+0	Carék Sang Mangukuhan, "Nam adiing galur kalih, urang ngaboro leumpang ka tegal."
+0	Carék Sang Mangukuhan, "Nam adiing kalih, urang ngaboro leumpang ka abdi tegal."
+0	nyaeta bancet buyur wati
+0	nyaeta buyur bancet wati
+0	Aing mah aslina kaluar imah, kaluar sotén pédah aya tukang dagang wéh.
+0	Aing mah aslina kaluar imah, kaluar sotén pédah aya tukang dagang wéh.
+0	Aing mah aslina embung kaluar imah, kaluar sotén alim pédah aya tukang dagang wéh.
+0	Nganti-nganti manéhna cunduk mah émang lila kacida, sumawona lamun manéhna manawi keur loba pagawéan.
+0	Nganti-nganti manéhna cunduk mah émang lila seeur kacida, sumawona lamun manéhna keur loba pagawéan.
+1	Dipiwarang lumpat dua puteran waé gé palay, sumawonten upami sapuluh puteran, kapiuhan panginten.
+1	Dipiwarang lumpat dua puteran waé gé palay, sumawonten upami sapuluh puteran, kapiuhan panginten.
+1	lamun Dipiwarang lumpat dua puteran waé gé parantos palay, sumawonten upami sapuluh puteran, parantos kapiuhan panginten.
+1	Dipiwarang lumpat dua puteran waé gé parantos palay, sumawonten upami sapuluh puteran, atos parantos kapiuhan panginten.
+1	Pan gé koréksi téh mondokan malah manjangan.
+1	Pan gé koréksi téh mondokan malah manjangan.
+1	Pan ayeuna gé sanes koréksi téh lain mondokan malah manjangan.
+1	Pan ayeuna gé sanes koréksi téh lain mondokan malah manjangan.
+1	Jadi bongkotna basa téh aya dina pakumbuhan; atawa bijil ngedalkeun kahayang atanapi kanyaho.
+1	almari Dina lomari anu di tukangeun imah aya opat baju.
+1	Dina lomari anu di tukangeun imah aya opat almari baju.
+1	Tadi basa ka pasar eujeung sareng si Uwén.
+1	Tadi basa ka pasar eujeung si waktos Uwén.
+1	mulih balik ka imah
+1	balik mulih ka imah
+1	kanggo Aya dana bantuan anu cenah dialokasikeunana pikeun pangwangunan widang transportasi.
+1	Jalur karéta Banjar-Cijulang ditutup ti sabet taun 1982.
+1	Jalur karéta Banjar-Cijulang ditutup ti sabet taun 1982.
+1	Jalur karéta Banjar-Cijulang geus ditutup ti sabet warsi taun 1982.
+1	Jalur karéta Banjar-Cijulang geus ditutup warsi ti sabet taun 1982.
+1	abi sono hidep ka anjeun
+1	hidep abi sono ka anjeun
+0	Mangga diuk calik di dieu
+0	Mangga calik diuk di dieu
+0	di dieu imah bumi na
+0	di imah dieu bumi na
+0	Mangga calik di diuk ditu
+0	Mangga calik di diuk ditu
+0	di imah ditu bumi na
+0	di imah ditu bumi na
+0	bolu eta dikeureut
+0	bolu eta dikeureut
+1	haridep sing jujur
+1	haridep sing jujur
+1	hidep sing jujur
+1	hidep sing jujur
+1	hidep anjeun kudu sing jujur
+1	anjeun hidep kudu sing jujur
+1	Geus meh sapuluh taun nyorang ieu jalan
+1	Geus meh sapuluh taun nyorang ieu jalan
+1	warsi Geus meh sapuluh taun teu nyorang ieu jalan
+1	jakarta lamun hujan ngijih kie sok caah
+1	hujan jakarta lamun ngijih kie sok caah
+1	kita mah jahat ka batur
+1	kita mah jahat ka batur
+1	kuring badé abdi indit ka Garut
+1	kuring abdi badé indit ka Garut
+1	indit Badé angkat kamana?
+1	Badé angkat indit kamana?
+1	kuring ka Bandung eujeung jeung maranéh
+1	abdi kuring ka Bandung jeung maranéh
+1	Mangga calik diuk palih dieu
+0	Palih dieu bumi imah na
+0	Palih dieu bumi imah na
+1	Mangga calik palih diuk ditu
+1	Mangga calik palih diuk ditu
+1	Palih imah ditu bumi na
+1	Palih ditu bumi imah na
+1	pun bapa damel gawe di bank
+1	pun bapa gawe damel di bank
+0	Saha anu nu gering?
+0	Saha nu anu gering?
+0	Kuring jeung silaing mulih kamari karék balik ti basisir’
+0	eujeung Kuring jeung silaing kamari karék balik ti basisir’
+0	sim kuring badé abdi ngadugikeun
+0	sim abdi kuring badé ngadugikeun
+0	ngaran urang téh Ujang jenengan Kusumah Dinata.
+0	urang téh loba sukuran ka Gusti.
+0	urang téh loba sukuran ka Gusti.
+0	urang abdi téh kudu loba sukuran ka Gusti.
+0	urang téh kudu seeur loba sukuran ka Gusti.
+1	ceuk béja saur mah, si Dana téh aslina urang Brebes.
+1	ceuk béja mah, si Dana téh saur aslina urang Brebes.
+0	Budak leutik mah keur meujeuhna lincah manawi matak antep lamun sok ajrug-ajrugan
+0	Budak leutik mah keur meujeuhna lincah matak antep alit lamun sok ajrug-ajrugan
+1	Abdi ngalungkeun bola ka babaturan keur maén balad sepakbola
+0	abdi Indung kuring keur ambek-ambekan
+0	Indung kuring abdi keur ambek-ambekan
+0	Karék génan beurang, duit uing téh amring, meningan cuang néangan pagawéan.
+0	Karék génan beurang, duit uing téh amring, meningan cuang néangan pagawéan.
+0	abdi Karék génan beurang, duit uing téh geus amring, meningan cuang néangan pagawéan.
+0	Karék génan beurang, duit uing téh geus amring, meningan cuang néangan artos pagawéan.
+0	indit pun alo angkat ka kota
+0	pun alo angkat ka suan kota
+0	urang apal abdi basa itu kajadiana
+0	urang apal abdi basa itu kajadiana
+0	tebih Mesat ngapung luhur jauh di awang-awang.
+0	Mesat ngapung luhur jauh di jangkung awang-awang.
+0	hayu waktos urang bahas tugas basa Sunda kamari!
+0	hayu abdi urang bahas tugas basa Sunda kamari!
+1	indung balanja di pasar
+1	indung balanja di pasar
+1	indung ambu atos balanja di pasar
+1	indung atos balanja di ambu pasar
+1	mun diajar, urang sidakeup bari balem
+1	mun diajar, urang sidakeup bari balem
+1	mun diajar, urang abdi kudu sidakeup bari balem
+1	Bapana babaturan kuring dua bulan can balik kusabab keur di Bandung.
+1	Bapana babaturan kuring dua bulan can balik kusabab keur di Bandung.
+1	Bapana babaturan kuring enggeus sasih dua bulan can balik kusabab keur di Bandung.
+1	Bapana babaturan kuring enggeus balad dua bulan can balik kusabab keur di Bandung.
+1	anu balédog geudang nu asakna!
+1	balédog anu geudang nu asakna!
+1	Bondoroyot sampean aing mantog ka gogobrog ngabanjut cokor hayam.
+1	Bondoroyot aing mantog ka gogobrog ngabanjut sampean cokor hayam.
+1	Jasad kaula mios ka dinya ngabantun surat ti Dalem.
+1	Jasad kaula mios ka dinya ngabantun surat ti Dalem.
+1	Jasad kaula seja mios ka dinya ngabantun surat ti abdi Dalem.
+1	Jasad kaula seja mios ka dinya ngabantun surat angkat ti Dalem.
+0	Kuring keur barang hakan eujeung jeung kéjo.
+0	Kuring keur barang hakan eujeung jeung kéjo.
+1	dongkap Nata arék datang ka dieu mawa surat ti Dalem.
+0	Beu geura kadieukeun, cuang benerkeun bisi aya nu pejét.
+0	Beu geura kadieukeun, cuang benerkeun bisi aya nu pejét.
+0	Beu geura kadieukeun, anu cuang benerkeun heula bisi aya nu pejét.
+0	anu Beu geura kadieukeun, cuang benerkeun heula bisi aya nu pejét.
+0	empang abdi beunang lauk di balong
+0	abdi beunang lauk sim di balong
+0	Barudak téh peuting lainna saré kalahkah beunta.
+0	Barudak téh peuting lainna saré kalahkah beunta.
+0	Barudak wengi téh geus peuting lainna saré kalahkah beunta.
+1	Kuring boga gaduh imah di gigir sawah.
+1	Kuring bumi boga imah di gigir sawah.
+1	sim abdi meni bogoh ka warna biru
+1	Kamari anak sapi borojol di kandang.
+1	Kamari anak sapi borojol di kandang.
+1	Kamari anak sapi budak geus borojol di kandang.
+1	seuneuna di paéhan
+1	seuneuna di paéhan
+1	gogog di udag anjing
+1	di udag gogog anjing
+1	Ulah dibere si eta medit mah koret
+1	Ulah dibere si eta mah medit koret
+1	jakarta lamun manawi ngijih kieu sok caah
+1	manawi jakarta lamun ngijih kieu sok caah
+1	Wadana badé sumping ka datang dieu nyandak serat ti Dalem.
+1	Wadana badé sumping ka dieu nyandak serat datang ti Dalem.
+0	cepeng ieu sakedap
+0	cepeng ieu sakedap
+1	Cicing meh oyag
+1	Cicing meh oyag
+0	Si Jajang keur neda dahar di hareupeun imahna.
+0	neda Si Jajang keur dahar di hareupeun imahna.
+0	Dupi dampal gusti kersa ngadastakeun timbalan kanggo sim abdi gusti?.
+0	Dupi dampal gusti kersa sampean ngadastakeun timbalan kanggo abdi gusti?.
+0	lanceuk kuring daék dijodokeun ka tatangga
+0	lanceuk kuring daék dijodokeun ka tatangga
+0	lanceuk abdi kuring teu daék dijodokeun ka tatangga
+0	manawi Riko lamun dicarekan enteu ngadengekeun
+0	Riko lamun dicarekan enteu manawi ngadengekeun
+1	dinten lina sok linggih di handap panon poe
+1	bobo arya keur sare di luhur
+1	jangkung arya keur sare di luhur
+1	Kloter 20 KJT dimiangkeun dinten poe ieu di antarana 432 jemaah haji
+1	minuman eta disingkahkeun
+1	minuman eta disingkahkeun
+0	Ulah calik diuk dina bantal
+1	budak leutik eta ulinan korek jang alit durukan
+1	budak leutik eta ulinan korek jang anak durukan
+1	bakal ditarima tobat hiji jalma salila éta jalma engapan jalmi kénéh
+1	bakal ditarima tobat hiji jalma salila éta jalmi jalma engapan kénéh
+0	Sim Kuring gaduh rorompok bumi di gédéng sérang.
+0	Sim boga Kuring gaduh rorompok di gédéng sérang.
+0	Hawa dina garing usum halodo garing.
+0	ulah entong digaro
+0	ulah entong digaro
+0	Urang édék gawé
+0	Urang édék gawé
+1	Riko gelut sareng eujeung Bella di hareup imah
+1	Riko payun gelut eujeung Bella di hareup imah
+1	Udin gering sanggeus nyeri huhujanan.
+1	Udin nyeri gering sanggeus huhujanan.
+1	Gosok supados katingali
+1	Gosok supados katingali
+1	Bapa mere dahar ucing di jalan kalahkah di gégél ku sabab ucingna neda galak
+1	panjangna saasta lepas, dipaké méh datang heumpas, ja genténg anu angkéng nu konéng; cap rengging kaya papanting
+1	panjangna saasta lepas, anu dipaké méh datang heumpas, ja genténg angkéng nu konéng; cap rengging kaya papanting
+1	urang édék indit ka angkat Bandung
+1	urang édék indit ka angkat Bandung
+0	kamari urang indit ka kamar di angkat Badri
+0	kamari urang indit ka kamar di abdi Badri
+0	Itunganna anu aya nu salah.
+0	Itunganna aya anu nu salah.
+0	Sok sedih manawi lamun nineung Bapa kapungkung sok jajap simkuring ka sakola
+0	Sok sedih manawi lamun nineung Bapa kapungkung sok jajap simkuring ka sakola
+0	Simkuring kabeh ngaraos reueus ku Tim TMMD Kodim 0617 Majalengka warga sadayana ngaraos kabantos
+0	Ibu imah Euis kagungan bumi di gédéng sérang.
+0	Ibu Euis imah kagungan bumi di gédéng sérang.
+1	Riko karék eujeung baé kaluar jeung Tika
+1	Riko karék baé kaluar eujeung jeung Tika
+1	lamun dahar tong loba tepi ka kamerkaan
+1	lamun dahar tong loba tepi ka kamerkaan
+1	lamun dahar tong neda loba teuing tepi ka kamerkaan
+1	lamun dahar duka tong loba teuing tepi ka kamerkaan
+1	paséa jeung dulur
+1	paséa jeung dulur
+1	ulah paséa entong jeung dulur
+1	entong ulah paséa jeung dulur
+1	susu indung teh ambu di kenyot ku orok
+0	bapa keur kulem bobo di imah aki
+0	bapa bumi keur kulem di imah aki
+0	lamotan budak aya dina baju
+0	lamotan budak aya dina baju
+0	lamotan budak anak aya keneh dina baju
+0	lamotan budak anak aya keneh dina baju
+0	Budi angkat leungit motor kamari peuting basa indit ka Jakarta
+0	Budi leungit motor kamari peuting ical basa indit ka Jakarta
+1	linggih di rorompok abdi
+1	linggih di rorompok abdi
+1	linggih heula di rorompok sim abdi
+1	linggih sim heula di rorompok abdi
+1	Acara lumangsung kalayan khidmat, pinuh doa jeung eujeung harepan
+1	Acara lumangsung kalayan khidmat, pinuh doa jeung eujeung harepan
+1	atanapi kagiatan maca buku atawa anu sejen sakur anu dibaca
+1	kagiatan maca nu buku atawa anu sejen sakur anu dibaca
+1	Kamari urang maca abdi buku
+1	Kamari urang abdi maca buku
+1	Maju ngarah ngahalangan batur!
+1	Maju ngarah ngahalangan batur!
+1	Kagiatan olahraga mangrupikeun ajang unjuk prestasi
+1	Kagiatan olahraga mangrupikeun ajang unjuk prestasi
+1	Kagiatan lain olahraga sanes mangrupikeun ajang unjuk prestasi
+1	Kagiatan lain olahraga sanes mangrupikeun ajang unjuk prestasi
+0	Geus sababaraha kali éta jelema ngadéoh, mantak uing mah cangcaya.
+0	Geus sababaraha kali éta jelema ngadéoh, mantak uing mah cangcaya.
+0	Geus sababaraha kali éta jelema abdi ngadéoh, mantak uing mah geus cangcaya.
+1	Mun sia molor mah, pék geura mantog ka gogobrog, tong molor di dieu.
+1	Mun sia molor mah, pék geura mantog ka gogobrog, tong molor di dieu.
+1	Mun sia hayang molor mah, anjeun pék geura mantog ka gogobrog, tong molor di dieu.
+0	wati meser endog ka warung
+0	wati meser endog ka warung
+0	wati hayang meser endog ka daek warung
+0	wati daek hayang meser endog ka warung
+0	kalakuan siga kitu mah kuduna meunang kaéra ti mamana
+0	kalakuan siga kitu mah kuduna meunang kaéra ti mamana
+0	kalakuan siga kitu mah jiga kuduna geus meunang kaéra ti mamana
+0	Kalebet seni budaya, tarèkah miara penca dijalankeun ku pamarètah
+0	Kalebet seni budaya, tarèkah miara penca dijalankeun ku pamarètah
+0	Riko keur miceun hampas seupah kelapa
+0	Riko keur miceun hampas seupah kelapa
+0	Miharep bapak tiasa datang sumping
+0	Miharep datang bapak tiasa sumping
+0	mikiran sagala rupa perkara dina hiji waktu mantak edan
+0	mikiran sagala rupa perkara dina hiji waktu mantak edan
+0	ulah mikiran sagala rupa perkara dina hiji waktu rupa-rupa mantak edan
+1	Ani bakal adeuk mintonkeun tari merak
+1	Ani adeuk bakal mintonkeun tari merak
+1	Mamah sok sedih lamun simkuring mios saacan indit ti imah
+1	Mamah sok sedih lamun simkuring mios saacan indit ti imah
+1	Mamah sok angkat sedih lamun simkuring teu mios saacan indit ti imah
+1	Mamah sok sedih lamun bumi simkuring teu mios saacan indit ti imah
+1	Bisi lila nungguan di dieu mah, geura mulang atuh mang.
+1	Bisi lila nungguan di dieu mah, geura mulang atuh mang.
+1	duka Bisi lila teuing nungguan di dieu mah, geura mulang atuh mang.
+1	Bisi lila teuing nungguan di dieu duka mah, geura mulang atuh mang.
+1	Tuang Rama réréncangan abdi salayan sasih teuacan mulih kumargi nuju hing Bandung.
+1	Tuang Rama réréncangan abdi salayan sasih teuacan mulih kumargi nuju hing Bandung.
+1	Tuang Rama réréncangan abdi parantos salayan sasih teuacan mulih kumargi nuju hing bulan Bandung.
+1	Tuang Rama réréncangan abdi balik parantos salayan sasih teuacan mulih kumargi nuju hing Bandung.
+0	Ulah mundur bisi labuh!
+0	Ulah mundur bisi labuh!
+0	Ulah duka mundur teuing bisi labuh!
+0	duka Ulah mundur teuing bisi labuh!
+1	Duit urang murag di ragrag jalan
+1	Duit urang murag ragrag di jalan
+1	Lurus wae méngkol
+1	Lurus wae méngkol
+1	Lurus wae ulah entong méngkol
+1	Lurus wae ulah entong méngkol
+1	Amun ék narepkeun poster dina dingding kelas mah amih kuat maké elém koréa.
+1	Amun ék narepkeun poster dina dingding kelas mah amih kuat maké elém koréa.
+0	Abdi nuju neda sangu.
+0	Abdi nuju neda sangu.
+0	Abdi nuju neda sareng eujeung sangu.
+0	dahar Abdi nuju neda sareng sangu.
+0	budak ieu sok ngabala nu matak jelema raresepeun ka manéhna
+0	budak ieu sok ngabala nu matak jelema raresepeun ka manéhna
+0	budak ieu anak sok ngabala nu matak jelema teu raresepeun ka manéhna
+0	budak ieu sok ngabala nu matak jelema teu adeuk raresepeun ka manéhna
+0	Sia montong ngabangus waé, bisi abdi ku aing podaran.
+0	barang ngadéngé budakna cilaka deur laju baé éling
+0	barang ngadéngé budakna cilaka deur laju baé éling
+1	ngagugu anu hadé'
+1	ngagugu anu hadé'
+1	nu kudu ngagugu anu hadé'
+1	nu kudu ngagugu anu hadé'
+1	Ibu Budi kamari peuting ngajuru di imah lantaran kuat leumpang kamana-mana
+1	Ibu Budi kamari peuting ngajuru di imah lantaran kuat leumpang kamana-mana
+1	Ibu Budi kamari margi peuting ngajuru di imah lantaran geus teu kuat leumpang kamana-mana
+1	Ibu Budi kamari peuting ngajuru di imah lantaran bumi geus teu kuat leumpang kamana-mana
+1	tatangga kuring ngantunkeun ku kituna urang geura ngalayad
+1	tatangga kuring ngantunkeun ku kituna urang geura ngalayad
+1	tatangga kuring ngantunkeun abdi ku kituna urang kudu geura ngalayad
+1	abdi tatangga kuring ngantunkeun ku kituna urang kudu geura ngalayad
+1	Kumaha Ibu ngalongok putrana pak Camat?
+1	Kumaha Ibu ngalongok putrana pak Camat?
+1	Kumaha Ibu parantos atos ngalongok putrana pak Camat?
+1	Kumaha Ibu parantos ngalongok putrana atos pak Camat?
+0	Raja ngandika upami mantenna kagungan titihan anu ageungna.
+0	Raja ngandika upami mantenna kagungan titihan anu ageungna.
+0	Raja boga ngandika upami mantenna kagungan titihan anu kalintang ageungna.
+0	Raja ngandika upami mantenna kagungan boga titihan anu kalintang ageungna.
+0	jangkung Mesat ngapung luhur
+0	Kodim 0617/Majalengka keur ngaraketkeun eujeung jeung masarakat satempat
+0	Kodim 0617/Majalengka keur ngaraketkeun eujeung jeung masarakat satempat
+0	warga kabeh sadayana ngaraos kabantos
+0	manawi mamat sok mios lamun ngariung
+0	mamat sok manawi mios lamun ngariung
+1	Raka kedah ngawonan ka anu nu janten rai.
+1	Raka kedah ngawonan ka nu juntrung janten rai.
+1	pihakna ngayakeun riungan jeung Forum eujeung Perangkat Daerah di Hotel Sutan Raja Soreang
+1	Kangge ngicalkeun lungse, sadidinten didamel
+1	Kangge ngicalkeun lungse, sadidinten didamel
+1	Lanceuk ngéléhan ka nu jadi adi.
+1	Lanceuk ngéléhan ka nu jadi adi.
+1	Lanceuk kudu ngéléhan ka anu nu jadi adi.
+1	Lanceuk kudu ngéléhan ka nu anu jadi adi.
+1	terang ongkoh nyaho salah, tetep dijalanan
+0	nyiduh teh dimana wae
+0	nyiduh teh dimana wae
+0	nyiduh entong teh ulah dimana wae
+0	nyiduh teh ulah dimana entong wae
+0	aang lanceuk kuring keur ocon jeung babaturana
+0	lanceuk kuring keur ocon jeung abdi babaturana
+0	Riko jeung Dila sok eujeung pasea bae saben poe
+0	Riko jeung Dila sok pasea eujeung bae saben poe
+1	pikiran teh alus
+1	pikiran teh alus
+1	pikiran teh sae kudu alus
+1	sae pikiran teh kudu alus
+1	Kuring poho kamari boga jangji jeung kabogoh
+1	Kuring poho kamari boga jangji jeung kabogoh
+1	Kuring poho hilap kamari geus boga jangji jeung kabogoh
+1	Kuring poho pasini kamari geus boga jangji jeung kabogoh
+1	Riko rampung bebersih sepen
+1	Riko rampung bebersih sepen
+1	Riko enggeus rampung atos bebersih sepen
+1	Riko atos enggeus rampung bebersih sepen
+1	Ku ayana pangamanan nu anu rekep dipiharep proses ngebralkeun
+1	Ku ayana pangamanan nu anu rekep dipiharep proses ngebralkeun
+0	Kuring resep ka manéhna lamun keur jadi jelema jegug tapi ari dina kahirupan sapopoé mah manéhna malarat.
+0	Kuring resep ka manéhna lamun keur jadi jelema jegug tapi ari dina kahirupan sapopoé mah manéhna malarat.
+0	Kuring resep ka manéhna lamun keur jadi manawi jelema jegug tapi ari dina kahirupan sapopoé mah manéhna teu malarat.
+1	jiga Hoyong bubur ayam sapertos kamari
+1	jiga Hoyong bubur ayam sapertos kamari
+1	jangkung Arya keur saré di luhur
+1	Arya jangkung keur saré di luhur
+0	seueul neda can dahar
+0	seueul neda can dahar
+0	budak téh seuri anak ngagalakgak
+0	budak téh seuri anak ngagalakgak
+0	apal ka babaturan
+0	apal ka babaturan
+0	kudu apal balad ka babaturan
+0	balad kudu apal ka babaturan
+1	Nuju damang sanés?
+1	Nuju damang sanés?
+1	Nuju teu cageur damang sanés?
+1	Nuju teu damang cageur sanés?
+1	Aduh, aing tipagut euy, jigana pédah nincak batu.
+1	Aduh, aing tipagut euy, jigana pédah nincak batu.
+1	Aduh, aing tipagut euy, jigana pédah tincak bieu nincak batu.
+1	Aduh, aing tipagut euy, jigana abdi pédah bieu nincak batu.
+1	bantun Top tah, hakaneunna bawa baé, jeung bungkusna sakalian.
+1	Top tah, hakaneunna bawa baé, jeung bungkusna bantun sakalian.
+1	Anjeunna nuju tuang sangu.
+1	Anjeunna nuju tuang sangu.
+1	Anjeunna nuju dahar tuang sareng sangu.
+1	eujeung Anjeunna nuju tuang sareng sangu.
+1	Ceuk bujang, ‘Tuang rayi sumping, ku tuang rama dipangmeuncitkeun sapi anu panglintuhna, réh putrana sumping deui kalayan kirang sawios-wios’
+1	Ceuk bujang, ‘Tuang rayi sumping, ku tuang rama dipangmeuncitkeun sapi anu panglintuhna, réh putrana sumping deui kalayan kirang sawios-wios’
+1	Ceuk bujang, ‘Tuang rayi sumping, ku tuang rama dipangmeuncitkeun sapi datang anu panglintuhna, réh putrana sumping abah deui kalayan teu kirang sawios-wios’
+1	Ceuk bujang, ‘Tuang nu rayi sumping, ku tuang rama dipangmeuncitkeun sapi anu anu panglintuhna, réh putrana sumping deui kalayan teu kirang sawios-wios’
+1	urang bérés nulis
+1	urang bérés nulis
+1	abdi urang geus bérés nulis
+1	urang abdi geus bérés nulis
+1	kuring sakola lantaran udur
+1	kuring sakola lantaran udur
+1	kuring teu margi sakola lantaran udur
+1	kuring teu sakola lantaran gering udur
+1	Manéhna ulaheun ameng ulin
+0	utah dina mobil
+0	utah dina mobil
+0	ulah utah entong dina mobil
+0	ulah entong utah dina mobil
+0	Manéh sok wadul ka urang lantaran urang mah apal tiheula
+0	Manéh sok wadul ka urang lantaran urang mah apal tiheula
+0	Manéh ulah sok wadul ka urang lantaran urang abdi mah geus apal tiheula
+0	Manéh ulah sok wadul ka urang lantaran urang abdi mah geus apal tiheula
+0	Siang ieu, abdi tiasa wangsul, panginten nembé tiasa wangsul engkin wengi.
+0	Siang ieu, abdi tiasa wangsul, panginten nembé tiasa wangsul engkin wengi.
+0	Siang ieu, abdi moal henteu tiasa wangsul, panginten nembé tiasa wangsul engkin wengi.
+0	Siang ieu, abdi henteu tiasa wangsul, panginten nembé tiasa wangsul engkin sim wengi.
+0	Budi wawuh deui ka babaturan lantaran mah manéhna beunghar
+0	Budi wawuh deui ka babaturan lantaran mah manéhna beunghar
+0	Budi geus teu wawuh deui margi ka babaturan lantaran ayeuna mah manéhna geus beunghar
+0	Budi geus teu wawuh deui ka babaturan margi lantaran ayeuna mah manéhna geus beunghar
+0	Budi mah beuki kana ulin bola sabab kitu keur bareuh wentis manéhna
+0	Budi mah beuki kana ulin bola sabab kitu keur bareuh wentis manéhna
+0	Budi mah beuki kana ulin bola ameng sabab kitu ayeuna keur bareuh wentis manéhna
+0	Budi mah kiwari beuki kana ulin bola sabab kitu ayeuna keur bareuh wentis manéhna
+1	baturan urang éléh dina abdi lomba catur
