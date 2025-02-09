@@ -30,9 +30,10 @@ if alpha_wd == 0 and alpha_wi == 0 and alpha_sr == 0:
     ap.error('At least one alpha should be greater than zero')
 
 # Generate more data with standard augmentation
-def gen_eda(train_orig, output_file, alpha_sr, alpha_wd, alpha_wi, num_aug=9):
+def gen_eda(train_orig, output_file, alpha_sr, alpha_wd, alpha_wi):
     unique_sentences = set()
     writer = open(output_file, 'w', encoding='utf-8')
+
     with open(train_orig, 'r', encoding='utf-8') as f:  # specify encoding='utf-8' here
         lines = f.readlines()
 
@@ -41,19 +42,21 @@ def gen_eda(train_orig, output_file, alpha_sr, alpha_wd, alpha_wi, num_aug=9):
         if len(parts) < 2:
             print(f"Skipping invalid line {i}: {line}")  # Log the invalid line
             continue  # Skip lines that don't have both a label and sentence
+        
         label = parts[0]
         sentence = parts[1]
         aug_sentences = eda(sentence, sundanese_synonyms, kelas_kata, alpha_sr=alpha_sr if alpha_sr > 0 else 0, p_wd=alpha_wd if alpha_wd > 0 else 0,
-                             alpha_wi=alpha_wi if alpha_wi > 0 else 0, num_aug=num_aug) 
+                             alpha_wi=alpha_wi if alpha_wi > 0 else 0) 
+        
         for aug_sentence in aug_sentences:
             if aug_sentence not in unique_sentences:
                     writer.write(label + "\t" + aug_sentence + "\n")
                     unique_sentences.add(aug_sentence)
                 
     writer.close()
-    print("Generated augmented sentences with EDA for " + train_orig + " to " + output_file + " with num_aug=" + str(num_aug))
+    print("Generated augmented sentences with EDA for " + train_orig + " to " + output_file + " with num_aug=")
 
 # Main function
 if __name__ == "__main__":
     # Generate augmented sentences and output into a new file
-    gen_eda(args.input, output, alpha_sr=alpha_sr, alpha_wd=alpha_wd, alpha_wi=alpha_wi, num_aug=num_aug)
+    gen_eda(args.input, output, alpha_sr=alpha_sr, alpha_wd=alpha_wd, alpha_wi=alpha_wi)

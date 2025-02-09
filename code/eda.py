@@ -113,30 +113,50 @@ def get_sundanese_synonyms(word, synonyms_dict):
 	return synonyms_dict.get(word, [])
 
 # synonym_replacement digunakan untuk mengganti n kata dalam kalimat dengan sinonim dari kata tersebut
-def synonym_replacement(words, n, synonyms_dict, stop_words):
-	new_words = words.copy()
-	random_word_list = list(set([word for word in words if word not in stop_words]))
-	random.shuffle(random_word_list)
-	num_replaced = 0
+# def synonym_replacement(words, n, synonyms_dict, stop_words):
+# def synonym_replacement(words, n, synonyms_dict, stop_words, index=None):
+# 	new_words = words.copy()
+# 	random_word_list = list(set([word for word in words if word not in stop_words]))
+# 	if index is not None:
+# 		random_word_list = [words[index]] if words[index] in random_word_list else []
+# 	random.shuffle(random_word_list)
+# 	num_replaced = 0
 
-	for random_word in random_word_list:
-		# dapatkan sinonim dari kata tersebut, termasuk reverse synonyms
-		synonyms = get_sundanese_synonyms(random_word, synonyms_dict)
-		if len(synonyms) >= 1:
-			# pilih sinonim secara acak
-			synonym = random.choice(list(synonyms))
-			new_words = [synonym if word == random_word else word for word in new_words]
-			print("replaced", random_word, "with", synonym)
-			num_replaced += 1
+# 	for random_word in random_word_list:
+# 		# dapatkan sinonim dari kata tersebut, termasuk reverse synonyms
+# 		synonyms = get_sundanese_synonyms(random_word, synonyms_dict)
+# 		if len(synonyms) >= 1:
+# 			# pilih sinonim secara acak
+# 			synonym = random.choice(list(synonyms))
+# 			new_words = [synonym if word == random_word else word for word in new_words]
+# 			print("replaced", random_word, "with", synonym)
+# 			num_replaced += 1
 			
-		if num_replaced >= n: #only replace up to n words
-			break
+# 		if num_replaced >= n: #only replace up to n words
+# 			break
 
-	#this is stupid but we need it, trust me
-	sentence = ' '.join(new_words)
-	new_words = sentence.split(' ')
+# 	#this is stupid but we need it, trust me
+# 	sentence = ' '.join(new_words)
+# 	new_words = sentence.split(' ')
 
-	return new_words
+	# return new_words
+
+def synonym_replacement(words, index, synonyms_dict, stop_words):
+    new_words = words.copy()
+    target_word = words[index]
+    
+    if target_word in stop_words:
+        return None
+    
+    synonyms = get_sundanese_synonyms(target_word, synonyms_dict)
+    if not synonyms:
+        return None
+    
+    synonym = random.choice(synonyms)  # Pilih satu sinonim secara acak
+    new_words[index] = synonym
+    
+    return ' '.join(new_words)
+
 
 file_path_synonym = 'data/sundanese_synonyms.csv'
 sundanese_synonyms = load_synonyms(file_path_synonym)
@@ -186,24 +206,30 @@ def add_word(new_words, synonyms_dict):
 	new_words.insert(random_idx, random_synonym)
 	
 
-def eda(sentence, synonyms_dict, kelas_kata_dict, alpha_sr=0.1, p_wd=0.1, alpha_wi=0.1, num_aug=9):
+def eda(sentence, synonyms_dict, kelas_kata_dict, alpha_sr=0.1, p_wd=0.1, alpha_wi=0.1):
 	# sentence = get_only_chars(sentence)
 	words = sentence.split(' ')
 	words = [word for word in words if word != '']
 	num_words = len(words)
 	
 	augmented_sentences = []
-	num_new_per_technique = int(num_aug/4)+1
+	# num_new_per_technique = int(num_aug/4)+1
 
 	# Track jumlah kalimat per operasi 
 	num_unchanged = 0 
 
 	#sr
-	if (alpha_sr > 0):
-		n_sr = max(1, int(alpha_sr*num_words))	# Jumlah kata yang akan diganti dengan sinonim
-		for _ in range(num_new_per_technique):
-			a_words = synonym_replacement(words, n_sr, synonyms_dict, stop_words)
-			augmented_sentences.append(' '.join(a_words))
+	# if (alpha_sr > 0):
+	# 	# n_sr = max(1, int(alpha_sr*num_words))	# Jumlah kata yang akan diganti dengan sinonim
+	# 	for _ in range(num_new_per_technique):
+	# 		for i in range(len(words)):
+	# 			a_words = synonym_replacement(words, synonyms_dict, stop_words, index=i)
+	# 			augmented_sentences.append(' '.join(a_words))
+	if alpha_sr > 0:
+		for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
+			aug_sentence = synonym_replacement(words, i, synonyms_dict, stop_words)
+			if aug_sentence:
+				augmented_sentences.append(aug_sentence)
 
 
     # wd
@@ -224,10 +250,11 @@ def eda(sentence, synonyms_dict, kelas_kata_dict, alpha_sr=0.1, p_wd=0.1, alpha_
 			augmented_sentences.append(' '.join(a_words))
 
 	#trim so that we have the desired number of augmented sentences
-	if num_aug >= 1:
-		augmented_sentences = augmented_sentences[:num_aug]
-	else:
-		keep_prob = num_aug / len(augmented_sentences)
-		augmented_sentences = [s for s in augmented_sentences if random.uniform(0, 1) < keep_prob]
+	# if num_aug >= 1:
+	# 	augmented_sentences = augmented_sentences[:num_aug]
+	# else:
+	# 	keep_prob = num_aug / len(augmented_sentences)
+	# 	augmented_sentences = [s for s in augmented_sentences if random.uniform(0, 1) < keep_prob]
+	augmented_sentences.append(sentence)
 
 	return augmented_sentences
