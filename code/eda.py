@@ -1,63 +1,7 @@
 import pandas as pd
 import random 
 from random import shuffle
-
-#stop words list
-stop_words = [
-    "tapi", "sanajan", "salain", "ti", "ku", "kituna", "sabalikna", "malah", "saenggeus", "kitu", "boh", 
-    "lain", "bae", "duka", "rek", "bari", "lantaran", "asal", "dina", "siga", "keur", "saha", "eukeur", 
-    "wae", "atuh", "kawas", "lamun", "erek", "isuk", "beurang", "peuting", "kamari", "wanci", "burit", 
-    "tengah", "teuing", "apal", "buleud", "taneuh", "kulon", "wetan", "kaler", "kidul", "saha", "naon", 
-    "mana", "naha", "iraha", "kumaha", "sabaraha", "ieu", "eta", "dieu", "kieu", "jeung", "sareng", "nepi", 
-    "jaba", "lian", "lamun", "tapi", "atawa", "atanapi", "tuluy", "terus", "teras", "yen", "majar", "nu", 
-    "anu", "matak", "majar", "teh", "mah", "seug", "heug", "mun", "ketah", "ketang", "pisan", "sok", "be", 
-    "wae", "we", "weh", "mung", "ngan", "ukur", "keur", "nuju", "masih", "keneh", "pikeun", "kanggo", "da", 
-    "kapan", "kapanan", "apan", "pan", "apanan", "deui", "deuih", "ge", "oge", "ongkoh", "nya", "nyah", 
-    "enya", "lain", "sanes", "abi", "euy", "dan", "na", "ari", "sama", "ka", "ku", "lah", "atuh", "da", 
-    "aduh", "ini", "we", "weh", "ada", "adanya", "adalah", "adapun", "agak", "agaknya", "agar", "akan", 
-    "akankah", "akhirnya", "aku", "akulah", "amat", "amatlah", "anda", "andalah", "antar", "diantaranya", 
-    "antara", "antaranya", "diantara", "apa", "apaan", "mengapa", "apabila", "apakah", "apalagi", "apatah", 
-    "atau", "ataukah", "ataupun", "bagai", "bagaikan", "sebagai", "sebagainya", "bagaimana", "bagaimanapun", 
-    "sebagaimana", "bagaimanakah", "bagi", "bahkan", "bahwa", "bahwasanya", "sebaliknya", "banyak", 
-    "sebanyak", "beberapa", "seberapa", "begini", "beginian", "beginikah", "beginilah", "sebegini", 
-    "begitu", "begitukah", "begitulah", "begitupun", "sebegitu", "belum", "belumlah", "sebelum", 
-    "sebelumnya", "sebenarnya", "berapa", "berapakah", "berapalah", "berapapun", "betulkah", "sebetulnya", 
-    "biasa", "biasanya", "bila", "bilakah", "bisa", "bisakah", "sebisanya", "boleh", "bolehkah", 
-    "bolehlah", "buat", "bukan", "bukankah", "bukanlah", "bukannya", "cuma", "percuma", "dahulu", 
-    "dalam", "dan", "dapat", "dari", "daripada", "dekat", "demi", "demikian", "demikianlah", "sedemikian", 
-    "dengan", "depan", "di", "dia", "dialah", "dini", "diri", "dirinya", "terdiri", "dong", "dulu", 
-    "enggak", "enggaknya", "entah", "entahlah", "terhadap", "terhadapnya", "hal", "hampir", "hanya", 
-    "hanyalah", "harus", "haruslah", "harusnya", "seharusnya", "hendak", "hendaklah", "hendaknya", 
-    "hingga", "sehingga", "ia", "ialah", "ibarat", "ingin", "inginkah", "inginkan", "ini", "inikah", 
-    "inilah", "itu", "itukah", "itulah", "jangan", "jangankan", "janganlah", "jika", "jikalau", "juga", 
-    "justru", "kala", "kalau", "kalaulah", "kalaupun", "kalian", "kami", "kamilah", "kamu", "kamulah", 
-    "kan", "kapan", "kapankah", "kapanpun", "dikarenakan", "karena", "karenanya", "ke", "kecil", 
-    "kemudian", "kenapa", "kepada", "kepadanya", "ketika", "seketika", "khususnya", "kini", "kinilah", 
-    "kiranya", "sekiranya", "kita", "kitalah", "kok", "lagi", "lagian", "selagi", "lah", "lain", 
-    "lainnya", "melainkan", "selaku", "lalu", "melalui", "terlalu", "lama", "lamanya", "selama", 
-    "selama", "selamanya", "lebih", "terlebih", "bermacam", "macam", "semacam", "maka", "makanya", 
-    "makin", "malah", "malahan", "mampu", "mampukah", "mana", "manakala", "manalagi", "masih", 
-    "masihkah", "semasih", "masing", "mau", "maupun", "semaunya", "memang", "mereka", "merekalah", 
-    "meski", "meskipun", "semula", "mungkin", "mungkinkah", "nah", "namun", "nanti", "nantinya", 
-    "nyaris", "oleh", "olehnya", "seorang", "seseorang", "pada", "padanya", "padahal", "paling", 
-    "sepanjang", "pantas", "sepantasnya", "sepantasnyalah", "para", "pasti", "pastilah", "per", 
-    "pernah", "pula", "pun", "merupakan", "rupanya", "serupa", "saat", "saatnya", "sesaat", "saja", 
-    "sajalah", "saling", "bersama", "sama", "sesama", "sambil", "sampai", "sana", "sangat", "sangatlah", 
-    "saya", "sayalah", "se", "sebab", "sebabnya", "sebuah", "tersebut", "tersebutlah", "sedang", 
-    "sedangkan", "sedikit", "sedikitnya", "segala", "segalanya", "segera", "sesegera", "sejak", 
-    "sejenak", "sekali", "sekalian", "sekalipun", "sesekali", "sekaligus", "sekarang", "sekarang", 
-    "sekitar", "sekitarnya", "sela", "selain", "selalu", "seluruh", "seluruhnya", "semakin", 
-    "sementara", "sempat", "semua", "semuanya", "sendiri", "sendirinya", "seolah", "seperti", 
-    "sepertinya", "sering", "seringnya", "serta", "siapa", "siapakah", "siapapun", "disini", 
-    "disinilah", "sini", "sinilah", "sesuatu", "sesuatunya", "suatu", "sesudah", "sesudahnya", 
-    "sudah", "sudahkah", "sudahlah", "supaya", "tadi", "tadinya", "tak", "tanpa", "setelah", 
-    "telah", "tentang", "tentu", "tentulah", "tentunya", "tertentu", "seterusnya", "tapi", "tetapi", 
-    "setiap", "tiap", "setidaknya", "tidak", "tidakkah", "tidaklah", "toh", "waduh", "wah", 
-    "wahai", "sewaktu", "walau", "walaupun", "wong", "yaitu", "yakni", "yang", "gera", "ga", 
-    "ya", "geus", "si", "kang", "punya", "ni", "asa", "dek", "fans", "haha", "hahaha", "hahahaaa", 
-    "ha", "hahaha", "wk", "wkw", "wkwk", "wkwkw", "wkwkwk", "wkwkwkw", "wkwkwkwk", "wkwkwkwkw", 
-    "wkwkwkwkwk"
-]
+import re
 
 #cleaning up text
 import re
@@ -112,54 +56,65 @@ def load_synonyms(file_path):
 def get_sundanese_synonyms(word, synonyms_dict):
 	return synonyms_dict.get(word, [])
 
-# synonym_replacement digunakan untuk mengganti n kata dalam kalimat dengan sinonim dari kata tersebut
-# def synonym_replacement(words, n, synonyms_dict, stop_words):
-# def synonym_replacement(words, n, synonyms_dict, stop_words, index=None):
-# 	new_words = words.copy()
-# 	random_word_list = list(set([word for word in words if word not in stop_words]))
-# 	if index is not None:
-# 		random_word_list = [words[index]] if words[index] in random_word_list else []
-# 	random.shuffle(random_word_list)
-# 	num_replaced = 0
+# Kamus pronouns
+def load_pronouns(filename):
+	try:
+		with open(filename, 'r', encoding='utf-8') as file:
+			pronouns = [line.strip() for line in file.readlines() if line.strip()]
+			return pronouns
+	except FileNotFoundError:
+		print(f"File {filename} tidak ditemukan.")
+		return pronouns
 
-# 	for random_word in random_word_list:
-# 		# dapatkan sinonim dari kata tersebut, termasuk reverse synonyms
-# 		synonyms = get_sundanese_synonyms(random_word, synonyms_dict)
-# 		if len(synonyms) >= 1:
-# 			# pilih sinonim secara acak
-# 			synonym = random.choice(list(synonyms))
-# 			new_words = [synonym if word == random_word else word for word in new_words]
-# 			print("replaced", random_word, "with", synonym)
-# 			num_replaced += 1
-			
-# 		if num_replaced >= n: #only replace up to n words
-# 			break
-
-# 	#this is stupid but we need it, trust me
-# 	sentence = ' '.join(new_words)
-# 	new_words = sentence.split(' ')
-
-	# return new_words
-
-def synonym_replacement(words, index, synonyms_dict, stop_words):
-    new_words = words.copy()
+def pronouns_replacement(words, index, pronouns_list):
+    new_sentences = []
     target_word = words[index]
     
-    if target_word in stop_words:
-        return None
+    if target_word in pronouns_list:
+        for replacement in pronouns_list:
+            if replacement != target_word:  # Hindari mengganti dengan kata yang sama
+                new_words = words.copy()
+                new_words[index] = replacement
+                new_sentences.append(' '.join(new_words))
     
-    synonyms = get_sundanese_synonyms(target_word, synonyms_dict)
-    if not synonyms:
-        return None
+    return new_sentences
+
+# Path ke file pronouns.txt
+file_path_pronouns = 'kelas_kata/pronomina.txt'
+pronouns_dict = load_pronouns(file_path_pronouns)
+
+# synonym_replacement digunakan untuk mengganti n kata dalam kalimat dengan sinonim dari kata tersebut
+# def synonym_replacement(words, index, synonyms_dict, stop_words):
+#     new_words = words.copy()
+#     target_word = words[index]
     
-    synonym = random.choice(synonyms)  # Pilih satu sinonim secara acak
-    new_words[index] = synonym
+#     if target_word in stop_words:
+#         return None
     
-    return ' '.join(new_words)
+#     synonyms = get_sundanese_synonyms(target_word, synonyms_dict)
+#     if not synonyms:
+#         return None
+    
+#     synonym = random.choice(synonyms)  # Pilih satu sinonim secara acak
+#     new_words[index] = synonym
+    
+#     return ' '.join(new_words)
+def synonym_replacement(words, indices, synonyms_dict):
+    new_words = words.copy()
+    modified_indices = []
+    
+    for idx in indices:
+        word = words[idx]
+        synonyms = get_sundanese_synonyms(word, synonyms_dict)
+        if synonyms:
+            new_words[idx] = random.choice(synonyms)
+            modified_indices.append(idx)
+    
+    return ' '.join(new_words), modified_indices
 
 
 file_path_synonym = 'data/sundanese_synonyms.csv'
-sundanese_synonyms = load_synonyms(file_path_synonym)
+synonyms_dict = load_synonyms(file_path_synonym)
 
 # Word Deletion
 def load_kelas_kata(filename):
@@ -206,55 +161,49 @@ def add_word(new_words, synonyms_dict):
 	new_words.insert(random_idx, random_synonym)
 	
 
-def eda(sentence, synonyms_dict, kelas_kata_dict, alpha_sr=0.1, p_wd=0.1, alpha_wi=0.1):
-	# sentence = get_only_chars(sentence)
+def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr=0.1, p_wd=0.1, alpha_wi=0.1):
+	sentence = get_only_chars(sentence)
 	words = sentence.split(' ')
 	words = [word for word in words if word != '']
 	num_words = len(words)
 	
-	augmented_sentences = []
-	# num_new_per_technique = int(num_aug/4)+1
-
-	# Track jumlah kalimat per operasi 
-	num_unchanged = 0 
-
-	#sr
-	# if (alpha_sr > 0):
-	# 	# n_sr = max(1, int(alpha_sr*num_words))	# Jumlah kata yang akan diganti dengan sinonim
-	# 	for _ in range(num_new_per_technique):
-	# 		for i in range(len(words)):
-	# 			a_words = synonym_replacement(words, synonyms_dict, stop_words, index=i)
-	# 			augmented_sentences.append(' '.join(a_words))
-	if alpha_sr > 0:
-		for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
-			aug_sentence = synonym_replacement(words, i, synonyms_dict, stop_words)
-			if aug_sentence:
-				augmented_sentences.append(aug_sentence)
-
-
-    # wd
-	if (p_wd > 0):
-		for _ in range(num_new_per_technique):
-			a_words = word_deletion(words, kelas_kata_dict)
-			augmented_sentences.append(' '.join(a_words))
-			
-	# augmented_sentences = [get_only_chars(sentence) for sentence in augmented_sentences]
-	augmented_sentences = [sentence for sentence in augmented_sentences]
-	shuffle(augmented_sentences)
+	valid_indices = [i for i, word in enumerate(words) if get_sundanese_synonyms(word, synonyms_dict)]
 	
-	#wi
-	if (alpha_wi > 0):
-		n_ri = max(1, int(alpha_wi*num_words))
-		for _ in range(num_new_per_technique):
-			a_words = word_insertion(words, n_ri, synonyms_dict)
-			augmented_sentences.append(' '.join(a_words))
+	if not valid_indices:
+		return [sentence]
+	
+	num_to_replace = max(1, int(alpha_wr * len(valid_indices)))
+	synonym_sentences = []
+	pronoun_sentences = []
 
-	#trim so that we have the desired number of augmented sentences
-	# if num_aug >= 1:
-	# 	augmented_sentences = augmented_sentences[:num_aug]
-	# else:
-	# 	keep_prob = num_aug / len(augmented_sentences)
-	# 	augmented_sentences = [s for s in augmented_sentences if random.uniform(0, 1) < keep_prob]
-	augmented_sentences.append(sentence)
+	#wr
+	for i in range(len(valid_indices) // num_to_replace):
+		selected_indices = valid_indices[i * num_to_replace:(i + 1) * num_to_replace]
+		new_sentence, modified_indices = synonym_replacement(words, selected_indices, synonyms_dict)
+		synonym_sentences.append(new_sentence)
 
-	return augmented_sentences
+        # Kalimat baru dengan kata-kata yang tidak diubah dalam iterasi ini
+		remaining_indices = [idx for idx in valid_indices if idx not in modified_indices]
+		if remaining_indices:
+			new_sentence, _ = synonym_replacement(words, remaining_indices, synonyms_dict)
+			synonym_sentences.append(new_sentence)
+	# if alpha_wr > 0:
+	# 	#sr
+	# 	for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
+	# 		aug_sentence = synonym_replacement(words, i, synonyms_dict, stop_words)
+	# 		if aug_sentence:
+	# 			synonym_sentences.append(aug_sentence)
+
+	# 	#pr
+	# 	for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
+	# 		aug_sentence = pronouns_replacement(words, i, pronouns_dict)
+	# 		if aug_sentence:
+	# 			pronoun_sentences.append(aug_sentence)
+	
+    # # wd
+	# if (p_wd > 0):
+	# 	for _ in range(num_new_per_technique):
+	# 		a_words = word_deletion(words, kelas_kata_dict)
+	# 		augmented_sentences.append(' '.join(a_words))
+
+	return synonym_sentences
