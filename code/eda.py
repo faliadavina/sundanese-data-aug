@@ -80,7 +80,7 @@ def pronouns_replacement(words, index, pronouns_list):
     return new_sentences
 
 # Path ke file pronouns.txt
-file_path_pronouns = 'kelas_kata/pronomina.txt'
+file_path_pronouns = 'data/kamus/pronomina.txt'
 pronouns_dict = load_pronouns(file_path_pronouns)
 
 # synonym_replacement digunakan untuk mengganti n kata dalam kalimat dengan sinonim dari kata tersebut
@@ -113,7 +113,7 @@ def synonym_replacement(words, indices, synonyms_dict):
     return ' '.join(new_words), modified_indices
 
 
-file_path_synonym = 'data/sundanese_synonyms.csv'
+file_path_synonym = 'data/kamus/sundanese_synonyms.csv'
 synonyms_dict = load_synonyms(file_path_synonym)
 
 # Word Deletion
@@ -137,7 +137,7 @@ def word_deletion(words, kelas_kata_dict):
 	
 	return new_words
 
-file_path_kelas_kata = 'data/dataset_kelas_kata.txt'
+file_path_kelas_kata = 'data/kamus/dataset_kelas_kata.txt'
 kelas_kata = load_kelas_kata(file_path_kelas_kata)
 
 # Word Insertion 
@@ -159,24 +159,53 @@ def add_word(new_words, synonyms_dict):
 	random_synonym = synonyms[0]
 	random_idx = random.randint(0, len(new_words)-1)
 	new_words.insert(random_idx, random_synonym)
-	
 
-def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr=0.1, p_wd=0.1, alpha_wi=0.1):
+
+# Word Swap
+def get_swap_pairs(words, kelas_kata_dict):
+    kelas_dict = {}
+    for i, word in enumerate(words):
+        kelas = get_kelas_kata(word, kelas_kata_dict)
+        if kelas:
+            if kelas not in kelas_dict:
+                kelas_dict[kelas] = []
+            kelas_dict[kelas].append(i)
+    
+    swap_pairs = []
+    for indices in kelas_dict.values():
+        if len(indices) > 1:
+            random.shuffle(indices)
+            for i in range(0, len(indices) - 1, 2):
+                swap_pairs.append((indices[i], indices[i + 1]))
+    
+    return swap_pairs
+
+def apply_random_swap(words, swap_pairs, alpha):
+    n = len(swap_pairs)
+    num_swaps = min(n, max(1, round(alpha * n)))
+    selected_pairs = random.sample(swap_pairs, num_swaps)
+    
+    new_words = words[:]
+    for i, j in selected_pairs:
+        new_words[i], new_words[j] = new_words[j], new_words[i]
+    
+    return ' '.join(new_words), [pair for pair in swap_pairs if pair not in selected_pairs]	
+
+def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr=0.1, p_wd=0.1, alpha_wi=0.1, alpha_ws=0.1):
 	sentence = get_only_chars(sentence)
 	words = sentence.split(' ')
 	words = [word for word in words if word != '']
 	num_words = len(words)
+	swapped_sentences = []
 	
+	#wr
 	valid_indices = [i for i, word in enumerate(words) if get_sundanese_synonyms(word, synonyms_dict)]
-	
 	if not valid_indices:
 		return [sentence]
 	
 	num_to_replace = max(1, int(alpha_wr * len(valid_indices)))
 	synonym_sentences = []
-	pronoun_sentences = []
 
-	#wr
 	for i in range(len(valid_indices) // num_to_replace):
 		selected_indices = valid_indices[i * num_to_replace:(i + 1) * num_to_replace]
 		new_sentence, modified_indices = synonym_replacement(words, selected_indices, synonyms_dict)
@@ -187,6 +216,16 @@ def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr=0.1, p
 		if remaining_indices:
 			new_sentence, _ = synonym_replacement(words, remaining_indices, synonyms_dict)
 			synonym_sentences.append(new_sentence)
+	
+	#ws
+	# swap_pairs = get_swap_pairs(words, kelas_kata_dict)
+	# if swap_pairs:
+	# 	new_sentence, remaining_pairs = apply_random_swap(words, swap_pairs, alpha_ws)
+	# 	swapped_sentences.append(new_sentence)
+	# 	if remaining_pairs:
+	# 		new_sentence, _ = apply_random_swap(words, remaining_pairs, alpha_ws)
+	# 		swapped_sentences.append(new_sentence)
+
 	# if alpha_wr > 0:
 	# 	#sr
 	# 	for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
@@ -206,4 +245,4 @@ def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr=0.1, p
 	# 		a_words = word_deletion(words, kelas_kata_dict)
 	# 		augmented_sentences.append(' '.join(a_words))
 
-	return synonym_sentences
+	return swapped_sentences

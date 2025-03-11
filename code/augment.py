@@ -10,6 +10,7 @@ ap.add_argument("--num_aug", required=False, type=int, help="number of augmented
 ap.add_argument("--alpha_wr", required=False, type=float, help="percent of words in each sentence to be replaced by synonyms")
 ap.add_argument("--alpha_wd", required=False, type=float, help="percent of words in each sentence to be deleted")
 ap.add_argument("--alpha_wi", required=False, type=float, help="percent of words in each sentence to be inserted")
+ap.add_argument("--alpha_ws", required=False, type=float, help="percent of words in each sentence to be swapped")
 args = ap.parse_args()
 
 # Output file
@@ -27,12 +28,15 @@ alpha_wd = args.alpha_wd if args.alpha_wd is not None else 0
 
 #how much to insertion words
 alpha_wi = args.alpha_wi if args.alpha_wi is not None else 0
+
+#how much to swap words
+alpha_ws = args.alpha_ws if args.alpha_ws is not None else 0
     
-if alpha_wd == 0 and alpha_wi == 0 and alpha_wr == 0:
+if alpha_wd == 0 and alpha_wi == 0 and alpha_wr == 0 and alpha_ws == 0:
     ap.error('At least one alpha should be greater than zero')
 
 # Generate more data with standard augmentation
-def gen_eda(train_orig, output_synonym, alpha_wr, alpha_wd, alpha_wi):
+def gen_eda(train_orig, output_synonym, alpha_wr, alpha_wd, alpha_wi, alpha_ws):
     # unique_sentences = set()
     # writer = open(output_file, 'w', encoding='utf-8')
     unique_synonyms = set()
@@ -53,7 +57,7 @@ def gen_eda(train_orig, output_synonym, alpha_wr, alpha_wd, alpha_wi):
         label = parts[0]
         sentence = parts[1]
         synonym_sentences = eda(sentence, synonyms_dict, kelas_kata, pronouns_dict, alpha_wr=alpha_wr if alpha_wr > 0 else 0, p_wd=alpha_wd if alpha_wd > 0 else 0,
-                             alpha_wi=alpha_wi if alpha_wi > 0 else 0) 
+                             alpha_wi=alpha_wi if alpha_wi > 0 else 0, alpha_ws=alpha_ws if alpha_ws > 0 else 0) 
         
         # for aug_sentence in aug_sentences:
         #     if aug_sentence not in unique_sentences:
@@ -84,4 +88,4 @@ def gen_eda(train_orig, output_synonym, alpha_wr, alpha_wd, alpha_wi):
 # Main function
 if __name__ == "__main__":
     # Generate augmented sentences and output into a new file
-    gen_eda(args.input, output_sr, alpha_wr=alpha_wr, alpha_wd=alpha_wd, alpha_wi=alpha_wi)
+    gen_eda(args.input, output_sr, alpha_wr=alpha_wr, alpha_wd=alpha_wd, alpha_wi=alpha_wi, alpha_ws=alpha_ws)

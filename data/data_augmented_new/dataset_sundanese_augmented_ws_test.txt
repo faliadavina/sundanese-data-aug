@@ -1,0 +1,27 @@
+anger	s
+anger	o
+anger	k
+anger	 
+anger	g
+anger	e
+anger	u
+anger	r
+anger	a
+anger	l
+anger	n
+anger	i
+anger	t
+anger	h
+anger	c
+anger	m
+anger	y
+anger	p
+anger	b
+anger	w
+joy	d
+sadness	z
+joy	j
+fear	f
+joy	v
+anger	x
+sadness	q
