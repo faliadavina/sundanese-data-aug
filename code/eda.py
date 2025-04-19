@@ -17,7 +17,7 @@ def get_only_chars(line):
     line = line.lower()
 
     for char in line:
-        if char in 'qwertyuiopasdfghjklzxcvbnm ':
+        if char in 'qwertyuiopasdfghjklzxcvbnm1234567890 ':
             clean_line += char
         else:
             clean_line += ' '
@@ -27,8 +27,12 @@ def get_only_chars(line):
         clean_line = clean_line[1:]
     return clean_line
 
-# synonym replacement 
-# load_synonyms digunakan untuk membaca file CSV yang berisi sinonim kata bahasa Sunda
+# ----------------------------------------- #
+#											#
+#            SYNONYM REPLACEMENT 			#
+#											# 
+# ----------------------------------------- # 
+# MEMBACA KAMUS SUNDANESE SYNONYMS
 def load_synonyms(file_path):
 	synonyms_dict = {}	
 	try:
@@ -56,7 +60,28 @@ def load_synonyms(file_path):
 def get_sundanese_synonyms(word, synonyms_dict):
 	return synonyms_dict.get(word, [])
 
-# Kamus pronouns
+# Digunakan untuk memilih sinonim yang unik dari daftar sinonim yang ada
+def get_unique_synonym(word, synonyms_dict, used_synonyms_map):
+    all_synonyms = synonyms_dict.get(word, [])
+    used_synonyms = used_synonyms_map.get(word, [])
+
+    available_synonyms = [syn for syn in all_synonyms if syn not in used_synonyms]
+
+    if available_synonyms:
+        chosen = random.choice(available_synonyms)
+        used_synonyms.append(chosen)
+    elif all_synonyms:
+        chosen = random.choice(all_synonyms)
+    else:
+        return word
+
+    used_synonyms_map[word] = used_synonyms
+    return chosen
+
+file_path_synonym = 'data/kamus/sundanese_synonyms.csv'
+synonyms_dict = load_synonyms(file_path_synonym)
+
+# MEMBACA KAMUS PRONOUNS
 def load_pronouns(filename):
 	try:
 		with open(filename, 'r', encoding='utf-8') as file:
@@ -66,6 +91,12 @@ def load_pronouns(filename):
 		print(f"File {filename} tidak ditemukan.")
 		return pronouns
 
+# Path ke file pronouns.txt
+file_path_pronouns = 'data/kamus/pronomina.txt'
+pronouns_dict = load_pronouns(file_path_pronouns)
+
+# PROSES AUGMENTASI SYNONYM REPLACEMENT, PRONOMINA REPLACEMENT, NUMBER REPLACEMENT
+# Pronomina Replacement
 def pronouns_replacement(words, index, pronouns_list):
     new_sentences = []
     target_word = words[index]
@@ -79,26 +110,7 @@ def pronouns_replacement(words, index, pronouns_list):
     
     return new_sentences
 
-# Path ke file pronouns.txt
-file_path_pronouns = 'data/kamus/pronomina.txt'
-pronouns_dict = load_pronouns(file_path_pronouns)
-
-# synonym_replacement digunakan untuk mengganti n kata dalam kalimat dengan sinonim dari kata tersebut
-# def synonym_replacement(words, index, synonyms_dict, stop_words):
-#     new_words = words.copy()
-#     target_word = words[index]
-    
-#     if target_word in stop_words:
-#         return None
-    
-#     synonyms = get_sundanese_synonyms(target_word, synonyms_dict)
-#     if not synonyms:
-#         return None
-    
-#     synonym = random.choice(synonyms)  # Pilih satu sinonim secara acak
-#     new_words[index] = synonym
-    
-#     return ' '.join(new_words)
+# Synonym Replacement
 def synonym_replacement(words, indices, synonyms_dict):
     new_words = words.copy()
     modified_indices = []
@@ -111,10 +123,6 @@ def synonym_replacement(words, indices, synonyms_dict):
             modified_indices.append(idx)
     
     return ' '.join(new_words), modified_indices
-
-
-file_path_synonym = 'data/kamus/sundanese_synonyms.csv'
-synonyms_dict = load_synonyms(file_path_synonym)
 
 # Number Replacement 
 def number_replacement(sentence): 
@@ -136,8 +144,7 @@ def number_replacement(sentence):
 		else:
 			new_words.append(word)	# Kata lain tidak diubah
 
-	return ' '.join(new_words)
-	
+	return ' '.join(new_words)	
 
 def is_valid_number_replacement(word):
     """
@@ -156,7 +163,11 @@ def is_valid_number_replacement(word):
     return False  # Selain itu tidak valid
 
 
-# Word Deletion
+# ----------------------------------------- #
+#											#
+#              WORD DELETION 	     		#
+#											# 
+# ----------------------------------------- # 
 def load_kelas_kata(filename):
 	kelas_kata = {}
 	with open(filename, 'r', encoding='utf-8') as file:
@@ -185,10 +196,15 @@ def word_deletion(words, kelas_kata_dict, num_to_delete):
 	
 	return new_words
 
-file_path_kelas_kata = 'data/kamus/dataset_kelas_kata.txt'
+# file_path_kelas_kata = 'data/kamus/dataset_kelas_kata.txt'
+file_path_kelas_kata = 'data/kamus/new_dataset_kelas_kata.txt'
 kelas_kata = load_kelas_kata(file_path_kelas_kata)
 
-# Word Insertion 
+# ----------------------------------------- #
+#											#
+#               WORD INSERTION 	  			#
+#											# 
+# ----------------------------------------- #  
 def add_word(new_words, kelas_kata, n_wi): 
 	# Cari adjektiva dalam kalimat
 	adj_indices = [i for i, word in enumerate(new_words) if get_kelas_kata(word, kelas_kata) == 'adjektiva']
@@ -222,7 +238,7 @@ def word_insertion(words, n_wi, kelas_kata):
     return new_words
 
 def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr, alpha_wd, alpha_wi):
-	# sentence = get_only_chars(sentence)
+	sentence = get_only_chars(sentence)
 	words = sentence.split(' ')
 	words = [word for word in words if word != '']
 	num_words = len(words)
@@ -241,25 +257,26 @@ def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr, alpha
 	remaining_indices = all_valid_indices[:]
 
 	#wr
-	if (alpha_wr > 0):
+	if alpha_wr > 0:
+		used_synonyms_map = {}		
 		while remaining_indices: 
 			selected_indices = random.sample(remaining_indices, min(num_to_replace, len(remaining_indices)))
 			new_words = words[:]
 			modified_indices = []
 			synonym_count = 0 
 			number_count = 0
-
+			
 			print("\n=== Augmentasi Baru ===")
 			print(f"Kalimat awal: {sentence}")
 			print(f"Kalimat: {words}")
 			print(f"Total kata yang bisa dimodifikasi: {len(all_valid_indices)}")
 			print(f"Target modifikasi (num_to_replace): {num_to_replace}")
 			print(f"Indeks terpilih: {selected_indices}")
-
+			
 			for idx in selected_indices: 
 				original_word = words[idx]
 				if idx in valid_synonym_indices:
-					new_words[idx] = random.choice(get_sundanese_synonyms(words[idx], synonyms_dict))
+					new_words[idx] = get_unique_synonym(original_word, synonyms_dict, used_synonyms_map)
 					synonym_count += 1
 					print(f"Sinonim: '{original_word}' -> '{new_words[idx]}'")
 				elif idx in valid_number_indices:
@@ -267,44 +284,18 @@ def eda(sentence, synonyms_dict, kelas_kata_dict, pronouns_dict, alpha_wr, alpha
 					number_count += 1
 					print(f"Number Replacement: '{original_word}' -> '{new_words[idx]}'")
 
-				modified_indices.append(idx)
+			modified_indices.append(idx)
 			augmented_sentences.append(' '.join(new_words))
 
 			print(f"Jumlah total kata yang diubah: {len(modified_indices)}")
 			print(f"Jumlah yang diubah dengan sinonim: {synonym_count}")
 			print(f"Jumlah angka yang diubah: {number_count}")
 			print(f"Hasil augmentasi: {augmented_sentences}")
-	
+			
 			remaining_indices = [idx for idx in remaining_indices if idx not in modified_indices]
-
-		return augmented_sentences
-	
-	
-		# for i in range(len(valid_indices) // num_to_replace):
-		# 	selected_indices = valid_indices[i * num_to_replace:(i + 1) * num_to_replace]
-		# 	new_sentence, modified_indices = synonym_replacement(words, selected_indices, synonyms_dict)
-		# 	synonym_sentences.append(new_sentence)
-
-		# 	# Kalimat baru dengan kata-kata yang tidak diubah dalam iterasi ini
-		# 	remaining_indices = [idx for idx in valid_indices if idx not in modified_indices]
-		# 	if remaining_indices:
-		# 		new_sentence, _ = synonym_replacement(words, remaining_indices, synonyms_dict)
-		# 		synonym_sentences.append(new_sentence)
-
-		# return synonym_sentences
-	
-	# if alpha_wr > 0:
-	# 	#sr
-	# 	for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
-	# 		aug_sentence = synonym_replacement(words, i, synonyms_dict, stop_words)
-	# 		if aug_sentence:
-	# 			synonym_sentences.append(aug_sentence)
-
-	# 	#pr
-	# 	for i in range(num_words):  # Ganti setiap kata satu per satu jika ada sinonim
-	# 		aug_sentence = pronouns_replacement(words, i, pronouns_dict)
-	# 		if aug_sentence:
-	# 			pronoun_sentences.append(aug_sentence)
+		
+		augmented_sentences.insert(0, sentence)
+		return augmented_sentences	
 	
     # wd
 	if (alpha_wd > 0):

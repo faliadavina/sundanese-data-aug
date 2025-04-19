@@ -1,14 +1,19 @@
 kata,sinonim
-abot,"beurat,bobot"
-acuk,"raksukan,anggoan,baju"
+aang,"akang,lanceuk,raka,teteh,alo,pun lanceuk"
+abah,"bapak,apa,rama,pun rama,tuang rama"
+abdi,"sim kuring,aing,dewek,kaula,kuring,pribados,urang,abdi,uing"
+abot,beurat
+acuk,"raksukan,anggoan"
 adeuk,"arek,rek,bade,bakal,matak,hayang,hoyong"
 adi,"rai,pun adi"
-ageung,"badag,gede,agung,mulya"
+agan,juragan
+ageung,"badag,gede"
 aneh,aheng
 ali,"cingcin,lelepen"
 alim,"teu hoyong,embung,teu hayang,teu suka"
 alit,"leutik,sajabina"
-alung,"balang,baledog,mengpar,piceun"
+alo,suan
+alung,"balang,baledog,mengpar"
 alus,sae
 amang,"emang,mamang"
 ambek,bendu
@@ -21,20 +26,23 @@ angkat,"indit,ingkig,mios"
 angkeng,cangkeng
 angkeub,ceudeum
 angkeut,gado
+anjeun,"hidep,maneh,sia"
+anjeunna,manehna
 anom,ngora
-antos,"dago,tunggu"
+antos,dago
 anu,nu
 anyar,weuteuh
 artos,duit
 asin,molelel
-astra,"beungeut,pameunteu,raray,riman,parangi"
+astra,"beungeut,pameunteu,raray"
 asup,lebet
 atanapi,atawa
 atik,wuruk
 atikan,wurukan
-atoh,"bungah, bingah, galumbira, gumbira, bagja,seneng,suka,bagea"
+atoh,"bungah, bingah, galumbira, gumbira, bagja,seneng"
 atos,"enggeus,parantos"
 atra,"jatra,eces"
+awak,"salira,waruga,waragad"
 awewe,"isteri,mojang"
 awi,haur
 awon,"butut,goreng"
@@ -42,11 +50,11 @@ ayeuna,kiwari
 babaturan,"balad,deungeun,rencang,rerencangan"
 bageul,teuas
 baham,sungut
-baheula,"bareto,heubeul,kapungkur,lami,lawas,lila"
+baheula,"bareto,heubeul,kapungkur"
 balik,"mulih,uih,wangsul"
 balong,"empang,kulah,leuwi"
 bancet,buyur
-bantun,"bawa,candak,ringkid,cokot"
+bantun,"bawa,candak,ringkid"
 bantos,tulung
 baraya,"dulur,saderek,kulawarga,kulawargi"
 basa,"waktos,wanci,wayah"
@@ -55,11 +63,11 @@ bayeungyang,"hareudang,kareunang"
 bayuhyuh,"lintuh,bureuteu"
 beak,"ledis,ludes,seep"
 bebene,kabogoh
-begang,"kurus,peot"
+begang,"jangkorang,kuru,peot"
 beha,kutang
-beja,"bewara,iber,tanggara,pangumuman,warta,wartos,kabar,wawaran,berita"
+beja,"bewara,iber,tanggara,pangumuman"
 beke,pendek
-belegug,"belet,bodo,boloho,tolol"
+belegug,"belet,bodo,boloho"
 bener,leres
 bengkok,bengkung
 beuheung,tengek
@@ -76,20 +84,20 @@ bobo,"hees,kulem,sare"
 bobos,hitut
 boga,"gaduh,kagungan"
 bojo,"garwa,pamajikan,pun bojo, istri"
-bujangan,"jajaka,bujang"
+bujangan,jajaka
 bujur,"imbit,liang tai,bool"
 bulan,sasih
 bumi,"imah,rorompok"
 buruan,pakarangan
 burung,"gila,edeg,gelo,teu eucreug"
-perlu,"butuh,peryogi"
+butuh,peryogi
 cabok,"gampleng,tampiling"
 cadu,pantrang
-cageur,"damang,jagjag,walagri,waluya,sehat,bersih"
+cageur,"damang,jagjag,walagri,waluya"
 caket,deukeut
-calakan,"getol,hideng,rajin,ulet,pinter,maher,lihay,tekun"
+calakan,"getol,hideng,rajin,ulet"
 calana,lancingan
-calik,"diuk,sila"
+calik,diuk
 cangcang,cangked
 caram,carek
 carang,carengcang
@@ -99,43 +107,44 @@ cawet,kolor
 cekap,euleum
 cepil,ceuli
 ceuk,saur
-coplok,"lesot,leupas"
+cokot,candak
+coplok,lesot
 cukang,"rawayan,sasak"
 cunihin,purunyus
 daek,"kersa,hayang,hoyong,palay"
 dahar,"neda,tuang,emam"
-damar,"lilin,palita,cempor"
+damar,cempor
 damel,gawe
 damis,pipi
-dangdan,"ngaluis,dangdos,luis"
+dangdan,"ngaluis,dangdos"
 danget,"heuleut,mangsa"
 dangu,"denge,kuping"
 darehdeh,someah
-datang,"dongkap,dugi,sumping,hadir,aya,namu,dongkap,tepi,dugi,nganjang,nepi,nyemah"
-deudeuh,"karunya,asih"
-deuleu,"irong,ningal,tempo,tenjo,tinggal,nenjo,neleu,ningali"
+datang,"dongkap,dugi,sumping"
+deudeuh,karunya
+deuleu,"irong,ningal,tempo,tenjo,tinggal"
 dinten,poe
 dudukuy,"kerepus,topi"
 duka,"teu terang,teuing"
 eleh,"kawon,keok"
 eleketek,keleketek
 emut,inget
-gancang,"geuwat,enggal,cepet"
+enggal,"gancang,tarik"
 enjing,"isuk,isukan"
 enjing-enjing,isuk-isuk
 entog,meri
 entong,ulah
 enya,"heueuh,muhun,sumuhun,nya"
-era,"isin,uman-imen"
-itung,"etang,wilang"
-eueut,"nginum,inum"
+era,isin
+etang,itung
+eueut,nginum
 eujeung,"sareng,sinareng,jeung,rejeung"
 gabrug,kerekeb
-gajih,lemak
+gajih,"letoy,leuleus"
 galur,"leumpang,papah,lampah"
 gampang,"gampil,babari,enteng"
-ganti,"genti,gentos,pindah,robah,hijrah,ngalih"
-garing,"halodo,teu subur,rampog,katiga"
+ganti,gentos
+garing,"halodo,teu subur"
 garo,"garuk,ngagaro,gagaro"
 garong,"maling,paok,paling"
 gawir,jungkrang
@@ -145,8 +154,8 @@ gering,"nyeri,udur,teu damang"
 gero,"ngageroan,nyalukan,nyambat"
 geter,endeur
 getok,teke
-geugeut,"nyaah,welas,deudeuh"
-geuleuh,"ijid,jiji"
+geugeut,"nyaah,welas"
+geuleuh,ijid
 gigir,gigireun
 goyang,"giteuk,ngagiteuk,geol,ngageol"
 godog,kulub
@@ -154,24 +163,24 @@ gogog,anjing
 gugah,"hudang,lilir"
 haus,"hanaang,halabhab"
 hampas,seupah
-hampura,"punten,hapunten,ampun"
+hampura,"punten,hapunten"
 hareup,payun
 harewos,haharewosan
 harti,hartos
-loba,"haweuk,seueur"
+loba,haweuk
 henteu,moal
 hese,sesah
 hilap,"lali,limpeur,limpeuran,poho"
 hilik,kade
 hoream,males
-huis,"salatu,silalatu"
+huis,salatu
 hujan,"ujan,ngijih"
-hulu,"mastaka,sirah,kapala"
+hulu,"mastaka,sirah"
 huntu,waos
-ibak,"mandi,siram,cebor"
+ibak,"mandi,siram"
 ibing,"igel,ngagitek,tari"
-ical,"leungit,musna"
-ingkab,kelek
+ical,leungit
+ingkab,"kelek,musna"
 irung,pangambung
 iwal,kajabi
 jalma,"jalmi,manusa,jelema"
@@ -187,19 +196,19 @@ jurig,"ririwa,siluman,dedemit,makhluk halus,siluman"
 kabeh,sadayana
 kadek,"sabet,bacok"
 kaen,"lawon,layon"
-kakandungan,"reuneuh,ngandung,ngandeg,bobot"
+kakandungan,"reuneuh,ngandung,ngandeg"
 kalangkang,sawangan
 kalih,oge
 kanggo,"jang,pikeun,paranti,keur,ka,eukeur"
 kangkalung,kongkorong
 katuhu,tengen
-kawih,"langgam,tembang,lagu,hariring"
+kawih,"langgam,tembang,lagu"
 kenca,kiwa
 kentel,"lekoh,liket,keupeul"
 kirang,kurang
 kojor,"maot,paeh,pupus,tilar dunya,modar"
 kolot,"sepuh,jompo"
-koret,"medit,kumed"
+koret,"medit,kumed" 
 kumbah,wasuh
 kumis,rumbah
 kunyuk,"monyet,wanara"
@@ -207,12 +216,14 @@ lahan,"taneuh,tegalan,tegal"
 lain,"sanes,sejen,sejena"
 lajeng,"teras,tuluy,terus"
 lalaki,pameget
+lami,"lawas,lila,heubeul"
 lamot,letak
-lamun,"manawi,sugan,upami,upama,saumpama,ibarat"
+lamun,"manawi,sugan,upami,upama"
 langkung,"leuwih,alabatan,tambah"
 lantaran,"margi,sabab"
 lepat,"teu leres,salah,kaliru"
 leungeun,"panangan,wastapel"
+loba,seueur
 lodaya,"maung,meong"
 lomari,almari
 ludeung,"teuneung,wani"
@@ -222,8 +233,8 @@ mangga,pek
 mimiti,"awit,asal,kawit,kahiji,pangheulana"
 mindeng,"sering,osok,remen"
 mondok,ngendong
-mung,"ngan,wungkul,saukur,tapi,malulu,namun,ukur"
-murag,"ragrag,labuh,batal,geubis"
+mung,"ngan,wungkul,saukur,tapi,malulu,namun"
+murag,"ragrag,labuh,batal"
 naek,"nerekel,numpak"
 nangkring,mejeng
 nangtung,"ngadeg,tatih"
@@ -232,12 +243,12 @@ nene,nini
 ngadegdeg,"ngahodhod,ngageter"
 ngalamun,"ngimpleng,ngahayal"
 ngarasa,rumaos
-ngeunah,"nimat,genah,raos,sedep"
-ngemut,nginget
+ngeunah,"genah,raos,nimat"
+ngemut,"ngimpleng,nginget"
 ngomong,nyarios
 nincak,tincak
 nyaho,"terang,uninga"
-nyaram,"nyarek,ngahulag,nyegah,ngalarang,ngahalang,ngalarang"
+nyaram,"nyarek,ngahulag,nyegah,ngalarang,ngahalang"
 ondang,ulem
 panyawat,"panyakit,kasakit,kasawat"
 parawan,"wanoja,cawene,mojang"
@@ -245,7 +256,7 @@ parin,seren
 pasanggiri,"winojakrama,perlombaan,saembara"
 peuting,wengi
 pengker,tukang
-perkara,"perkawis,masalah,pasualan,sual,soal,hal,perihal,urusan,kasus"
+perkara,"perkawis,masalah,pasualan,sual"
 raheut,tatu
 rahul,"wadul,bohong,gombal"
 rambut,buuk
@@ -255,16 +266,16 @@ regot,nyuruput
 rupa,"rupa-rupa,rupi,rupina,rupi-rupi,aneka ragam,sababaraha,aneka,macem-macem,jenis"
 sampean,"dampal,suku,cokor"
 sampurasun,"punten,hapunten"
-sanggem,"kersa,wantun,sanggup,mampuh,bisa"
+sanggem,"kersa,wantun,sanggup"
 sangka,"sangki,teguh"
 sapalih,sawareh
 saprak,tisaprak
 sebut,"nyebutkeun,nyebatkeun"
 semah,"tamu,tatamu"
-sesa,"nyesakeun,tilas,urut,sesa,potongan,tapak"
-seubeuh,"wareg,mareg"
+sesa,"nyesakeun,tilas,urut"
+seubeuh,wareg
 simpang,"sindang,nyimpang"
-simpe,"jempling,tiiseun,combrek,sepi"
+simpe,"jempling,tiiseun,combrek"
 soak,"reuwas,kaget"
 soweh,sowek
 susukan,"wahangan,walungan,solokan"
@@ -286,43 +297,48 @@ ngabjadkeun,merelekeun aksara
 kulawu,hawuk
 hambur,"boros,olok"
 pangacak,alat pikeun ngacak
-acak-acakan,"pabalatak,balatak"
+acak-acakan,pabalatak
 nyieun acara,ngayakeun acara
 palire,pirosea
 malire,"mirosea,merhatikeun,madulikeun,ngindahkeun"
 adegan,babak
-agul,"sombong,adigung,angkuh,takabur"
+adigung,takabur
 nindak perkara,mutus perkara
 adopsi,mulung
 ngadopsi,mulung anak
 nu ngadopsi,nu mulung
 adres,alamat
 aduh,duh
-ngaduk,"ngagalokeun,ngadukkeun"
+ngaduk,ngagalokeun
+ngadukkeun,ngagalokeun
+sehat,"cageur,damang,jagjag,bersih"
 sigana,"kawasna,teu disangka-sangka,kawasna,rupina,jigana"
 nganut agama,ngagem agama
 sangkan,"supaya,supados,supanten"
+agul,"sombong,adigung,angkuh"
 ngagulkeun,nyombongkeun
 leho,umbel
 cimata,"cisoca,cipanon"
 ajakan,pangajak
 dalit,conggah
-giat,"getol,aktip"
+giat,getol,aktip
 ngaktipkeun,"ngagiatkeun,ngagalakkeun"
 nu ngaaktipkeun,nu ngagiatkeun
 kaaktipan,kagiatan
+kuring,"abdi,dewek"
 satuju,"cocog,mupakat,saluyu,harmonis,pas"
 kacida,"kalintang,pisan,mani"
-alem,"sanjung,muji,ngalem"
+alem,sanjung,muji
 ngalir,ngocor
 ngaliran,ngocoran
 ngalirkeun,ngocorkeun
 Alloh,Pangeran
 almarhum,"jenatna,suargi,jenat"
-aman,"tengtrem,repeh,rapih"
+aman,"tengtrem,repeh rapih"
 amanah,titipan
 amanat,talatah
 paniten,nu nitenan
+cokot,bantun candak
 nyokot,nyandak
 nyokotan,nyandakan
 nyokotkeun,nyandakkeun
@@ -331,17 +347,22 @@ kacokot,kacandak
 rugrug,ambrug
 ngarugrugkeun,ngambrugkeun
 karugrugan,kaambrugan
-lebe,"amil,panghulu"
+lebe,amil
 amit,"idin,widi"
 asmara,"cinta,bogoh"
+ampun+hampura
 nu ngampunan,nu ngahampura
 amunisi,eusi bedil
+anak,putra
+barudak,murangkalih
 ngajuru,"babar,medal,ngalahirkeun"
 oorokan,boneka
 anak tere,putra kawalon
+sia,maneh,anjeun
+lamun,"upama,upami,saumpama,ibarat"
 andel,bisa dipercaya
 andil,bagian
-delman,"dokar,sado"
+delman,dokar,sado
 angen-angen,lamunan
 nganggap,ngareken
 angin,bayu
@@ -368,10 +389,12 @@ hartina,ngandung harti
 laju,aliran
 asa,harepan
 asem,haseum
+asih,deudeuh
 asisten,pangbantu
 asli,"tulen,murni,jati"
-asma,"mengi,bengek"
+asma,mengi,bengek
 istirahat,"ngaso,reureuh,leleson"
+ngeunah,"nimat,genah,raos,sedep"
 asri,"endah,hade"
 kaasrian,kaendahan
 asuh,didik
@@ -380,21 +403,26 @@ abus,"lebet,jero,asup"
 atlet,tukang olahraga
 awam,umum
 jiwa,roh
-ayan,"sakalor,sawan"
+bapa,rama
+ayan,sakalor,sawan
 siksaan,hukuman
 nyiksa,ngahukum
 ajali,papasten
-babad,"sasakala,sajarah"
+babad,sasakala,sajarah
 babi,bagong
+bacok,kadek
 ngabacok,ngadek
 eukeur,"pikeun,keur"
-donto,"denok,bahenol,demplon,geulis"
+bagea,bagja
+donto,"denok,bahenol,demplon"
+baju,acuk
 bakti,baktos
 bandel,bedegong
 bandit,"rampog,begal"
 hudang,"gugah,bangun,nyaring"
 ngahudangkeun,ngabangunkeun
 bantal,anggel
+loba,seueur
 meureun,"manawi,mungkin"
 ngabarengan,nyarengan
 goler,"ngedeng,ngagoler,patinggoletak,ngagoletak"
@@ -407,23 +435,28 @@ kakeueum,"surup,saluyu"
 bengong,olohok
 benjol,buncunur
 sentak,nyentak
+warta,wartos
+gede,ageung
 isuk,isukan
 arip,wijaksana
 bingbing,aping
-ngobrol,"ngawangkong,paguneman"
-gandeng,"baribin,ribut,rame"
+ngobrol,ngawangkong
+gandeng,baribin
+bobot,beurat
 ngabodokeun,ngabeletkeun
 ngabohong,ngawadul
 galak,linghas
 jadi galak, jadi linghas
-buka,"muka,singkab"
+buka,muka
 bukti,buktos
 bungbu,sambara
+reuneuh,"ngandung,ngandeg,reuneuh,bobot"
 soraan,disada
 kaudag,bisa diudag
-cagak,"sirung,cabang"
-cabangan,"ngabogaan cabang,cagakan"
-soeh,"ngangkarawak,soek"
+butuh,peryogi
+cagak,sirung
+cabangan,ngabogaan cabang
+soeh,ngangkarawak
 rawing,rawek
 nyoeh-nyoeh,nyoeknyoek
 kasoehkeun,kasoekkeun
@@ -431,19 +464,24 @@ ngagadabah,ngagunasika
 nyempad,"nyarekan,nyawad,maido"
 cadang,serep
 nyadangkeun,nyerepan
+cagak,cabang
 cadar,kukudung
-cahaya,"cahya,sinar"
-obrolan,"wangkongan,guneman,ocehan"
+cagakan,cabangan
+cahaya,cahya,sinar
+sanggup,mampuh
+ngawangkong,paguneman
+obrolan,wangkongan,guneman
 bawel,cerewed
 calon,bakal
 pecut,cameti
-kaalungkeun,"kapiceun,kabalangkeun"
-campuran,"gabungan,kombinasi"
-nyampur,"pacampur,pagalo"
+alung,"piceun,balang"
+kaalungkeun,kapiceun,kabalangkeun
+campuran,gabungan,kombinasi
+nyampur,pacampur,pagalo
 kacantel,kakait
 cantelan,cacantel
 kacatet,kamuat
-kahontal,"laksana,tinekanan"
+kahontal,laksana,tinekanan
 ngalegleg,ngarebut
 karampas,"karebut,kajabel"
 rangsom,jatah
@@ -451,13 +489,16 @@ cebur,cemplung
 nyebur,ancrub
 nyeburkeun,nyemplungkeun
 kacebur,kacemplung
+raheut,tatu
+nyegah,nyaram,ngalarang,ngahalang
 kacegah,kacaram
-rikat,"tangginas,singer"
+rikat,tangginas,singer
 cekong,legok
-cawad,"hinaan,kritikan,carekan"
+cawad,hinaan,kritikan
 cilaka,sial
 kacilakaan,musibah
 camerong,caremot
+obrolan,ocehan
 kotor,butut
 ngotoran,ngagogoreng
 ngotorkeun,ngaruksak
@@ -466,48 +507,54 @@ kasieunan,kahariwangan
 camerut,"baeud,merengut,baketut"
 kembu,kembung
 katimburuan,kacurigaan
-abar,"cahayaan,moronyoy"
+abar,cahayaan,moronyoy
 cempadan,ngahina
-supa,"suung,jamur"
+supa,suung,jamur
 bulukan,jamuran
+gancang,"geuwat,enggal,cepet"
 sagancangna,saenggalna
 bengras,lenglang
-kapinteran,"kalicikan,kacurangan"
-ceritaan,"omongan,ucapan,ucap"
+kapinteran,kalicikan
+ceritaan,omongan
 taliti,talete
-mikacinta,"mikabogoh,mikadeudeuh"
-tanda,"ciri,wates"
+mikacinta,mikabogoh,mikadeudeuh
+ciri,tanda
 gambaran,wangwangan
-cium,"ambung,sun"
+cium,ambung
 silihcium,pacium-cium
 ngesun,ngambung
 nyiumkeun,ngambungkeun
 kacium,kaambung
 coba,cobi
-nojos,"nusuk,nubles"
-nojoskeun,"nyeumatkeun,nyolokkeun,nubleskeun"
-kacolok,"katojos,katubles"
+nojos,nusuk
+nojoskeun,nyeumatkeun,nyolokkeun
+kacolok,katojos
 nyocol,nyoel
 cocodot,lalay
-maok,"ngabangsat,maling,nyokot"
+kacolok,katojos
+maok,ngabangsat
 kamalingan,kabangsatan
 kalomberan,koco
+coplok,pocot
 mocot,mecat
 ngucur,nyuruluk
 nyeuseuh,ngumbah
-nyeuseuhkeun,"mangnyeuseuhkeun,ngumbahkeun"
+nyeuseuhkeun,mangnyeuseuhkeun,ngumbahkeun
 kaseuseuh,kakumbah
 seuseuheun,kumbaheun
 cukur,paras
 nyukur,maras
+ngan,mung,saukur
 cumah,percumah
 ngamercumahkeun,haratis
-siliholo,"silihoconan,silihrangkul"
+siliholo,silihoconan,silihrangkul
 ngarayu,ngolo
-ngutip,"nyalin,nurun,nulad,nyipuh,narjamahkeun"
+ngutip,nyalin,nurun,nulad
 kutipan,cuplikan
 mahekeun,ngalimpahkeun
 curang,licik
+kacurangan,kalicikan
+maling,maok,nyokot
 kapalingan,kaleungitan
 cuti,perlop
 ngadacinan,ngiloan
@@ -517,7 +564,11 @@ dagingan,aya dagingna
 reuhakan,ngaluarkeun reuhak
 boga dahan,dahanan
 aya dahanan,mimiti sirungan
+taar,tarang
+hebat,rongkah
 karongkahan,kahebatan
+baheula,"bareto,kapungkur"
+pangheulana,mimiti
 kataerkan,bisa ditaekan
 tanjakan,hasil naekan
 dakwa,dawa
@@ -527,13 +578,17 @@ ngadakwakeun,ngadawakeun
 nu didakwa,nu didawa
 nu ngadakwa,nu ngadawa
 dakwaan,dawaan
-asup ka jero,"ngajeroan,nganteubkeun"
+asup ka jero,ngajeroan
 nekunan,meuleuman
+ngajeroan,nganteubkeun
 mikahayang,ngarepkeun
 mangaruhan,ngakibatkeun
+hinaan,carekan
+jeung,sareng
 talaga,situ
 deet,cetek
-meunang,"narima,nampi,kenging,keuna,beunang"
+bisa,mampuh
+meunang,"narima,nampi,kenging"
 pamadegan,buah pamikiran
 sameunangna,saayana
 dapur,pawon
@@ -542,28 +597,34 @@ getihan,ngaluarkeun getih
 darat,lemah
 ngadarat,balabuh
 tina,ti
+ti palih dinya,ti dinya
+ti palih dieu,ti dieun
 pelesir,"nyaba,piknik,pakanci,pere"
 alas,dadasar
-dumasar kana,"nurutkeun,ngagugu"
+dumasar kana,nurutkeun
+datang,"hadir,sumping,aya,namu,dongkap,tepi,dugi,nganjang,nepi"
 ngadatangan,"nganjangan,nyanghareup"
 kadatangan,datangna
 datar,rata
 daunan,boga daun
 kawatan,aya kawatna
-ratug,"raratug,keketegan"
+ratug,"raratug,ratug,keketegan"
 debat,sawala
 lebu,kekebul
 lebuan,ngebul
 pangbakti,pangabdian
 padeukeut,deukeut jeung
 nyampeurkeun,ngadeukeutan
+kitu,saperti kitu
 tetembangan,ngahariring
 ngahariringkeun,"nembangkeun,ngalagukeun"
 kere,dendeng
+jeung,"reujeung,sareng"
 ngadengekeun,ngaregepkeun
 dengki,"sirik,ngadengki"
 nu sirikan,nu dengki
 keteg,"nyed-nyedan,enyud-enyudan"
+hareup,payun
 panghareupna,pangpayunna
 derma,sidekah
 nu berehan,tukang derma
@@ -574,7 +635,9 @@ beungkeut sirah,sorban
 dewasa,sawawa
 panyakit gula,diabetes
 cicing-cicing,"rerencepan,susulumputan"
+damar,"lilin,palita,cempor"
 sideang,siduru
+ngadidik,ngatik
 nu ngadidik,"nu ngatik,guru"
 saeutik,sakedik
 dingding,pipinding
@@ -584,9 +647,11 @@ katiisan,katirisan
 direktris,direktur
 dirgantara,"langit,awang-awang"
 awak,"badan,raga,badan"
+nangtung,ngadeg
 nangtungkeun,"ngadegkeun,ngawangun"
-nyiram,"nyebor,ngabanjur"
+nyiram,nyebor
 tigin,"taat,tuhu kana peraturan"
+wungkul,"ngan,ukur"
 dobel,rangkep dua
 landung,ngoyondon
 tanggah,ngadangheuak
@@ -596,53 +661,65 @@ duaan,paduduaan
 ngadiukkeun,nyalikeun
 ngaduga,"nyangka,ngira-ngara"
 kaduka,bisa disangka
+sedih,susah
 kasedih,kasusah
 lembur,"pakampungan,kampung,desa"
-ngadukung,"ngarojong,ngadeudeul"
+ngadukung,ngarojong
 dukungan,rojongan
+bodo,"tolol,belet"
 duren,kadu
 durjana,jelma jahat
 duta,utusan
 ngabring,ngaleut
 ngurilingkeun,ngideran
 akibat,"pengaruh,ngiringan,miluan"
+egois,hawek
 ngabuntut,nuturkeun
+tilas,"sesa,urut,tilas,potongan,tapak"
 sari,"cipati,inti"
 nyingcet,"nyingkahan,ngahindar"
 heulang,alap-alap
 ngumbara,ngalalana
 baramaen,jajaluk
-ngasuh,"ngaping,ngajaring,ngatik,ngabingbing,ngadidik"
+ngasuh,"ngaping,ngajaring,ngatik,ngabingbing"
 nyempret,ngarengket
-bendungan,"tebat,tambak"
+bendungan,tebat,tambak
 ngagelom,ngolomoh
-ngangkat,"ngaluarkeun,nyadarkeun,nalipak,nyadar,nginsapkeun"
+ngangkat,"ngaluarkeun,nyadarkeun,nalipak"
 arti,"makna,harti"
 hiji,esa
+isuk,isukan
+aki,"abah,embah"
 paedah,"guna,kasiat,mangpaat,gunana"
 palak,palintangan
 palasipah,pilsapat
 hukum islam,patwa
 pileg,salesma
 poto,potret
+rasa kuciwa,reutas
+ribut,gandeng,rame
 riributan,kakacowan
-kuat,"rosa,rongkah,pengkuh,teguh,weduk,baal,hebat,panceg"
+kuat,"rosa,rongkah,pengkuh,teguh,weduk,baal"
 ngagagalkeun,ngabolaykeun
 aga-eugeu,ngatog
 gaib,"goib,sihir,tenung"
 gajih,"buruh,pangasilan"
 riwuh,paciweuh teu puguh
 tetela,"eces,jelas,teges"
+gampang,babari
 gangas,"galak,kejem,bengis,telenges"
-meuweuh,"ngagalaksak,mahabu"
-kali,"lipet,rangkep"
+meuweuh,ngagalaksak,mahabu
+kali,lipet,rangkep
 ngalipetkeun,rangkep-rangkep
 ngaganggu,ngagoda
 gagah,kasep
+ganti,"genti,gentos,pindah,robah,hijrah,ngalih"
 ngagantung,ngagawing
 haransi,jaminan
+ngagarap,migawe
 gurat,garis
 ngagaris,ngagurat
+garing,rampog
 campur,gaul
 gayung,siwur
 rurusuhan,"gagancangan,buru-buru,geuwat,gancang,rusuh"
@@ -650,26 +727,27 @@ tanda-tanda,alammat
 geulang,pinggel
 gideug,godeg
 gogodeg,gigideug
-nyorosot,"nyorodot,lingsir"
+nyorosot,nyorodot,lingsir
 ombak,galura
-karesep,"pangaresep,kabungah"
+karesep,pangaresep
 gemes,geregetan
 kagumbiraan,kabungahan
+ngadegdeg,ngageter
 cicing bae,nagen
-ibur,"gehger,guyur"
+ibur,gehger,guyur
 nyerang,narajang
 jangkep,lengkep
 nyaian,ngeueum
 neregteg,terus-terusan
-akod,"ais,gandong"
-ngakod,"ngais,ngagandong"
-akodan,"aisan,gandongan"
+akod,ais,gandong
+ngakod,ngais,ngagandong
+akodan,aisan,gandongan
 genggem,keupeul
 ngagenggem,ngeupeul
 kagenggem,kakeupeul
 genggeman,keupeulan
-gengsi,martabat
-sieun,"miris,inggis,ngeri,rempan"
+gengsi,"martabat,pinter,calakan,maher,lihay"
+sieun,"miris,inggis,ngeri"
 lengkeh,bahaya
 kenteng,genteng
 obah,"usik,gerak,oyag,goncang"
@@ -689,20 +767,21 @@ ginjel,kabungbuah
 global,sagemblengna
 golok,bedog
 gunta-ganti,guntas-gentos
-gorong-gorong,"hong,saluran cai"
+gorong-gorong,hong,saluran cai
 tatabasa,aturan basa
 grogi,rampang-reumpeung
 grup,kelompok
 kageuing,kahudangkeun
 kaguguran,kaluron
-guna-guna,"pelet,teluh"
+guna-guna,pelet,teluh
 gundu,kaleci
-gundul,"bitak,dugul"
+gundul,bitak,dugul
 ngagundulan,ngabotakan
 kekemu,ngagurah
 oconan,luluconan
 paguron,paguruan
 guruh,"guludug,petir"
+ngabanjur,nyiram
 seep,"beak,ludes"
 nyeepkeun,meakkeun
 seepeun,kabeakan
@@ -729,27 +808,35 @@ kudu,"wajib,misti,kedah"
 ati,hati
 narik,metot
 irit,"gemi,rikrik"
+sepi,tiiseun
 eureun,liren
 heran,"kaget,helok,reeus,kataji"
 hias,paes
 hiasan,"paesan,nisan"
 mere,"nyumbang,mikeun"
+irung,pangambung
 pacabakan,pagawean
 pamisah,"batas,wates"
+leungit,"ical,musna"
 kumpul,kempel
 ngingkah,"ngaleos,nyingkir"
+nepi,dugi
+itung,"etang,wilang"
 itungan,balitungan
 hormat,"ajen,harga,kualitas"
 ngahormat,"ngajenan,ngahargaan"
+sirah,"mastaka,kapala"
 ngalugas,ngacungkeun
 karusuhan,kaributan
 hurup,aksara
 hutang,sambetan
+manehna,anjeunna
 karunya,watir
 ngiket,meungkeut
 ihlas,rido
 ngaihlaskeun,ngaridokeun
 kaihlasan,karidoan
+jangji,ikrar
 milu,ngiring
 ngajakan,mawa
 imam,pamingpin
@@ -757,43 +844,53 @@ iman,"percaya,yakin,pasti"
 jalir,sulaya
 lehoan,umbelan
 suntik,injeksi
-insap,"sadar,eling"
+insap,sadar,eling
+nyadar,nyadarkeun,nginsapkeun
+jelema,"jalma,manusa,jalmi"
 iringan,aleutan
 nyiksik,siksikan
 istana,karato
-jaga,"jagi,engke"
+jadi,janten
+jaga,jagi
 jagad,dunya
 ngaput,ngajait
 kaputan,jaitan
 tukang ngaput,tukang jait
 nyoba,ngajajal
 jalang,bangor
-ngarayap,"ngarambat,ngarembet"
+ngarayap,ngarambat,ngarembet
 nguntun,nganyam
 jam,beker
 nyabak,ngarampa
 kacabak,karampa
 cabakan,rampaan
-jamak,"lumrah,teu aneh,ilahar,biasa,lajim"
-jamban,"kakus,kamar mandi"
+jamak,"lumrah,teu aneh"
+jamban,kakus
+tamu,semah
 ngajamu,nyuguhan
 suungan,supaan
 ngaranda,rarandaan
+rieut,"puyeng,lieur"
 nular,nepa
 katularan,katepaan
 bakal bayi,utun inji
 jalu,jago
 ngarampas,"ngarebut,ngajabel"
 jarang-jarang,carang-carang
+ramo,rema
 jaruman,aya jarumna
+murag,"ragrag,labuh"
 ninggang,ngaragragan
+labuh,geubis
 katinggang,karagragan
+jauh,tebih
 jawab,"tembal,walon"
 jaya,unggul
-ngajebak,"mikat,narik ati"
+ngajebak,mikat
 kajebak,kapikat
 jebakan,pamikat
 hanjeli,sele
+geulis,"denok,demplon"
 jemput,papag
 ngajemput,mapag
 nu ngajemput,nu mapag
@@ -805,6 +902,8 @@ eurad,jiret
 tikusruk,tigebrus
 ngusrukkeun,nyilakakeun
 jidar,garisan
+geuleuh,jiji
+letak,lamot
 jilbab,tiung
 nu ngalilindeuk,pawang
 ngajiplak,"niron,neplak,niru,nyonto,tulad,nurutan,jiplak"
@@ -818,7 +917,7 @@ nu ngajual,nu ngical
 bajuang,bajoang
 juara,meunang
 teleng,deleng
-jumlah,"jumblah,total"
+jumlah,jumblah
 panggih,"tepang,pendak"
 manggihan,nepangan
 kaca,eunteung
@@ -827,8 +926,11 @@ ngaca,ngeunteung
 kadang-kadang,"sakapeung,kalankalan"
 kaget,reuwas
 ngagetkeun,ngarerewas
+lanceuk,raka
 kakatua,ekek
+suku,sampean
 jeger,heuras
+eleh,kawon
 kalajengking,"langgir,babakaur,kalabang"
 kalangan,kaom
 kalap,ngamuk
@@ -836,11 +938,13 @@ kalimah,kecap
 kusut,kacow
 kanceuh,jadi deui
 kerem,titeuleum
+sabab,lantaran,margi
 kasbon,nganjuk
-batur,"sobar,mitra"
+pasualan,kasus
+batur,sobar,mitra
 kakaian,kakayon
 kacambah,toge
-kuciwa,"hanjakal,rasa kuciwa,reutas,handeueul,kaduhung"
+kuciwa,hanjakal
 leutik,"alit,campernik"
 langgeng,"abadi,tetep,angger"
 pasea,"gelut,pasalia,cekcok,pasea,parearea omong"
@@ -848,34 +952,46 @@ kelap-kelip,pating kelip
 kalilipan,kapeureumpeunan
 kaliru,"lepat,salah"
 kumpulan,paguyuban
-ngurus,"miara,ngingon"
+ngurus,miara
+halodo,katiga
+jaga,engke
 ngemut,ngenyot
-kahampangan,"kiih,pipis"
-hajat,"salametan,sukuran"
-gebeng,"gebing,ipis"
-kempit,"capit,dempet"
+keuna,beunang,kenging
+kahampangan,kiih
+hajat,salametan,sukuran
+mareg,seubeuh
+gebeng,gebing,ipis
+kempit,capit,dempet
 peledug,kelun
 meledug,ngelun
+monyet,kunyuk
 kerah,samleh
 karanda,pasaran
 boncel,kate
 karinget,kesang
 kesel,jengkel
 seuseut,keusrak
-nalika,"waktu,saat,mangsa,tempo,wanci,waktos"
-ketua,"kokolot,pinisepuh"
+nalika,"waktu,saat,mangsa,tempo,wanci"
+ketua,kokolot
 has,"husus,istimewa"
+ngahayal,ngalamun
 kijang,uncal
+medit,kumed,koret
 ngalediskeun,"ngaleungitkeun,ngamusnakeun"
+ayeuna,kiwari
 ngipas-ngipas,gegeber
 ngipasan,ngageberan
 kira,kinten
+kenca,kiwa
 komentar,"tanggepan,tapsiran"
 kongkret,"nyata,bukti"
+pasanggiri,"perlombaan,saembara"
 kota,dayeuh
 benteng,rengrengan
 kubur,pemdem
 bangbara,nyiruan
+cepil,ceuli
+kurang,kirang
 kucel,"surem,teu marahmay,pucet,pias,reyem-reyem"
 bati,"untung,munjur"
 ngalacur,ngajual diri
@@ -884,10 +1000,13 @@ huma,"kebon,sawah"
 paripolah,"tingkah,kalakuan,sikep"
 deui,deuih
 medalkeun,"ngababarkeun,nerbitkeun"
+lain,"sejen,sanes"
+bujang,jajaka
 ngabujang,lalajangan
-ngalaksanakeun,"ngalakukeun,milampah,migawe,ngajalankeun,migawe"
+ngalaksanakeun,"ngalakukeun,milampah,migawe"
 geus dipigawe,"geus dilaksanakeun,geus lumangsung"
 taledor,"lalawora,gagabah"
+lila,"heubeul,lami"
 ngalamar,"nanyaan,narosan"
 ngagupayan,ngadadahan
 laun,"lengle,alon,anca"
@@ -901,19 +1020,23 @@ nu dicarek,nu dicaram
 sangsara,"malarat,miskin"
 laris,"payu,pajeng"
 ngabodor,"ngabanyol,ngalucu"
-ngalayanan,"ngaladenan,ngomean"
+ngalayanan,ngaladenan
+ilahar,"lumrah,biasa,lajim"
+leuwih,"langkung,tambah"
 kaleuwihan,kalangkungan
 ngaleuwihan,ngalangkungan
 ajur,leyur
 ngaleyurkeun,"ngancurkeun,ngaremukkeun"
 ngabeledug,ngajegur
 legal,"sah,resmi"
-cape,"lungse,ripuh,parna,lesu,wales"
+cape,"lungse,ripuh,parna,lesu"
 matak cape,nyapekeun
+lemak,gajih
 ngalungkeun,ngabalangkeun
 lengket,rapet
 jerit,koceak
-lisung,"halu,nutu"
+lisung,halu
+nenjo,"neuleu,ningal"
 nenjoan,"ningalian,nenjoan"
 katenjo,"katingal,katempo"
 liontin,gagantel
@@ -921,6 +1044,7 @@ ngalipet,nilep
 tempatan,lokal
 lokasi,tempat
 lokomotip,hulu sepur
+locot,"leupas,coplok"
 lonceng,kereneng
 mudal,leber
 liang,lobang
@@ -934,25 +1058,27 @@ lurah,kapala desa
 tuur,"dengkul,teku"
 macet,magol
 madat,candu
-nyandung,"ngawayuh,poligamipoliandri"
-sembrani,"persani,parasani"
+nyandung,ngawayuh
+sembrani,persani,parasani
 ngaulinkeun,ngahereykeun
 sapaulinan,batur ulin
-kuburan,"astana,makam,pajaratan"
-dikuburkeun,"dikurebekun,dimakamkeun"
+kuburan,astana,makam,pajaratan
+dikuburkeun,dikurebekun,dimakamkeun
 sasarap,mumuluk
 taruang,bancakan
 makbul,dikabul
 ngabulkeun,nedunan
-makelar,"calo,perantara"
+makelar,calo
 ngaharti,ngandung makna
 maksud,maksad
+peuting,wengi
 sapeuting,sawengi
-cilaka,"sial,marabahaya,kacilakaan"
-rarangan,"larangan,memek,kontol,momok,kanjut"
+"cilaka,sial,marabahaya,kacilakaan"
+rarangan,larangan,memek,kontol,momok,kanjut
 gayem,capek
 ngagayem,nyapek
 mancung,bangir
+ibak,mandi,siram
 junub,adus
 ngibakan,ngamandian
 mangkir,teu datang
@@ -963,15 +1089,17 @@ minantuan,boga minantu
 nandaan,mere tanda
 samangsa,sawaktu
 olah,masak
+sual,"perkara,masalah,hal,perihal"
 masih,masing
+hare-hare,napsi-napsi
 panon,soca
 ngintip,ngadodoho
-kapaehan,"kapiuhan,piuh"
+kapaehan,kapiuhan
 medan,"tempat pasamian,lapang,tegal,tegalan"
 megah,"weweg,mewah"
 mekar,"beukah,ngabeukahan,bekeh"
 beunta,teu sare
-teu keuna,"nyalahan,meleset"
+teu keuna,nyalahan
 ngawengku,nyangkup
 nyukupan,nyubadanan
 menak,"priyayi,ningrat"
@@ -988,6 +1116,7 @@ minggu,minggon
 menta,nyungkeun
 minoritas,pangsaeutikna
 barang penta, menta menta
+inum,nginum
 minyak,lisah
 miring,dengdek
 sariga,maririp
@@ -996,21 +1125,24 @@ misalna,contona
 moderat,sinegar tengah
 moderen,maju
 muga-muga,mugia
-bulak-balik,"udar-ider,gudag-gidig"
-moral,"tata krama,etika"
+bulak-balik,udar-ider,gudag-gidig
+moral,tata krama,etika
+ijid,bosen
 sebel,murel
-muadin,tukang adzan
+muadin tukang adzan
 ampuh,"paten,mujarab,matih"
-muncul,"pecenghul,munjul"
+muncul,pecenghul,munjul
 utah,ongkek
 murah,mirah
 bageur,barehan
 ngambekan,ngabenduan
-muslihat,"akal-akalan,reka,perdaya"
+muslihat,akal-akalan,reka,perdaya
+mustajab
 musawarah,"badami,badanten"
 urat,nadi
 napkah,napakah
 naas,"apes,sial"
+ngaran,"wasta,nami"
 kasohor,"kawentar,populer"
 ngantosan,nungguan
 napas,ambekan
@@ -1029,10 +1161,12 @@ teu aktip,nonaktip
 norma,"aturan,tatanan,sistim"
 jero hate,"hate leutik,manah"
 nembang,ngawih
+tembang,"kawih,lagu,hariring"
 juru tembang,juru kawih
 obat,ubar
-ngobatan,"ngubaran,ngalandongan"
+ngobatan,ngubaran,ngalandongan
 oper,ngoper
+sorangan,nyalira
 otak,uteuk
 otot,sungsum
 nyereng,ngotot
@@ -1047,18 +1181,20 @@ ngepak,mungkus
 make,"ngangge,nganggo"
 kapake,"kaangge,kaanggo"
 pakuan,aya pakuna
+nempo,ningali
 patempo-tempo,patingali-tingali
 ngageroankeun,nyaurankeun
 panyaur,panggero
 talinga,nalingakeun
+parna,wales
 parkir,markir
 pasang,"papasangan,masang"
 pasti,"tangtu,tangtos"
 nangtukeun,"nangtoskeun,netepkeun"
 panangtuan,"panangtosan,panetepan"
 katangtuan,"katangtosan,katetepan"
-potong,"peunggas,keureut,penggel,sisit"
-motongkeun,"meunggaskeun,ngeureutkeun"
+potong,"peunggas,keureut,penggel"
+motongkeun,meunggaskeun
 patok,"pancuh,pancang"
 matok,mancuh
 matokkeun,mancuhkeun
@@ -1073,7 +1209,8 @@ matuk,macok
 matukan,macokan
 udunan,mawuran
 pantes,layak
-kacapean,"kasusahan,kahesean"
+dangdan,"dangdos,luis,ngaluis"
+kacapean,kasusahan
 rada asin,hanta
 pinareup,susu
 payung,pajeng
@@ -1095,6 +1232,7 @@ parangi,"tabeat,ahlak,budi pakarti,sipat"
 ngajerit,ngoceak
 sadel kuda,sela
 mencek,peucang
+meleset,teu keuna
 tiseureuleu,tisoledat
 eupan,parab
 ingu,piara
@@ -1113,8 +1251,9 @@ pendem,mendem
 kapendem,"kakubur,katutupan"
 mondokkan,mendekkan
 mondokeun,mendekeun
-motong,"ngeureut,menggel,meuncit,nyisit"
-kapotong,"kapenggel,kakeureut,kasisit"
+motong,"ngeureut,menggel,meuncit"
+kapotong,kapenggel
+panghulu,lebe
 pengki,pungki
 pengkor,"pincang,pinced,cingkud"
 bui,panjara
@@ -1136,79 +1275,107 @@ hal,"sipat,kaayaan"
 bangsa lelembut,jin
 paribasa,paripaos
 pariksa,parios
-mariksa,"marios,nalungtik"
+mariksa,marios
 mariksakeun,marioskeun
 pamariksa,pamarios
 pamariksaan,"pamariosan,rasia"
 perih,pedih
+perkara,"perkawis,masalah,pasualan"
+perlu,peryogi
 kaperluan,kaperyogian
 saperluna,saperyogina
 alketip,karpet
-sarua,"sami,saluyu,saragam,saules"
+sarua,"sami,siga"
 persisi,pas
 pribadi,person
 personalia,kapagawean
+kahiji,mimiti
 gancang pisan,tarik pisan
 pasisir,basisir
-sore,"sonten,burit,sareupna"
+sore,sonten
 mapatahan,nasehatan
+perantara,makelar
+miara,ngingon
 nu miara,pamiara
 pije,"ngurut,meuseul"
+narik ati,mikat
 pikiran,emutan
 ngabagi,misahkeun
 pipilih,palah-pilih
 bogoh,kapincut
+piuh,kapiuhan
 injeum,nginjeum
 pintas,mintas
 sakilas,sapintas
+pipis,kiih
 rematik,encok
 piting,miting
 teko,poci
+juru,pojok
+poliandri,nyandung
+poligami,nyandung
 pulisi,kulisi
 pondok,kobong
 pamondokkan,pameutingan
 mopulerkeun,ngenalkeun
 amburadul,awut-awutan
-potongan,"keureutan,sisitan"
+as,solobong
+motong,ngeureut
+motongkeun,ngeureutkeun
+kapotong,kakeureut
+potongan,keureutan
+potret,poto
 dipotret,dipoto
-rayat,"nagara katut,rahayat,sipil"
+rayat,nagara katut
 pribumi,padumuk asli
+masalah,"urusan,pasualan"
 naek pangkat,promosi
 puas,sugema
 muaskeun,nyugemakeun
 puasa,saum
 publikasi,pengumuman
+pias,pucet
 mucetkeun,miaskeun
 ruruntuk,ruruntuhan
+muji,ngalem
+teunggeul,gebug
+neunggeul,ngagebug
 pateunggeul-teunggeul,pagebug-gebug
 neunggeulan,ngagebugan
 neunggeulkeun,ngagebugkeun
 kateunggeul,kagebug
+teunggeulan,gebugan
 nu neunggeul,"paneunggeul,panggebug"
 pukul,tabuh
 cabak,rampa
 ngarampaan,nyabakan
 lamur,rawun
 nyaragamkeun,nyaruakeun
-bingbang,"asa-asa,mandeg-mayong,cangcaya"
+bingbang,"asa-asa,mandeg-mayong"
 ngabingbangkeun,ngarasa mandeg
 rahayu,"tingtrim,tentrem"
 rahim,pianakan
-rampas,"rebut,jabel"
+rebut,candak
 rakit,getek
+rahayat,rayat
 ngarahayat,ngarayat
 ramal,nujum
 ramat,ngaramat
+tanda,"ciri,wates"
+rambut,buuk
 rambutan,buukan
 rames,ramed
+rampas,"rebut,jabel"
 ngelengkehkeun,ngalangsingkeun
 ngarampog,ngabegal
 rengse,"anggeus,beres"
 raraga,rarencang
 ngarata,jadi rata
+gede,agung
 rayu,wujuk
 genjring,terebang
 leler,rerep
+ngarerep,ngurangan
 manteng,teu kendor
 ngarapet,nempel
 ngarapetkeun,nempelkeun
@@ -1224,14 +1391,16 @@ ngaruntuy,ngantay
 mikir,ngahuleng
 rangu,uduh
 restu,idin
-ngarestuan,ngidinan
+ngarestuan.ngidinan
 rijki,rejeki
+suka,"senang,gumbira"
 ajrih,"rada era,kagok"
 hampang,enteng
 ngahampangkeun,ngentengkeun
 muringis,nyengir
 ngaringkuk,ngarengkol
 ngariwayatkeun,ngagalurkeun
+soek,soeh
 gilinding,kikiping
 roko,udud
 ngaroko,ngudud
@@ -1242,11 +1411,13 @@ rukun,"dalit,akur"
 mangrupa,mirip
 ruksak,resak
 kukulutus,gegelendeng
+rudet,"lieur,puyeng"
 saban,unggal
 saban-saban,unggal-unggal
 sabana,tegal jukut
 beubeur,beulitan
 adu,aben
+nyipuh,"nyalin,narjamahkeun"
 sipuhan,"salinan,tarjamahan"
 panyipuh,nu narjamahkeun
 sap,jajaran
@@ -1255,6 +1426,7 @@ jawaban,tembalan
 saka,tihang
 budug,rodek
 nyeri,kanyenyerian
+kasakit,"panyakit,kasawat,panyawat"
 suci,karamat
 sakaratul maot,sakarat
 saku,pesak
@@ -1264,6 +1436,7 @@ teplak,tiron
 saling,silih
 nyiap,nyusul
 silih siap,pasiap-siap
+sarua,sami
 sami-sami,"babarengan,rampak,sasarengan"
 nyamar,nyaru
 nyamarkeun,nyarukeun
@@ -1282,9 +1455,11 @@ sangkal,bantah
 ngait,"nyangkol,nyangsang,nyantel"
 silih kait,silih cangkol
 ngaitkeun,nyangkolkeun
+sangsi,"asa-asa,cangcaya"
+dahar,tuang
 ngadahar,nuang
 kadaharan,katuangan
-adab,"sopan,susila"
+adab,sopan
 mikarunya,mikanyaah
 tanya,taros
 patanya,pataros
@@ -1294,21 +1469,29 @@ ditanya,ditaros
 salempay,carecet
 sarung,"sarangka,bungkus"
 hijian,pasukan
+saum,puasa
+nyaah,deudeuh
+keureut,sisit
+ngeureut,nyisit
+keureutan,sisitan
+kakeureut,kasisit
 sayur,angeun
 sebar,awur
-nyebar,"nyebarkeun,ngawurkeun,ngawur,nawurkeun"
+nyebar,"ngawur,nawurkeun"
+nyebarkeun,"ngawurkeun,nawurkeun"
 nyebut,nyebat
 kasebut,kasebat
 sedeng,meujeuhna
 sadia,siap
 saeutikna,sakedikna
-sakabeh,"sadaya,sakumna,sarerea,sakuliah"
+sakabeh,sadaya
 segi,"sisi,gigir"
 nepi ka,dugi ka
 seka,usap
 nyeka,ngusap
 nyekaan,ngusapan
 pohara,kacida pisan
+sakumna,sarerea
 sakaligus,"bari,bareng"
 sakongkol,sailon
 ujug-ujug,ngadadak
@@ -1321,40 +1504,62 @@ nganggeuskeun,"ngabereskeun,ngarengsekeun"
 simbut,kampuh
 selap,nyelap
 pasulabreng,pasuliwer
+solokan,susukan
 solobong,borongsong
 nangunjar,nyanghunjar
 kurudung,"tiung,kukudung"
 sangkut-paut,patula-patali
-nyelendep,"nyulundup,nyulusup"
+nyelendep,nyulundup
+sakabeh,sakumna
+nyulusup,nyelendep
 binih,bibit
 semanggi,surawung
+kapaehan,kapiuhan
+malulu,"ngan,wungkul,mung"
 bari,sarta
 mejen,"kabebeng,hese ngising"
 ngadalingding,"meleber,melenghir"
-heureut,"heurin,engap"
+sakuliah,sakabeh
+heureut,heurin
+muga-muga,mugia
+kabeh,sadayana
+kabungah,karesep
 teu lancar,eureun-eureunan
+sorangan,nyalira
 sendok sayur,sinduk
 sedih,"susah,nalangsa"
 ngahaja,dihaja
 lowong,salse
+sore,"burit,sareupna"
 sintreuk,ngeritik
 raharga,ma'mur
+tiiseun,"jempling,combrek"
 imut,mesem
 sepak,tajong
 nyepak,najong
 sapagodos,sapuk
+siga,sapertos
+kokolot,pinisepuh
+saragam,"saules,sarua"
 teu langkung,pasrah
 peura,peuyeuh
+balatak,pabalatak
+sarakah,hawek
 tepas,emper
 rupa-rupa,warna-warni
 sorbet,lap
 soldadu,tantara
 panyered,nu nyered
+milu,ngiring
 ngagero,ngajak
+ngaladenan,ngomean
+hanjakal,"handeueul,kaduhung"
 kasasar,kasarung
+sarua,"akur,saluyu"
 istal,gedongan
 setel,nyetel
 satru,musuh
+satia,tuhu
 istrika,licinan
 ngistrika,ngalicin
 aliran listrik,setrum
@@ -1362,27 +1567,36 @@ sia-sia,"percumah,mubadir"
 apes,"sue,naas"
 beurang-beurang,siang-siang
 kabeurangan,kasiangan
+siap,sadia
 siasat,taktik
 riweuh,"paciweuh,loba gawe"
+nalungtik,mariksa
 tanginas,parigel
 nyigeung,nyiku
 sikep,"tagog,tangtunan"
+sila,diuk
 kaliwat,geus liwat
 silang,cakra
 silsilah,salsilah
 simpen,teundeun
 nyimpen,neundeun
+sinar,cahaya
 buburilakan,gugurilapan
 pangeureunan,panyindangan
 sigeung,toel
+singkab,buka
 nyingkabkeun,mukakeun
 kasingkab,kabuka
 singget,ringkes
 singlet,kaos
 sirik,ngewa
+denok,montok
 miring,sedeng
+sipil,rahayat
 sipit,petet
+uman-imen,era
 keong,"tenggek,tutut"
+siram,cebor
 nyirama,nyeboran
 nyiramkeun,nyeborkeun
 nu nyiram,tukang nyebor
@@ -1392,39 +1606,57 @@ sesep,"selip,selap"
 nyesepkeun,nyelipkeun
 kasisipkeun,kaselipkeun
 sisir,pameres
+situ,talaga
 siwalan,lontar
 skuter,motor
+soal,sual
+soeh,soek
 soda,soldah
+ngarojong,ngadeudeul
 pangrojong,pangdeudeul
+solder,patri
+nyolder,matri
 ngaluis,luas-luis
 ngadangdanan,ngaluisan
 dadakan,sepontan
 stadion,setadion
+tojos,tubles
+juru,pojok
 suhu,guru
 suka teu suka,daek teu daek
 mikaseneng,mikaresep
 sasuka,saseneng
 saresepna,sasenengna
 ngahesekeun,nyusahkeun
+kahesean,kasusahan
+seke,suku
 sumberna,asalna
 sumpah,ucapan
+heurin,eungap
+sun,cium
+walungan,wahangan
+inggis,rempan
 kainggisan,karempan
+sangkan,"supaya,supados"
 surat,serat
 kasurat,kaserat
 langgar,tajug
 kasurupan,kasandingan
 surya,panonpoe
 sus,seus
+susila,sopan
 susun,entep
 nyusun,"ngentep,ngentepan"
 kasusun,kaentep
 susunan,entepan
 panyusun,pangentep
-nyusur,"mapay,nyisig"
+nyusur,mapay
 nyusur-nyusur,mapay-mapay
 susur,sisig
-ngurangan,"ngariut,saat,ngabegangan,ngarerep"
+nyusur,nyisig
+ngurangan,"ngariut,saat,ngabegangan"
 sutradara,pangatur laku
+hidmat,"mulya,agung"
 tabir,hahalang
 tabrak-tubruk,tatabrak
 tabungan,teundeunan
@@ -1439,11 +1671,13 @@ tahap,bagian
 elmu pangaweruh,boga kanyaho
 tajen,"citajen,darih"
 takdir,"papasten,titis-tulis"
+taktik,siasat
 tambah,tambih
 katempona,katingalna
 nempokeun,ningalikeun
 pinton,tembong
-mintonkeun,"nembongkeun,nongtonkeun"
+mintonkeun,nembongkeun
+nyemah,namu
 tanda,"alamat,ciri,ciciren"
 tang,gegep
 tangga,undakan
@@ -1460,6 +1694,7 @@ tatanya,tataros
 nanyakeun,naroskeun
 pertanyaan,panarosan
 imbangan,nu sarua
+tari,"igel,ibing"
 nari,ngigel
 tarian,igelan
 nu nari,nu ngigel
@@ -1469,11 +1704,16 @@ seuri,gumujeng
 seuri gede,barakatak
 seuri leutik,"imut,mesem"
 nawar,nawis
+teguh,panceg
+enteh,teh
+rajin,tekun
 teleg,neleg
 kateleg,keteureuy
 katalanjuran,kapalang
 papanggih,patepang
 manggih,mendak
+tajong,sepak
+najong,nyepak
 katajong,kasepak
 eunteup,"encle,nyengcle"
 lieuk,longok
@@ -1490,6 +1730,7 @@ terbit,medal
 terbitan,pedalan
 gorowok,gerewek
 tarima,tampi
+narima,nampi
 panarima,panampi
 panarimaan,panampian
 neguh,nerka
@@ -1499,6 +1740,7 @@ toropong,keker
 noropong,ngeker
 terus,"tuluy,teras"
 saterusna,saterasna
+paeh,"modar,maot,pupus"
 euweuh,teu aya
 depa,ngadapang
 sadatangna,"sadongkapna,satepina,sadugina"
@@ -1506,6 +1748,7 @@ nguleman,nyarean
 ngulemkeun,nyarekeun
 tumpuk,timbun
 tinggal,linggih
+jangkung,luhur
 panggede,pajabat
 boksen,tinju
 hordeng,kasang
@@ -1513,12 +1756,15 @@ kawalon,tere
 tiruan,tironan
 titip,mihape
 nitipkeun,mihapekeun
+jamban,"kakus,kamar mandi"
 iteuk,teteken
 tonjol,togag
 tongton,lalajo
 tongtonan,lalajoan
+nongtonkeun,mintonkeun
 panongton,nu nongton
 top,puncak
+total,jumlah
 panyalinan,alihbasa
 transparan,"ngalangkan,tembus cahaya"
 trayek,jurusan
@@ -1538,27 +1784,42 @@ tulisan,seratan
 rungkad,roboh
 tuwuhan,tangkal
 tutuwuhan,"pepelakan,tatangkalan"
+nutu,halu
 bahe,tamplok
+tumpes,basmi
 numpes,ngabasmi
 nu numpes,nu ngabasmi
+ngalaksanakeun,ngajalankeun
 pucuk,senggeh
 tungkul,ngeluk
+antos,tunggu
+ngantosan,nungguan
+suku,"sampean,cokor"
 nyangga,nyokong
 panyangga,panyokong
 sanggaan,sokongan
 nuntut,ngagugat
 turun,lungsur
+ngagugu,nurutkeun
 nu ngagugu,nu nurut
 tojos,"tubles,cocog"
+nojos;nubles
+nojoskeun,nubleskeun
+katojos,katubles
+ucapan,omongan
 ngucapkeun,ngomongkeun
 boga duit,gaduh artos
 heuay,angob
 udag,berik
+huis,silalatu
 ubin,tehel
 hurang,udang
+omongan,ucap
+ngomongkeun,ngucapkeun
 ngulang,malikan deui
 milangkala,tepang taun
 mutu,uleg
+umur,yuswa
 undi,lotre
 ngundi,ngalotre
 undian,lotrean
@@ -1577,14 +1838,18 @@ pitamin,vitamin
 wadah,tempat
 wadal,kurban
 banci,wandu
+beungeut,riman,parangi,raray
 katel,kawali
 wajar,saujratna
 wakil,sulur
+waktu,waktos
 sanajan,sanaos
 wargi,warga
 warna,warni
+warta,wartos,kabar,beja,wawaran,berita
 waslap,elap
-waspada,"waspados,ati-ati"
+waspada,waspados,ati-ati
+leungeun,wastapel
 wibawa,komara
 wol,ewol
 jarah,jiarah
