@@ -261,19 +261,22 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
     # Identifikasi kata yang bisa dimodifikasi
     valid_synonym_indices = [i for i, word in enumerate(words) if get_sundanese_synonyms(word, synonyms_dict)]
     valid_number_indices = [i for i, word in enumerate(words) if is_valid_number(word)]
+    valid_pronoun_indices = [i for i, word in enumerate(words) if kelas_dict.get(word, "") == 'pronomina']
 
-    all_valid_indices = valid_synonym_indices + valid_number_indices
+    print(f"Valid Synonym Indices: {valid_synonym_indices}")  # Log untuk memeriksa sinonim
+    print(f"Valid Number Indices: {valid_number_indices}")    # Log untuk memeriksa angka
+    print(f"Valid Pronoun Indices: {valid_pronoun_indices}")  # Log untuk memeriksa pronomina
+
+    all_valid_indices = valid_synonym_indices + valid_number_indices + valid_pronoun_indices
 
     if not all_valid_indices:
-        print("Tidak ada kata yang bisa dimodifikasi.")
-        return [sentence]
+        return [sentence]  # Jika tidak ada kata yang bisa dimodifikasi, kembalikan kalimat asli
 
     num_to_replace = max(1, int(alpha_wr * len(all_valid_indices)))
+    
     remaining_indices = all_valid_indices[:]  # Salin daftar indeks yang bisa dimodifikasi
 
-    total_synonym_replacement = 0
-    total_number_replacement = 0
-
+    # SYNONYM REPLACEMENT (wr)
     if alpha_wr > 0:
         used_synonyms_map = {}
         all_augmented_sentences = []
@@ -283,42 +286,58 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
             modified_indices = []
             synonym_count = 0
             number_count = 0
+            pronoun_count = 0
 
+            print("\n=== Augmentasi Baru ===")
+            print(f"Kalimat awal: {sentence}")
+            print(f"Kalimat: {words}")
+            print(f"Total kata yang bisa dimodifikasi: {len(all_valid_indices)}")
+            print(f"Target modifikasi (num_to_replace): {num_to_replace}")
+            print(f"Indeks terpilih: {selected_indices}")
+
+            # Lakukan augmentasi untuk setiap indeks yang dipilih
             for idx in selected_indices:
                 original_word = words[idx]
                 if idx in valid_synonym_indices:
                     new_words[idx] = get_unique_synonym(original_word, synonyms_dict, used_synonyms_map)
                     synonym_count += 1
+                    print(f"Sinonim: '{original_word}' -> '{new_words[idx]}'")
+                elif idx in valid_pronoun_indices:
+                    new_words, pronoun_mod = pronouns_replacement(new_words, kelas_dict, pronouns_category, category_to_word)
+                    modified_indices.extend(pronoun_mod)
+                    pronoun_count += len(pronoun_mod)
+                    for i in pronoun_mod:
+                        print(f"Pronomina: '{words[i]}' -> '{new_words[i]}'")
                 elif idx in valid_number_indices:
                     new_words, num_mod = number_replacement(new_words)
+                    modified_indices.extend(num_mod)
                     number_count += len(num_mod)
-
-            total_synonym_replacement += synonym_count
-            total_number_replacement += number_count
 
             modified_indices.append(idx)
             all_augmented_sentences.append(' '.join(new_words))
+
+            print(f"Jumlah total kata yang diubah: {len(modified_indices)}")
+            print(f"Jumlah yang diubah dengan sinonim: {synonym_count}")
+            print(f"Jumlah angka yang diubah: {number_count}")
+            print(f"Jumlah pronomina yang diubah: {pronoun_count}")
+            print(f"Hasil augmentasi: {all_augmented_sentences}")
+
             remaining_indices = [idx for idx in remaining_indices if idx not in modified_indices]
 
-        # Setelah proses synonym replacement dan number replacement, lanjutkan dengan pronouns replacement
+        # Sekarang untuk setiap kalimat yang dihasilkan oleh sinonim, lakukan pronouns_replacement
+        final_augmented_sentences = []
         for augmented_sentence in all_augmented_sentences:
-            # Split kalimat menjadi kata-kata
-            augmented_words = augmented_sentence.split(' ')
-            # Panggil pronouns_replacement untuk mengganti pronomina
-            augmented_words, _ = pronouns_replacement(augmented_words, kelas_dict, pronouns_category, category_to_word)
-            # Tambahkan kalimat yang sudah dimodifikasi ke dalam hasil
-            augmented_sentences.append(' '.join(augmented_words))
+            new_words = augmented_sentence.split(' ')
+            new_words, pronoun_mod = pronouns_replacement(new_words, kelas_dict, pronouns_category, category_to_word)
+            for i in pronoun_mod:
+                print(f"Pronomina setelah augmentasi ulang: '{augmented_sentence.split(' ')[i]}' -> '{new_words[i]}'")
+            final_augmented_sentences.append(' '.join(new_words))
 
-        augmented_sentences.insert(0, sentence)
-
-        # Ringkasan augmentasi
-        print(f"Jumlah kalimat hasil augmentasi: {len(augmented_sentences) - 1}")
-        print(f"Total synonym_replacement: {total_synonym_replacement}")
-        print(f"Total number_replacement: {total_number_replacement}")
-
+        augmented_sentences = final_augmented_sentences
+        augmented_sentences.insert(0, sentence)  # Menambahkan kalimat asli ke dalam augmented_sentences
         return augmented_sentences
 
-    # Word Deletion (wd)
+    # WORD DELETION (wd)
     if alpha_wd > 0:
         adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
         num_to_delete = min(len(adverbia_words), max(1, int(round(alpha_wd * len(words)))))
@@ -326,6 +345,11 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
         if a_words:
             augmented_sentences.append(' '.join(a_words))
         return augmented_sentences if augmented_sentences else [sentence]
+
+    augmented_sentences = [sentence for sentence in augmented_sentences]
+    shuffle(augmented_sentences)
+
+    return augmented_sentences
 
     # # word insertion (wi)
     # if alpha_wi > 0:

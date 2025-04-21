@@ -1,4 +1,4 @@
-from eda import synonyms_dict, kelas_kata, pronouns_dict, eda
+from eda import synonyms_dict, kelas_kata, pronouns_category, category_to_word, eda
 import argparse
 
 # Arguments to be parsed from command line
@@ -56,7 +56,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
         sentence = parts[1]
 
         if alpha_wr > 0:    
-            synonym_sentences = eda(sentence, synonyms_dict, kelas_kata, pronouns_dict, alpha_wr=alpha_wr, alpha_wd=0, alpha_wi=0)
+            synonym_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=alpha_wr, alpha_wd=0, alpha_wi=0)
             # Simpan hasil synonym replacement ke file tersendiri
             for aug_sentence in synonym_sentences:
                 if isinstance(aug_sentence, str) and aug_sentence not in unique_synonyms:
@@ -67,7 +67,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
             deletion_sentences = None
             if deletion_sentences is None: 
                 deletion_sentences = []
-            deletion_sentences = eda(sentence, synonyms_dict, kelas_kata, pronouns_dict, alpha_wr=0, alpha_wd=alpha_wd, alpha_wi=0)
+            deletion_sentences = eda(sentence, synonyms_dict, kelas_kata, pronouns_category, category_to_word, alpha_wr=0, alpha_wd=alpha_wd, alpha_wi=0)
             if deletion_sentences is None:  #pastikan yang dari eda bukan none
                 deletion_sentences = []
             # Simpan hasil deletion ke file tersendiri
@@ -78,7 +78,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
                     unique_deletions.add(aug_sentence)
 
         if alpha_wi > 0:
-            insertion_sentences = eda(sentence, synonyms_dict, kelas_kata, pronouns_dict, alpha_wr=0, p_wd=0, alpha_wi=alpha_wi)
+            insertion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, p_wd=0, alpha_wi=alpha_wi)
             for aug_sentence in insertion_sentences:
                 if isinstance(aug_sentence, list):  # Jika hasilnya list kata, gabungkan menjadi kalimat
                     aug_sentence = " ".join(aug_sentence)  
