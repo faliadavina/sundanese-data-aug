@@ -306,83 +306,58 @@ def word_deletion(words, kelas_kata_dict, num_to_delete):
 	return new_words
 
 def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
-    # Preprocessing kalimat (cleaning)
     sentence = get_only_chars(sentence)
-    words = sentence.split(' ')
-    words = [word for word in words if word != '']  # Menghapus kata kosong
-    num_words = len(words)
+    words = sentence.split()
+    words = [word for word in words if word]
+
     augmented_sentences = []
+    original_sentence = ' '.join(words)
 
-    # Identifikasi kata yang bisa dimodifikasi
-    valid_synonym_indices = [i for i, word in enumerate(words) if get_sundanese_synonyms(word, synonyms_dict)]
-    valid_number_indices = [i for i, word in enumerate(words) if is_valid_number(word)]
-
-    all_valid_indices = valid_synonym_indices + valid_number_indices
-
-    if not all_valid_indices:
-        return [sentence]
-
-    num_to_replace = max(1, int(alpha_wr * len(all_valid_indices)))
-    remaining_indices = all_valid_indices[:]  # Salin daftar indeks yang bisa dimodifikasi
-
-    total_synonym_replacement = 0
-    total_number_replacement = 0
-
+    # ======== Word Replacement (WR) ========
     if alpha_wr > 0:
-        used_synonyms_map = {}
-        all_augmented_sentences = []
-        while remaining_indices:
-            selected_indices = random.sample(remaining_indices, min(num_to_replace, len(remaining_indices)))
-            new_words = words[:]
-            modified_indices = []
-            synonym_count = 0
-            number_count = 0
+        valid_synonym_indices = [i for i, word in enumerate(words) if get_sundanese_synonyms(word, synonyms_dict)]
+        valid_number_indices = [i for i, word in enumerate(words) if is_valid_number(word)]
+        all_valid_indices = valid_synonym_indices + valid_number_indices
 
-            for idx in selected_indices:
-                original_word = words[idx]
-                if idx in valid_synonym_indices:
-                    new_words[idx] = get_unique_synonym(original_word, synonyms_dict, used_synonyms_map)
-                    synonym_count += 1
-                elif idx in valid_number_indices:
-                    new_words, num_mod = number_replacement(new_words)
-                    number_count += len(num_mod)
+        if all_valid_indices:
+            num_to_replace = max(1, int(alpha_wr * len(all_valid_indices)))
+            used_synonyms_map = {}
+            remaining_indices = all_valid_indices[:]
 
-            total_synonym_replacement += synonym_count
-            total_number_replacement += number_count
+            # Kumpulkan hasil synonym replacement (plus number replacement) dulu
+            while remaining_indices:
+                selected_indices = random.sample(remaining_indices, min(num_to_replace, len(remaining_indices)))
+                new_words = words[:]
+                for idx in selected_indices:
+                    if idx in valid_synonym_indices:
+                        new_words[idx] = get_unique_synonym(words[idx], synonyms_dict, used_synonyms_map)
+                    elif idx in valid_number_indices:
+                        new_words, _ = number_replacement(new_words)
+                augmented_sentences.append(' '.join(new_words))
+                remaining_indices = [i for i in remaining_indices if i not in selected_indices]
 
-            modified_indices.append(idx)
-            all_augmented_sentences.append(' '.join(new_words))
-            remaining_indices = [idx for idx in remaining_indices if idx not in modified_indices]
+            # Setelah semua WR selesai, baru apply pronomina ke hasil2 WR tadi (tanpa nambah kalimat baru)
+            for i in range(len(augmented_sentences)):
+                temp_words = augmented_sentences[i].split(' ')
+                temp_words, _ = pronouns_replacement(temp_words, kelas_dict, pronouns_category, category_to_word)
+                augmented_sentences[i] = ' '.join(temp_words)
 
-        # Setelah proses synonym replacement dan number replacement, lanjutkan dengan pronouns replacement
-        for augmented_sentence in all_augmented_sentences:
-            # Split kalimat menjadi kata-kata
-            augmented_words = augmented_sentence.split(' ')
-            # Panggil pronouns_replacement untuk mengganti pronomina
-            augmented_words, _ = pronouns_replacement(augmented_words, kelas_dict, pronouns_category, category_to_word)
-            # Tambahkan kalimat yang sudah dimodifikasi ke dalam hasil
-            augmented_sentences.append(' '.join(augmented_words))
+            print(f"Hasil WR (synonym + number + pronoun): {len(augmented_sentences)}")
+        else:
+            print("Tidak ada kata yang bisa dimodifikasi untuk WR.")
 
-        augmented_sentences.insert(0, sentence)
 
-        # Ringkasan augmentasi
-        print(f"Jumlah kalimat hasil augmentasi: {len(augmented_sentences) - 1}")
-        print(f"Total synonym_replacement: {total_synonym_replacement}")
-        print(f"Total number_replacement: {total_number_replacement}")
-
-        return augmented_sentences
-
-    # Word Deletion (wd)
+    # ======== Word Deletion (WD) ========
     if alpha_wd > 0:
         sentence = get_only_chars(sentence)
         adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
         num_to_delete = min(len(adverbia_words), max(1, int(round(alpha_wd * len(words)))))
-        a_words = word_deletion(words, kelas_dict, num_to_delete)
-        if a_words:
-            augmented_sentences.append(' '.join(a_words))
-        return augmented_sentences if augmented_sentences else [sentence]
+        deleted_words = word_deletion(words, kelas_dict, num_to_delete)
+        if deleted_words:
+            augmented_sentences.append(' '.join(deleted_words))
 
-    # word insertion (wi)
+
+    # ======== Word Insertion (wi) ========
     if alpha_wi > 0:
         adj_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'adjektiva']
         verb_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'verba']
@@ -410,5 +385,5 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
 
         augmented_sentences.append(' '.join(new_words))
         
-        return augmented_sentences if augmented_sentences else [sentence]
-
+    # ======== Return ========
+    return [original_sentence] + augmented_sentences if augmented_sentences else [original_sentence]

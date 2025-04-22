@@ -74,7 +74,6 @@ ditu	pronomina_demonstratif
 salaku	pronomina_demonstratif
 sorangan	pronomina_demonstratif
 dieu	pronomina_demonstratif
-di dia	pronomina_demonstratif
 di dieu	pronomina_demonstratif
 di dinya	pronomina_demonstratif
 di ditu	pronomina_demonstratif

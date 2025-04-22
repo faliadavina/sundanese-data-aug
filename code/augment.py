@@ -74,7 +74,6 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
             for aug_sentence in deletion_sentences:
                 if aug_sentence not in unique_deletions:
                     writer_deletion.write(label + "\t" + aug_sentence + "\n")
-                    
                     unique_deletions.add(aug_sentence)
 
         if alpha_wi > 0:
@@ -84,7 +83,6 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
                     aug_sentence = " ".join(aug_sentence)  
                 if aug_sentence not in unique_insertions:
                     writer_insertion.write(label + "\t" + aug_sentence + "\n")  # Simpan hasil augmentasi
-                    writer_insertion.write(label + "\t" + sentence + "\n")  # Simpan kalimat asli sebagai referensi
                     unique_insertions.add(aug_sentence)  # Tambahkan kalimat ke set unik
 
 
