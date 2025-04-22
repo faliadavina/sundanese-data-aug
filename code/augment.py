@@ -67,14 +67,13 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
             deletion_sentences = None
             if deletion_sentences is None: 
                 deletion_sentences = []
-            deletion_sentences = eda(sentence, synonyms_dict, kelas_kata, pronouns_category, category_to_word, alpha_wr=0, alpha_wd=alpha_wd, alpha_wi=0)
+            deletion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=alpha_wd, alpha_wi=0)
             if deletion_sentences is None:  #pastikan yang dari eda bukan none
                 deletion_sentences = []
             # Simpan hasil deletion ke file tersendiri
             for aug_sentence in deletion_sentences:
                 if aug_sentence not in unique_deletions:
                     writer_deletion.write(label + "\t" + aug_sentence + "\n")
-                    writer_deletion.write(label + "\t" + sentence + "\n")
                     unique_deletions.add(aug_sentence)
 
         if alpha_wi > 0:
@@ -84,7 +83,6 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
                     aug_sentence = " ".join(aug_sentence)  
                 if aug_sentence not in unique_insertions:
                     writer_insertion.write(label + "\t" + aug_sentence + "\n")  # Simpan hasil augmentasi
-                    writer_insertion.write(label + "\t" + sentence + "\n")  # Simpan kalimat asli sebagai referensi
                     unique_insertions.add(aug_sentence)  # Tambahkan kalimat ke set unik
 
 
