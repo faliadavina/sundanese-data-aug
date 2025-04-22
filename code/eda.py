@@ -374,6 +374,7 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
 
     # Word Deletion (wd)
     if alpha_wd > 0:
+        sentence = get_only_chars(sentence)
         adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
         num_to_delete = min(len(adverbia_words), max(1, int(round(alpha_wd * len(words)))))
         a_words = word_deletion(words, kelas_dict, num_to_delete)

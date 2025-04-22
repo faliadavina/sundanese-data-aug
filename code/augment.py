@@ -74,7 +74,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
             for aug_sentence in deletion_sentences:
                 if aug_sentence not in unique_deletions:
                     writer_deletion.write(label + "\t" + aug_sentence + "\n")
-                    writer_deletion.write(label + "\t" + sentence + "\n")
+                    
                     unique_deletions.add(aug_sentence)
 
         if alpha_wi > 0:
