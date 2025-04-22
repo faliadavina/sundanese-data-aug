@@ -226,6 +226,61 @@ def is_valid_number(word):
             return True, 'ribuan'
     return False, None
 
+# ----------------------------------------- #
+#											#
+#              WORD INSERTION 	     		#
+#											# 
+# ----------------------------------------- # 
+def add_word(new_words, selected_indices, kelas_kata):
+    print(f"\n--- Starting add_word ---")
+    for idx in sorted(selected_indices):
+        word = new_words[idx]
+        kelas = get_kelas_kata(word, kelas_kata)
+
+        if kelas == "adjektiva":
+            rule = random.choice(["a", "b", "c"])
+            print(f"\n[INDEX: {idx}] Word: '{word}', Class: {kelas}, Rule chosen: {rule}")
+
+            if rule == "a":
+                if idx > 0 and new_words[idx - 1] in ["kacida", "leuwih", "mani"]:
+                    print("  -> Skipped (rule a): emphatic word already before.")
+                    continue
+                emph_word = random.choice(["kacida", "leuwih", "mani"])
+                new_words.insert(idx, emph_word)
+                print(f"  -> Inserted before: '{emph_word}'")
+
+            elif rule == "b":
+                if idx < len(new_words) - 1 and new_words[idx + 1] in ["pisan", "teuing"]:
+                    print("  -> Skipped (rule b): emphatic word already after.")
+                    continue
+                emph_word = random.choice(["pisan", "teuing"])
+                new_words.insert(idx + 1, emph_word)
+                print(f"  -> Inserted after: '{emph_word}'")
+
+            elif rule == "c":
+                pohara_phrase = f"pohara {word}na"
+                new_words[idx] = pohara_phrase
+                print(f"  -> Replaced with: '{pohara_phrase}'")
+
+        elif kelas == "verba":
+            rule = "d"
+            print(f"\n[INDEX: {idx}] Word: '{word}', Class: {kelas}, Rule applied: {rule}")
+            
+            if idx > 0 and new_words[idx - 1] == "bari":
+                print("  -> Skipped (rule d): 'bari' already exists before.")
+                continue
+            new_words.insert(idx, "bari")
+            print(f"  -> Inserted 'bari' before '{word}'")
+
+    print(f"\nFinal sentence after add_word: {' '.join(new_words)}")
+    return new_words
+
+def word_insertion(words, selected_indices, kelas_kata):
+    print(f"\nOriginal words: {' '.join(words)}")
+    new_words = words.copy()
+    new_words = add_word(new_words, selected_indices, kelas_kata)
+    print(f"After word_insertion: {' '.join(new_words)}\n")
+    return new_words
 
 # ----------------------------------------- #
 #											#
@@ -291,6 +346,7 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
         else:
             print("Tidak ada kata yang bisa dimodifikasi untuk WR.")
 
+
     # ======== Word Deletion (WD) ========
     if alpha_wd > 0:
         adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
@@ -299,5 +355,34 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
         if deleted_words:
             augmented_sentences.append(' '.join(deleted_words))
 
+
+    # ======== Word Insertion (wi) ========
+    if alpha_wi > 0:
+        adj_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'adjektiva']
+        verb_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'verba']
+        total_candidates = adj_indices + verb_indices
+
+        print(f"Adjektiva indices: {adj_indices}")
+        print(f"Verba indices: {verb_indices}")
+        print(f"Total candidates for word insertion: {total_candidates}")
+
+        if not total_candidates:
+            print("No candidate words found for insertion.")
+            return [sentence]
+
+        n_wi = max(1, int(round(alpha_wi * len(total_candidates))))
+        print(f"Number of words to insert (n_wi): {n_wi}")
+
+        selected_indices = random.sample(total_candidates, min(n_wi, len(total_candidates)))
+        print(f"Selected indices for insertion: {selected_indices}")
+
+        new_words = words.copy()
+        print(f"Original sentence: {' '.join(new_words)}")
+
+        new_words = add_word(new_words, selected_indices, kelas_dict)
+        print(f"Augmented sentence: {' '.join(new_words)}")
+
+        augmented_sentences.append(' '.join(new_words))
+        
     # ======== Return ========
     return [original_sentence] + augmented_sentences if augmented_sentences else [original_sentence]

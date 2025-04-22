@@ -77,7 +77,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
                     unique_deletions.add(aug_sentence)
 
         if alpha_wi > 0:
-            insertion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, p_wd=0, alpha_wi=alpha_wi)
+            insertion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=0, alpha_wi=alpha_wi)
             for aug_sentence in insertion_sentences:
                 if isinstance(aug_sentence, list):  # Jika hasilnya list kata, gabungkan menjadi kalimat
                     aug_sentence = " ".join(aug_sentence)  
