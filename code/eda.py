@@ -305,7 +305,104 @@ def word_deletion(words, kelas_kata_dict, num_to_delete):
 	
 	return new_words
 
-def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
+# ----------------------------------------- #
+#											#
+#              WORD MOVEMENT 	     		#
+#											# 
+# ----------------------------------------- # 
+def load_adverbia(filepath):
+    time_adverb = []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        time_adverb = [line.strip().lower() for line in f if line.strip()]
+    return time_adverb
+
+file_path_adverbia = 'data/kamus/adverbia.txt'
+time_adverb = load_adverbia(file_path_adverbia)
+
+pronomina = [k for k, v in kelas_kata.items() if v == 'pronomina']
+admin_keywords = {"kota", "kabupaten", "desa", "provinasi", "kecamatan", "kelurahan", "negara", "alam"}
+
+def get_position(sentence, phrase):
+    if sentence.startswith(phrase):
+        return "awal"
+    elif sentence.endswith(phrase):
+        return "akhir"
+    else:
+        return "tengah"
+
+def find_adverbia(sentence):
+    tokens = sentence.lower().split()
+    time_adverbials = []
+    place_adverbials = []
+
+    for i in range(len(tokens)):
+        for j in range(1,4):
+            multi_word = ' '.join(tokens[i:i+j])
+            if multi_word in time_adverb:
+                time_adverbials.append((multi_word, get_position(sentence, multi_word)))
+
+    for i in range(len(tokens)):
+        if tokens[i] in ["di", "ka", "ti"]:
+            if i+1 < len(tokens) and tokens[i+1] in admin_keywords:
+                for j in range(2, 4):
+                    end = i + j
+                    if end <= len(tokens):
+                        phrase = ' '.join(tokens[i:end])
+                        place_tokens = tokens[i+1:end]
+                        place_adverbials.append((phrase, get_position(sentence, phrase)))
+            
+            for j in range(1, 4):
+                end = i + j + 1
+                if end <= len(tokens):
+                    phrase = ' '.join(tokens[i:end])
+                    place_tokens = tokens[i+1:end]
+                    if place_tokens and all(w in kelas_kata and kelas_kata[w] in ["nomina", "adjektiva"] for w in place_tokens):
+                        place_adverbials.append((phrase, get_position(sentence, phrase)))
+
+    return time_adverbials, place_adverbials
+
+def word_movement(sentence, adverbials_to_move):
+    if not adverbials_to_move:
+        return sentence
+    
+    tokens = sentence.strip().split()
+    word_of_pronouns = [i for i, t in enumerate(tokens) if t.lower() in pronomina]
+    subject_idx = word_of_pronouns[0] if word_of_pronouns else 0
+
+    if word_of_pronouns:
+         print(f"[WM] Found subject: '{tokens[subject_idx]}' at index {subject_idx}")
+    else:
+        print("[WM] No subject found, using index 0 as default.")
+
+    for phrase, first_position in adverbials_to_move:
+        tokens_phrase = phrase.split()
+        len_phrase = len(tokens_phrase)
+
+        for i in range(len(tokens) - len_phrase + 1):
+            if tokens[i:i + len_phrase] == tokens_phrase:
+                tokens = tokens[:i] + tokens[i + len_phrase:]
+                break
+        
+        position = ["awal", "tengah", "akhir"]
+        if first_position in position:
+            position.remove(first_position)
+        new_position = random.choice(position)
+
+        if new_position == "awal":
+            tokens = tokens_phrase + tokens
+        elif new_position == "tengah":
+            pred_idx = next((i for i in range(subject_idx + 1, len(tokens)) if get_kelas_kata(tokens[i], kelas_kata) == "verba"), None)
+            if pred_idx and pred_idx > subject_idx:
+                insert_pos = subject_idx + 1
+            else:
+                insert_pos = len(tokens)
+            tokens = tokens[:insert_pos] + tokens_phrase + tokens[insert_pos:]
+        elif new_position == "akhir":
+            tokens = tokens + tokens_phrase
+
+    return ' '.join(tokens)
+
+def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha_wm):
     sentence = get_only_chars(sentence)
     words = sentence.split()
     words = [word for word in words if word]
@@ -385,5 +482,26 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi):
 
         augmented_sentences.append(' '.join(new_words))
         
+
+    # ======== Word Movement (wm) ========
+    if alpha_wm > 0: 
+        print(f"\n>>> [WM] Processing sentence: '{original_sentence}'")
+        time_adverb, place_adverb = find_adverbia(original_sentence)
+        
+        print(f"[WM] Detected time adverbials: {time_adverb}")
+        print(f"[WM] Detected place adverbials: {place_adverb}")
+        
+        all_adverbials = time_adverb + place_adverb
+        
+        if all_adverbials:
+            n_move = max(1, round(alpha_wm * len(all_adverbials)))
+            selected_adverbials = random.sample(all_adverbials, min(n_move, len(all_adverbials)))
+            print(f"Selected adverbials for movement: {selected_adverbials}")
+            moved_sentence = word_movement(original_sentence, selected_adverbials)
+            print(f"[WM] Moved sentence: '{moved_sentence}'\n")
+            augmented_sentences.append(moved_sentence)
+        else: 
+            print("[WM] No adverbials found for movement.")
+
     # ======== Return ========
     return [original_sentence] + augmented_sentences if augmented_sentences else [original_sentence]

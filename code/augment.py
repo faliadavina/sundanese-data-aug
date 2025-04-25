@@ -7,40 +7,42 @@ ap.add_argument("--input", required=True, type=str, help="input file of unaugmen
 ap.add_argument("--output_wr", required=False, type=str, help="output file of augmented data")
 ap.add_argument("--output_wd", required=False, type=str, help="output file of augmented data")
 ap.add_argument("--output_wi", required=False, type=str, help="output file of augmented data")
+ap.add_argument("--output_wm", required=False, type=str, help="output file of augmented data")
 ap.add_argument("--alpha_wr", required=False, type=float, help="percent of words in each sentence to be replaced by synonyms")
 ap.add_argument("--alpha_wd", required=False, type=float, help="percent of words in each sentence to be deleted")
 ap.add_argument("--alpha_wi", required=False, type=float, help="percent of words in each sentence to be inserted")
-ap.add_argument("--alpha_ws", required=False, type=float, help="percent of words in each sentence to be swapped")
+ap.add_argument("--alpha_wm", required=False, type=float, help="percent of words in each sentence to be moved")
 args = ap.parse_args()
 
 # Default output file names if not provided
 output_wr = args.output_wr if args.output_wr else args.input.replace('.csv', '_augmented_2.csv')
 output_wd = args.output_wd if args.output_wd else args.input.replace('.csv', '_augmented_2.csv')
 output_wi = args.output_wi if args.output_wi else args.input.replace('.csv', '_augmented_2.csv')
+output_wm = args.output_wm if args.output_wm else args.input.replace('.csv', '_augmented_2.csv')
 
 # Augmetation rates
 alpha_wr = args.alpha_wr if args.alpha_wr is not None else 0
 alpha_wd = args.alpha_wd if args.alpha_wd is not None else 0
 alpha_wi = args.alpha_wi if args.alpha_wi is not None else 0
-
-#how much to swap words
-alpha_ws = args.alpha_ws if args.alpha_ws is not None else 0
+alpha_wm = args.alpha_wm if args.alpha_wm is not None else 0
     
-if alpha_wd == 0 and alpha_wi == 0 and alpha_wr == 0 and alpha_ws == 0:
+if alpha_wd == 0 and alpha_wi == 0 and alpha_wr == 0 and alpha_wm == 0:
     ap.error('At least one alpha should be greater than zero')
 
 # Generate more data with standard augmentation
-def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha_wr, alpha_wd, alpha_wi):
+def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, output_movement, alpha_wr, alpha_wd, alpha_wi, alpha_wm):
     # unique_sentences = set()
     # writer = open(output_file, 'w', encoding='utf-8')
     unique_synonyms = set()
     unique_deletions = set()
     unique_insertions = set()
+    unique_movements = set()
     # unique_pronouns = set()
 
     writer_synonym = open(output_synonym, 'w', encoding='utf-8') if alpha_wr > 0 else None
     writer_deletion = open(output_deletion, 'w', encoding='utf-8') if alpha_wd > 0 else None
     writer_insertion = open(output_insertion, 'w', encoding='utf-8') if alpha_wi > 0 else None
+    writer_movement = open(output_movement, 'w', encoding='utf-8') if alpha_wm > 0 else None
     # writer_pronoun = open(output_pronoun, 'w', encoding='utf-8')
 
     with open(train_orig, 'r', encoding='utf-8') as f:  # specify encoding='utf-8' here
@@ -56,7 +58,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
         sentence = parts[1]
 
         if alpha_wr > 0:    
-            synonym_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=alpha_wr, alpha_wd=0, alpha_wi=0)
+            synonym_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=alpha_wr, alpha_wd=0, alpha_wi=0, alpha_wm=0)
             # Simpan hasil synonym replacement ke file tersendiri
             for aug_sentence in synonym_sentences:
                 if isinstance(aug_sentence, str) and aug_sentence not in unique_synonyms:
@@ -67,7 +69,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
             deletion_sentences = None
             if deletion_sentences is None: 
                 deletion_sentences = []
-            deletion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=alpha_wd, alpha_wi=0)
+            deletion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=alpha_wd, alpha_wi=0, alpha_wm=0)
             if deletion_sentences is None:  #pastikan yang dari eda bukan none
                 deletion_sentences = []
             # Simpan hasil deletion ke file tersendiri
@@ -77,7 +79,7 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
                     unique_deletions.add(aug_sentence)
 
         if alpha_wi > 0:
-            insertion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=0, alpha_wi=alpha_wi)
+            insertion_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=0, alpha_wi=alpha_wi, alpha_wm=0)
             for aug_sentence in insertion_sentences:
                 if isinstance(aug_sentence, list):  # Jika hasilnya list kata, gabungkan menjadi kalimat
                     aug_sentence = " ".join(aug_sentence)  
@@ -85,7 +87,12 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
                     writer_insertion.write(label + "\t" + aug_sentence + "\n")  # Simpan hasil augmentasi
                     unique_insertions.add(aug_sentence)  # Tambahkan kalimat ke set unik
 
-
+        if alpha_wm > 0:
+            movement_sentences = eda(sentence, synonyms_dict, kelas_kata, alpha_wr=0, alpha_wd=0, alpha_wi=0, alpha_wm=alpha_wm)
+            for aug_sentence in movement_sentences:
+                if aug_sentence not in unique_movements:
+                    writer_movement.write(label + "\t" + aug_sentence + "\n")
+                    unique_movements.add(aug_sentence)
         # for aug_sentence in aug_sentences:
         #     if aug_sentence not in unique_sentences:
         #             writer.write(label + "\t" + aug_sentence + "\n")
@@ -108,8 +115,11 @@ def gen_eda(train_orig, output_synonym, output_deletion, output_insertion, alpha
     if writer_insertion:
         writer_insertion.close()
         print(f"Generated insertion data in {output_insertion}")
+    if writer_movement:
+        writer_movement.close()
+        print(f"Generated movement data in {output_movement}")
 
 # Main function
 if __name__ == "__main__":
     # Generate augmented sentences and output into a new file
-    gen_eda(args.input, output_wr, output_wd, output_wi, alpha_wr=alpha_wr, alpha_wd=alpha_wd, alpha_wi=alpha_wi)
+    gen_eda(args.input, output_wr, output_wd, output_wi, output_wm, alpha_wr=alpha_wr, alpha_wd=alpha_wd, alpha_wi=alpha_wi, alpha_wm=alpha_wm)
