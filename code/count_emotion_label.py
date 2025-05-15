@@ -1,7 +1,8 @@
 import pandas as pd
 
 # Baca file txt dengan separator tab
-df = pd.read_csv("data/balancing/eksperimen_insertion_balanced.txt", sep='\t', header=None, names=['label', 'text'])
+# df = pd.read_csv("data\balancing\eksperimen_deletion_balanced.txt", sep='\t', header=None, names=['label', 'text'])
+df = pd.read_csv("data\eksperimen\word_replacetestv205_balanced.txt", sep='\t', header=None, names=['label', 'text'])
 
 # Hitung jumlah label
 label_counts = df['label'].value_counts()

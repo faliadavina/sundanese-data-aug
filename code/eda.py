@@ -450,8 +450,9 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha
         adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
         num_to_delete = min(len(adverbia_words), max(1, int(round(alpha_wd * len(words)))))
         deleted_words = word_deletion(words, kelas_dict, num_to_delete)
-        if deleted_words:
-            augmented_sentences.append(' '.join(deleted_words))
+        deleted_sentence = ' '.join(deleted_words)
+        if deleted_sentence != original_sentence:
+             augmented_sentences.append(deleted_sentence)
 
 
     # ======== Word Insertion (wi) ========

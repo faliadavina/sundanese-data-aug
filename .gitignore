@@ -2,6 +2,15 @@
 amelia/
 falia/
 balancing/
+__pycache__/
+eksperimen/
+eksperimenv2/
+eksperimen_wd/
+eksperimen_wi/
+eksperimen_wm/
+data_augmented_new/
+data_augmented_old/
+
 
 # File
 eda-all.py
