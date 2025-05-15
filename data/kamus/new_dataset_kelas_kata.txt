@@ -3604,6 +3604,7 @@ karya	nomina
 pagawe	nomina
 kontan	nomina
 kas	nomina
+kaset	nomina
 kakasaran	nomina
 kasidah	nomina
 nyaah	nomina
@@ -7142,6 +7143,7 @@ turuh	nomina
 tutunggul	nomina
 tekas	nomina
 tetesan	nomina
+tv	nomina
 udel	nomina
 udul	nomina
 ules	nomina
@@ -8441,7 +8443,6 @@ mikaresep	verba
 gembar-gembor	verba
 ngagembar-gemborkeun	verba
 gumbira	verba
-bingah	verba
 ngagumbirakeun	verba
 gembleng	verba
 ngagembleng	verba

@@ -96,6 +96,20 @@ def get_unique_synonym(word, synonyms_dict, used_synonyms_map):
 file_path_synonym = 'data/kamus/sundanese_synonyms.csv'
 synonyms_dict = load_synonyms(file_path_synonym)
 
+# Synonym Replacement
+def synonym_replacement(words, indices, synonyms_dict, used_synonyms_map):
+    new_words = words.copy()
+    modified_indices = []
+    
+    for idx in indices:
+        word = words[idx]
+        synonyms = get_unique_synonym(word, synonyms_dict, used_synonyms_map)
+        if synonyms != word:  # Pastikan sinonim berbeda dari kata asli
+            new_words[idx] = synonyms
+            modified_indices.append(idx)
+    
+    return new_words, modified_indices
+
 # MEMBACA KAMUS PRONOUNS
 def load_pronouns(filename):
     pronouns_category = {}
@@ -161,20 +175,6 @@ def pronouns_replacement(words, kelas_dict, pronouns_category, category_to_word)
                 print(f"Tidak ada pengganti untuk {clean_word} dalam kategori {category}")  # Debugging
 
     return new_words, modified_indices
-
-# Synonym Replacement
-def synonym_replacement(words, indices, synonyms_dict):
-    new_words = words.copy()
-    modified_indices = []
-    
-    for idx in indices:
-        word = words[idx]
-        synonyms = get_sundanese_synonyms(word, synonyms_dict)
-        if synonyms:
-            new_words[idx] = random.choice(synonyms)
-            modified_indices.append(idx)
-    
-    return ' '.join(new_words), modified_indices
 
 # Number Replacement 
 def number_replacement(words):
@@ -310,17 +310,40 @@ def word_deletion(words, kelas_kata_dict, num_to_delete):
 #              WORD MOVEMENT 	     		#
 #											# 
 # ----------------------------------------- # 
+ENABLE_LOG = True  # Set to False to disable all logs
 def load_adverbia(filepath):
-    time_adverb = []
+    waktu = set()
+    tempat = set()
     with open(filepath, 'r', encoding='utf-8') as f:
-        time_adverb = [line.strip().lower() for line in f if line.strip()]
-    return time_adverb
-
+        for line in f: 
+            parts = line.strip().split("\t")
+            if len(parts) == 2:
+                kata, label = parts[0].lower(), parts[1].lower()
+                if label == "keterangan_waktu":
+                    waktu.add(kata)
+                elif label == "keterangan_tempat":
+                    tempat.add(kata)
+    return waktu, tempat
+                    
 file_path_adverbia = 'data/kamus/adverbia.txt'
-time_adverb = load_adverbia(file_path_adverbia)
+daftar_adverbia_waktu, daftar_adverbia_tempat = load_adverbia(file_path_adverbia)
+
+def load_place(filepath):
+    place = []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        place = [line.strip().lower() for line in f if line.strip()]
+    return place
+
+file_path_place = 'data/kamus/daftar_tempat.txt'
+daftar_tempat = load_place(file_path_place)
+
+if ENABLE_LOG:
+    print(f"[DEBUG] Loaded {len(daftar_tempat)} tempat from file.")
+    print(f"[DEBUG] Sample: {daftar_tempat[:10]}")
 
 pronomina = [k for k, v in kelas_kata.items() if v == 'pronomina']
-admin_keywords = {"kota", "kabupaten", "desa", "provinasi", "kecamatan", "kelurahan", "negara", "alam"}
+daftar_nomina = [kata for kata, kelas in kelas_kata.items() if kelas == 'nomina']
+daftar_admin = {"jalan", "kota", "kabupaten", "desa", "provinasi", "kecamatan", "kelurahan", "negara"}
 
 def get_position(sentence, phrase):
     if sentence.startswith(phrase):
@@ -335,72 +358,182 @@ def find_adverbia(sentence):
     time_adverbials = []
     place_adverbials = []
 
-    for i in range(len(tokens)):
-        for j in range(1,4):
-            multi_word = ' '.join(tokens[i:i+j])
-            if multi_word in time_adverb:
-                time_adverbials.append((multi_word, get_position(sentence, multi_word)))
+    if ENABLE_LOG:
+        print(f"[FIND] Tokenized sentence: {tokens}")
 
-    for i in range(len(tokens)):
-        if tokens[i] in ["di", "ka", "ti"]:
-            if i+1 < len(tokens) and tokens[i+1] in admin_keywords:
-                for j in range(2, 4):
-                    end = i + j
-                    if end <= len(tokens):
-                        phrase = ' '.join(tokens[i:end])
-                        place_tokens = tokens[i+1:end]
-                        place_adverbials.append((phrase, get_position(sentence, phrase)))
-            
-            for j in range(1, 4):
-                end = i + j + 1
-                if end <= len(tokens):
-                    phrase = ' '.join(tokens[i:end])
-                    place_tokens = tokens[i+1:end]
-                    if place_tokens and all(w in kelas_kata and kelas_kata[w] in ["nomina", "adjektiva"] for w in place_tokens):
-                        place_adverbials.append((phrase, get_position(sentence, phrase)))
+    # Cari adverbia waktu
+    i = 0
+    max_len = len(tokens)  # batas maksimal panjang frasa yang dicek
+    while i < max_len:
+        found = False
+
+        # Cek dulu apakah frasa utuh ada di daftar
+        for length in range(max_len, 0, -1):
+            if i + length <= max_len:
+                candidate = ' '.join(tokens[i:i+length])
+                if candidate in daftar_adverbia_waktu:
+                    time_adverbials.append((candidate, i))
+                    if ENABLE_LOG:
+                        print(f"[FIND][WAKTU] Found (frasa utuh): '{candidate}' at index {i}")
+                    i += length
+                    found = True
+                    break
+
+        if found:
+            continue  # kalau sudah ketemu frasa utuh, lanjut ke token berikutnya
+
+        # Kalau tidak ada frasa utuh, cek token berturut-turut yang masing-masing ada di daftar
+        temp = []
+        start = i
+        while i < len(tokens) and tokens[i] in daftar_adverbia_waktu:
+            temp.append(tokens[i])
+            i += 1
+
+        if temp:
+            frasa = ' '.join(temp)
+            time_adverbials.append((frasa, start))
+            if ENABLE_LOG:
+                print(f"[FIND][WAKTU] Found (gabungan token): '{frasa}' at index {start}")
+        else:
+            i += 1
+
+     # Cari adverbia tempat
+    i = 0
+    while i < len(tokens):
+        token = tokens[i]
+        if token in ["di", "ka", "ti", "dina"]:
+            preposisi = token
+            j = i + 1
+            if j >= len(tokens):
+                break
+
+            max_len = 5  # batas maksimal panjang frasa yang dicek
+            found = False
+
+            # ----- Jika preposisinya 'dina' -----
+            if preposisi == "dina":
+                for length in range(max_len, 0, -1):
+                    if j + length <= len(tokens):
+                        candidate = ' '.join(tokens[j:j+length])
+                        if candidate in daftar_adverbia_tempat or candidate in daftar_tempat or candidate in daftar_nomina:
+                            full_phrase = preposisi + ' ' + candidate
+                            place_adverbials.append((full_phrase, i))
+                            if ENABLE_LOG:
+                                print(f"[FIND][TEMPAT-dina] Found: '{full_phrase}' at index {i}")
+                            i = j + length
+                            found = True
+                            break
+                if not found:
+                    i += 1
+                continue
+
+            # ----- Jika ada admin -----
+            if tokens[j] in daftar_admin:
+                for length in range(max_len, 0, -1):
+                    if j + 1 + length <= len(tokens):
+                        candidate = ' '.join(tokens[j+1:j+1+length])
+                        if candidate in daftar_adverbia_tempat or candidate in daftar_tempat:
+                            full_phrase = preposisi + ' ' + tokens[j] + ' ' + candidate
+                            place_adverbials.append((full_phrase, i))
+                            if ENABLE_LOG:
+                                print(f"[FIND][TEMPAT-admin] Found: '{full_phrase}' at index {i}")
+                            i = j + 1 + length
+                            found = True
+                            break
+                if not found:
+                    i += 1
+                continue
+
+            # ----- Tanpa admin, langsung cek frasa tempat -----
+            for length in range(max_len, 0, -1):
+                if j + length <= len(tokens):
+                    candidate = ' '.join(tokens[j:j+length])
+                    if candidate in daftar_adverbia_tempat or candidate in daftar_tempat:
+                        full_phrase = preposisi + ' ' + candidate
+                        place_adverbials.append((full_phrase, i))
+                        if ENABLE_LOG:
+                            print(f"[FIND][TEMPAT] Found: '{full_phrase}' at index {i}")
+                        i = j + length
+                        found = True
+                        break
+            if not found:
+                i += 1
+            continue
+        i += 1
 
     return time_adverbials, place_adverbials
 
-def word_movement(sentence, adverbials_to_move):
+def word_movement(sentence):
+    if ENABLE_LOG:
+        print(f"\n=== [START] Processing sentence: '{sentence}'")
+
+    time_adv, place_adv = find_adverbia(sentence)
+    adverbials_to_move = time_adv + place_adv
+
     if not adverbials_to_move:
+        if ENABLE_LOG:
+            print("[WM] No adverbials found.")
         return sentence
-    
+
     tokens = sentence.strip().split()
     word_of_pronouns = [i for i, t in enumerate(tokens) if t.lower() in pronomina]
     subject_idx = word_of_pronouns[0] if word_of_pronouns else 0
 
     if word_of_pronouns:
-         print(f"[WM] Found subject: '{tokens[subject_idx]}' at index {subject_idx}")
+        if ENABLE_LOG:
+            print(f"[WM] Found subject: '{tokens[subject_idx]}' at index {subject_idx}")
     else:
-        print("[WM] No subject found, using index 0 as default.")
+        if ENABLE_LOG:
+            print("[WM] No subject found, using index 0 as default.")
 
     for phrase, first_position in adverbials_to_move:
         tokens_phrase = phrase.split()
         len_phrase = len(tokens_phrase)
 
+        if ENABLE_LOG:
+            print(f"\n[WM] Processing phrase: '{phrase}' (original index: {first_position})")
+
+        # Cari dan hapus frasa dari tokens
         for i in range(len(tokens) - len_phrase + 1):
-            if tokens[i:i + len_phrase] == tokens_phrase:
+            if [t.lower() for t in tokens[i:i + len_phrase]] == tokens_phrase:
+                if ENABLE_LOG:
+                    print(f"[WM] Removing phrase '{phrase}' from index {i}")
                 tokens = tokens[:i] + tokens[i + len_phrase:]
                 break
-        
-        position = ["awal", "tengah", "akhir"]
-        if first_position in position:
-            position.remove(first_position)
-        new_position = random.choice(position)
 
+        original_pos = get_position(' '.join(tokens), phrase)
+        positions = ["awal", "tengah", "akhir"]
+        if original_pos in positions:
+            positions.remove(original_pos)
+        new_position = random.choice(positions)
+
+        if ENABLE_LOG:
+            print(f"[WM] Moving '{phrase}' to new position: {new_position}")
+
+        # Sisipkan di posisi baru
         if new_position == "awal":
             tokens = tokens_phrase + tokens
         elif new_position == "tengah":
-            pred_idx = next((i for i in range(subject_idx + 1, len(tokens)) if get_kelas_kata(tokens[i], kelas_kata) == "verba"), None)
+            pred_idx = next((i for i in range(subject_idx + 1, len(tokens))
+                             if tokens[i].lower() in kelas_kata and kelas_kata[tokens[i].lower()] == "verba"), None)
             if pred_idx and pred_idx > subject_idx:
                 insert_pos = subject_idx + 1
             else:
-                insert_pos = len(tokens)
+                insert_pos = min(subject_idx + 1, len(tokens))
+
+            if ENABLE_LOG:
+                print(f"[WM] Inserting in middle after subject index {subject_idx} at {insert_pos}")
             tokens = tokens[:insert_pos] + tokens_phrase + tokens[insert_pos:]
         elif new_position == "akhir":
             tokens = tokens + tokens_phrase
+            if ENABLE_LOG:
+                print(f"[WM] Appending at the end")
 
-    return ' '.join(tokens)
+    final_sentence = ' '.join(tokens)
+    if ENABLE_LOG:
+        print(f"[END] Final sentence: '{final_sentence}'\n")
+
+    return final_sentence
 
 def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha_wm):
     sentence = get_only_chars(sentence)
@@ -427,7 +560,7 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha
                 new_words = words[:]
                 for idx in selected_indices:
                     if idx in valid_synonym_indices:
-                        new_words[idx] = get_unique_synonym(words[idx], synonyms_dict, used_synonyms_map)
+                        new_words, _ = synonym_replacement(new_words, valid_synonym_indices, synonyms_dict, used_synonyms_map)
                     elif idx in valid_number_indices:
                         new_words, _ = number_replacement(new_words)
                 augmented_sentences.append(' '.join(new_words))
@@ -487,18 +620,18 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha
     # ======== Word Movement (wm) ========
     if alpha_wm > 0: 
         print(f"\n>>> [WM] Processing sentence: '{original_sentence}'")
-        time_adverb, place_adverb = find_adverbia(original_sentence)
+        adverb, place_adverb = find_adverbia(original_sentence)
         
-        print(f"[WM] Detected time adverbials: {time_adverb}")
+        print(f"[WM] Detected time adverbials: {adverb}")
         print(f"[WM] Detected place adverbials: {place_adverb}")
         
-        all_adverbials = time_adverb + place_adverb
+        all_adverbials = adverb + place_adverb
         
         if all_adverbials:
             n_move = max(1, round(alpha_wm * len(all_adverbials)))
             selected_adverbials = random.sample(all_adverbials, min(n_move, len(all_adverbials)))
             print(f"Selected adverbials for movement: {selected_adverbials}")
-            moved_sentence = word_movement(original_sentence, selected_adverbials)
+            moved_sentence = word_movement(original_sentence)
             print(f"[WM] Moved sentence: '{moved_sentence}'\n")
             augmented_sentences.append(moved_sentence)
         else: 
