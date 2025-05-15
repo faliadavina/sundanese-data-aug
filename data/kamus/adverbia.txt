@@ -1,36 +1,96 @@
-baheula
-bareto
-kapungkur
-harita
-mangkukna
-kamari
-tadi
-tadina
-cikeneh
-nembe
-ayeuna
-bieu
-bieung
-engke
-isukan
-isuk
-isukna
-lohor
-enjing
-peuting
-poe ayeuna
-poe ieu
-saminggu 
-wayah kieu
-wengi ieu
-wengi
-poe minggu
-taun ieu
-bulan puasa
-bulan ramadhan
-isukan
-jaman buhun
-pageto
-unggal poe
-beurang
-malem
+baheula	keterangan_waktu
+bareto	keterangan_waktu
+kapungkur	keterangan_waktu
+harita	keterangan_waktu
+mangkukna	keterangan_waktu
+kamari	keterangan_waktu
+tadi	keterangan_waktu
+tadina	keterangan_waktu
+cikeneh	keterangan_waktu
+nembe	keterangan_waktu
+ayeuna	keterangan_waktu
+bieu	keterangan_waktu
+bieung	keterangan_waktu
+engke	keterangan_waktu
+isukan	keterangan_waktu
+isuk isuk	keterangan_waktu
+isuk-isuk	keterangan_waktu
+isuk	keterangan_waktu
+isukna	keterangan_waktu
+isuk keneh	keterangan_waktu
+lohor	keterangan_waktu
+enjing	keterangan_waktu
+peuting	keterangan_waktu
+poe ieu	keterangan_waktu
+saminggu	keterangan_waktu 
+wayah kieu	keterangan_waktu
+wengi	keterangan_waktu
+minggu	keterangan_waktu
+taun	keterangan_waktu
+bulan puasa	keterangan_waktu
+bulan ramadhan	keterangan_waktu
+isukan	keterangan_waktu
+jaman buhun	keterangan_waktu
+jaman	keterangan_waktu
+pageto	keterangan_waktu
+unggal poe	keterangan_waktu
+beurang	keterangan_waktu
+malem	keterangan_waktu
+zaman	keterangan_waktu
+tahun	keterangan_tempat
+alam baka	keterangan_tempat
+luar	keterangan_tempat
+imah	keterangan_tempat
+mushola	keterangan_tempat
+musholah	keterangan_tempat
+lembur	keterangan_tempat
+sekitar	keterangan_tempat
+belakang	keterangan_tempat
+rumah	keterangan_tempat
+sakit	keterangan_tempat
+masjid	keterangan_tempat
+puncak	keterangan_tempat
+tempat gawe	keterangan_tempat
+sisi	keterangan_tempat
+lapangan	keterangan_tempat
+gateway	keterangan_tempat
+kosan	keterangan_tempat
+hutan	keterangan_tempat
+kebon	keterangan_tempat
+kebon binatang	keterangan_tempat
+caffe	keterangan_tempat
+cafe	keterangan_tempat
+hareup	keterangan_tempat
+herep	keterangan_tempat
+tukang	keterangan_tempat
+deket	keterangan_tempat
+kamar	keterangan_tempat
+halte beus	keterangan_tempat
+halteu	keterangan_tempat
+stopan	keterangan_tempat
+tribun	keterangan_tempat
+tengah	keterangan_tempat
+kandang	keterangan_tempat
+balong	keterangan_tempat
+sawah	keterangan_tempat
+kampung	keterangan_tempat
+ladang	keterangan_tempat
+panti	keterangan_tempat
+panti sosial	keterangan_tempat
+panti jompo	keterangan_tempat
+panti asuhan	keterangan_tempat
+jero karung	keterangan_tempat
+akherat	keterangan_tempat
+dunia	keterangan_tempat
+stadion	keterangan_tempat
+tribun	keterangan_tempat
+barat	keterangan_tempat
+timur	keterangan_tempat
+selatan	keterangan_tempat
+utara	keterangan_tempat
+lokasi	keterangan_tempat
+dapur	keterangan_tempat
+leuweung	keterangan_tempat
+laut	keterangan_tempat
+mol	keterangan_tempat
+bioskop	keterangan_tempat
