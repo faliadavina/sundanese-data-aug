@@ -560,123 +560,6 @@ def generate_movement_augments(original_sentence, alpha, get_adverbia_func):
 #              EDA FUNCTION 	     		#
 #											# 
 # ----------------------------------------- # 
-# def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha_wm):
-#     sentence = get_only_chars(sentence)
-#     words = sentence.split()
-#     words = [word for word in words if word]
-
-#     augmented_sentences = []
-#     original_sentence = ' '.join(words)
-
-#     # ======== Word Replacement (WR) ========
-#     if alpha_wr > 0:
-#         valid_synonym_indices = [i for i, word in enumerate(words) if get_sundanese_synonyms(word, synonyms_dict)]
-#         valid_number_indices = [i for i, word in enumerate(words) if is_valid_number(word)]
-#         all_valid_indices = valid_synonym_indices + valid_number_indices
-
-#         if all_valid_indices:
-#             num_to_replace = max(1, int(alpha_wr * len(all_valid_indices)))
-#             used_synonyms_map = {}
-#             remaining_indices = all_valid_indices[:]
-
-#             # Kumpulkan hasil synonym replacement (plus number replacement) dulu
-#             while remaining_indices:
-#                 selected_indices = random.sample(remaining_indices, min(num_to_replace, len(remaining_indices)))
-#                 new_words = words[:]
-#                 for idx in selected_indices:
-#                     if idx in valid_synonym_indices:
-#                         new_words, _ = synonym_replacement(new_words, valid_synonym_indices, synonyms_dict, used_synonyms_map)
-#                     elif idx in valid_number_indices:
-#                         new_words, _ = number_replacement(new_words)
-#                 augmented_sentences.append(' '.join(new_words))
-#                 remaining_indices = [i for i in remaining_indices if i not in selected_indices]
-
-#             # Setelah semua WR selesai, baru apply pronomina ke hasil2 WR tadi (tanpa nambah kalimat baru)
-#             for i in range(len(augmented_sentences)):
-#                 temp_words = augmented_sentences[i].split(' ')
-#                 temp_words, _ = pronouns_replacement(temp_words, kelas_dict, pronouns_category, category_to_word)
-#                 augmented_sentences[i] = ' '.join(temp_words)
-
-#             print(f"Hasil WR (synonym + number + pronoun): {len(augmented_sentences)}")
-#         else:
-#             print("Tidak ada kata yang bisa dimodifikasi untuk WR.")
-
-
-#     # ======== Word Deletion (WD) ========
-#     # if alpha_wd > 0:
-#     #     sentence = get_only_chars(sentence)
-#     #     adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
-#     #     num_to_delete = min(len(adverbia_words), max(1, int(round(alpha_wd * len(words)))))
-#     #     deleted_words = word_deletion(words, kelas_dict, num_to_delete)
-#     #     deleted_sentence = ' '.join(deleted_words)
-#     #     if deleted_sentence != original_sentence:
-#     #          augmented_sentences.append(deleted_sentence)
-#     if alpha_wd > 0:
-#         adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
-#         if adverbia_words:
-#             max_deletion = max(1, int(round(alpha_wd * len(words))))
-#             for i in range(1, max_deletion + 1):
-#                 if i > len(adverbia_words):
-#                     break
-#                 deleted_words = word_deletion(words, kelas_dict, i)
-#                 deleted_sentence = ' '.join(deleted_words)
-#                 if deleted_sentence != original_sentence:
-#                     augmented_sentences.append(deleted_sentence)
-
-
-
-#     # ======== Word Insertion (wi) ========
-#     if alpha_wi > 0:
-#         adj_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'adjektiva']
-#         verb_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'verba']
-#         total_candidates = adj_indices + verb_indices
-
-#         print(f"Adjektiva indices: {adj_indices}")
-#         print(f"Verba indices: {verb_indices}")
-#         print(f"Total candidates for word insertion: {total_candidates}")
-
-#         if not total_candidates:
-#             print("No candidate words found for insertion.")
-#             return [sentence]
-
-#         n_wi = max(1, int(round(alpha_wi * len(total_candidates))))
-#         print(f"Number of words to insert (n_wi): {n_wi}")
-
-#         selected_indices = random.sample(total_candidates, min(n_wi, len(total_candidates)))
-#         print(f"Selected indices for insertion: {selected_indices}")
-
-#         new_words = words.copy()
-#         print(f"Original sentence: {' '.join(new_words)}")
-
-#         new_words = add_word(new_words, selected_indices, kelas_dict)
-#         print(f"Augmented sentence: {' '.join(new_words)}")
-
-#         augmented_sentences.append(' '.join(new_words))
-        
-
-#     # ======== Word Movement (wm) ========
-#     if alpha_wm > 0: 
-#         print(f"\n>>> [WM] Processing sentence: '{original_sentence}'")
-#         adverb, place_adverb = find_adverbia(original_sentence)
-        
-#         print(f"[WM] Detected time adverbials: {adverb}")
-#         print(f"[WM] Detected place adverbials: {place_adverb}")
-        
-#         all_adverbials = adverb + place_adverb
-        
-#         if all_adverbials:
-#             n_move = max(1, round(alpha_wm * len(all_adverbials)))
-#             selected_adverbials = random.sample(all_adverbials, min(n_move, len(all_adverbials)))
-#             print(f"Selected adverbials for movement: {selected_adverbials}")
-#             moved_sentence = word_movement(original_sentence)
-#             print(f"[WM] Moved sentence: '{moved_sentence}'\n")
-#             augmented_sentences.append(moved_sentence)
-#         else: 
-#             print("[WM] No adverbials found for movement.")
-
-#     # ======== Return ========
-#     return [original_sentence] + augmented_sentences if augmented_sentences else [original_sentence]
-
 def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha_wm):
     sentence = get_only_chars(sentence)
     words = sentence.split()
@@ -747,24 +630,9 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha
                 augmented_sentences.append(' '.join(new_words))
             remaining_indices = [i for i in remaining_indices if i not in selected_indices]
 
-    # ======== Word Movement (WM) ========
-    # if alpha_wm > 0:
-    #     time_adverb, place_adverb = find_adverbia(original_sentence)
-    #     all_adverbials = time_adverb + place_adverb
-    #     n_move = max(1, round(alpha_wm * len(all_adverbials)))
-    #     remaining_adverbials = all_adverbials[:]
-
-    #     while remaining_adverbials:
-    #         selected = random.sample(remaining_adverbials, min(n_move, len(remaining_adverbials)))
-    #         moved_sentence = word_movement(original_sentence, selected)
-    #         if moved_sentence != original_sentence:
-    #             augmented_sentences.append(moved_sentence)
-    #         remaining_adverbials = [adv for adv in remaining_adverbials if adv not in selected]
-    # ======== Word Movement (wm) ========
     if alpha_wm > 0: 
         movement_augments = generate_movement_augments(original_sentence, alpha_wm, find_adverbia)
         augmented_sentences.extend(movement_augments)
-
 
     # ======== Return ========
     return [original_sentence] + augmented_sentences if augmented_sentences else [original_sentence]
