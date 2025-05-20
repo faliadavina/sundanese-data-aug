@@ -603,33 +603,44 @@ def eda(sentence, synonyms_dict, kelas_dict, alpha_wr, alpha_wd, alpha_wi, alpha
 
     # ======== Word Deletion (WD) ========
     if alpha_wd > 0:
-        adverbia_indices = [i for i, word in enumerate(words) if kelas_dict.get(word, "") == 'adverbia']
-        num_to_delete = max(1, int(alpha_wd * len(words)))
-        remaining_indices = adverbia_indices[:]
+        adverbia_words = [word for word in words if kelas_dict.get(word, "") == 'adverbia']
+        total_adverbia = len(adverbia_words)
 
-        while remaining_indices:
-            selected_indices = random.sample(remaining_indices, min(num_to_delete, len(remaining_indices)))
-            new_words = [word for i, word in enumerate(words) if i not in selected_indices]
-            if new_words and ' '.join(new_words) != original_sentence:
-                augmented_sentences.append(' '.join(new_words))
-            remaining_indices = [i for i in remaining_indices if i not in selected_indices]
+        if total_adverbia == 0:
+            print("[WD] Tidak ada adverbia yang bisa dihapus.")
+        else:
+            num_to_delete = max(1, int(alpha_wd * total_adverbia))
+            remaining_adverbia = adverbia_words[:]
+
+            while remaining_adverbia:
+                selected_to_delete = random.sample(remaining_adverbia, min(num_to_delete, len(remaining_adverbia)))
+                new_words = word_deletion(words, kelas_dict, len(selected_to_delete))
+                if new_words and ' '.join(new_words) != original_sentence:
+                    augmented_sentences.append(' '.join(new_words))
+                    
+                remaining_adverbia = [w for w in remaining_adverbia if w not in selected_to_delete]
 
     # ======== Word Insertion (WI) ========
     if alpha_wi > 0:
         adj_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'adjektiva']
         verb_indices = [i for i, word in enumerate(words) if get_kelas_kata(word, kelas_dict) == 'verba']
         total_candidates = adj_indices + verb_indices
-        n_wi = max(1, int(alpha_wi * len(total_candidates)))
-        remaining_indices = total_candidates[:]
 
-        while remaining_indices:
-            selected_indices = random.sample(remaining_indices, min(n_wi, len(remaining_indices)))
-            new_words = words.copy()
-            new_words = add_word(new_words, selected_indices, kelas_dict)
-            if new_words and ' '.join(new_words) != original_sentence:
-                augmented_sentences.append(' '.join(new_words))
-            remaining_indices = [i for i in remaining_indices if i not in selected_indices]
+        if not total_candidates:
+            print("[WI] Tidak ada adjektiva atau verba yang bisa dimodifikasi.")
+        else:
+            n_wi = max(1, int(alpha_wi * len(total_candidates)))
+            remaining_indices = total_candidates[:]
 
+            while remaining_indices:
+                selected_indices = random.sample(remaining_indices, min(n_wi, len(remaining_indices)))
+                new_words = words.copy()
+                new_words = word_insertion(new_words, selected_indices, kelas_dict)
+                if new_words and ' '.join(new_words) != original_sentence:
+                    augmented_sentences.append(' '.join(new_words))
+                remaining_indices = [i for i in remaining_indices if i not in selected_indices]
+
+    # ======== Word Movement (WM) ========
     if alpha_wm > 0: 
         movement_augments = generate_movement_augments(original_sentence, alpha_wm, find_adverbia)
         augmented_sentences.extend(movement_augments)
