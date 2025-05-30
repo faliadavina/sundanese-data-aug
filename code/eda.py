@@ -463,7 +463,7 @@ def find_adverbia(sentence):
 
     return time_adverbials, place_adverbials
 
-def word_movement(sentence):
+def word_movement(sentence, alpha=1.0):
     if ENABLE_LOG:
         print(f"\n=== [START] Processing sentence: '{sentence}'")
 
@@ -475,40 +475,26 @@ def word_movement(sentence):
             print("[WM] No adverbials found.")
         return sentence
 
+    num_to_move = max(1, round(alpha * len(adverbials_to_move)))
+    random.shuffle(adverbials_to_move)
+    adverbials_to_move = adverbials_to_move[:num_to_move]
+
     tokens = sentence.strip().split()
     word_of_pronouns = [i for i, t in enumerate(tokens) if t.lower() in pronomina]
     subject_idx = word_of_pronouns[0] if word_of_pronouns else 0
-
-    if word_of_pronouns:
-        if ENABLE_LOG:
-            print(f"[WM] Found subject: '{tokens[subject_idx]}' at index {subject_idx}")
-    else:
-        if ENABLE_LOG:
-            print("[WM] No subject found, using index 0 as default.")
 
     for phrase, first_position in adverbials_to_move:
         tokens_phrase = phrase.split()
         len_phrase = len(tokens_phrase)
 
-        if ENABLE_LOG:
-            print(f"\n[WM] Processing phrase: '{phrase}' (original index: {first_position})")
-
         # Cari dan hapus frasa dari tokens
         for i in range(len(tokens) - len_phrase + 1):
             if [t.lower() for t in tokens[i:i + len_phrase]] == tokens_phrase:
-                if ENABLE_LOG:
-                    print(f"[WM] Removing phrase '{phrase}' from index {i}")
                 tokens = tokens[:i] + tokens[i + len_phrase:]
                 break
 
-        original_pos = get_position(' '.join(tokens), phrase)
         positions = ["awal", "tengah", "akhir"]
-        if original_pos in positions:
-            positions.remove(original_pos)
         new_position = random.choice(positions)
-
-        if ENABLE_LOG:
-            print(f"[WM] Moving '{phrase}' to new position: {new_position}")
 
         # Sisipkan di posisi baru
         if new_position == "awal":
@@ -516,18 +502,10 @@ def word_movement(sentence):
         elif new_position == "tengah":
             pred_idx = next((i for i in range(subject_idx + 1, len(tokens))
                              if tokens[i].lower() in kelas_kata and kelas_kata[tokens[i].lower()] == "verba"), None)
-            if pred_idx and pred_idx > subject_idx:
-                insert_pos = subject_idx + 1
-            else:
-                insert_pos = min(subject_idx + 1, len(tokens))
-
-            if ENABLE_LOG:
-                print(f"[WM] Inserting in middle after subject index {subject_idx} at {insert_pos}")
+            insert_pos = pred_idx if pred_idx and pred_idx > subject_idx else min(subject_idx + 1, len(tokens))
             tokens = tokens[:insert_pos] + tokens_phrase + tokens[insert_pos:]
         elif new_position == "akhir":
             tokens = tokens + tokens_phrase
-            if ENABLE_LOG:
-                print(f"[WM] Appending at the end")
 
     final_sentence = ' '.join(tokens)
     if ENABLE_LOG:
@@ -536,24 +514,26 @@ def word_movement(sentence):
     return final_sentence
 
 def generate_movement_augments(original_sentence, alpha, get_adverbia_func):
-    words = original_sentence.split()
-    total_len = len(words)
-
     time_adv, place_adv = get_adverbia_func(original_sentence)
     all_adverbials = time_adv + place_adv
 
     if not all_adverbials:
         return []
 
-    num_to_move_total = max(1, round(alpha * len(all_adverbials)))
-    random.shuffle(all_adverbials)
+    num_to_generate = max(1, round(alpha * len(all_adverbials)))
+    augments = set()
 
-    augments = []
-    for i in range(0, num_to_move_total, 1):  # satu per kalimat
-        new_sentence = word_movement(original_sentence)
-        if new_sentence != original_sentence and new_sentence not in augments:
-            augments.append(new_sentence)
-    return augments
+    attempts = 0
+    max_attempts = num_to_generate * 3  # biar nggak infinite loop
+
+    while len(augments) < num_to_generate and attempts < max_attempts:
+        new_sentence = word_movement(original_sentence, alpha)
+        if new_sentence != original_sentence:
+            augments.add(new_sentence)
+        attempts += 1
+
+    return list(augments)
+
 
 # ----------------------------------------- #
 #											#

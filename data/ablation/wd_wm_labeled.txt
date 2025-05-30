@@ -1,0 +1,22 @@
+joy	bingah pisan dipasihan suasana candle light dinner di kota sukabumi wengi ieu 	original
+fear	baru aja update tentang corona bener aja kan tuh di depok 2 orang udah positif sieun	original
+joy	bari ngupingkeun lgu dina samak salambar pas pisan heu rt cinggir panas2 goreng pisang nikmat dgn kecapi suling pas 	original
+sadness	nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga	augmented
+anger	anjing pisan eta budak letik keneh wani ka awewe si aniing setan budak haram hungkul kesel	original
+joy	bingah dipasihan suasana candle light dinner di kota sukabumi wengi ieu	augmented
+sadness	rada nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga 	original
+joy	dina samak bari ngupingkeun lgu salambar pas heu rt cinggir panas2 goreng pisang nikmat dgn kecapi suling pas	augmented
+anger	sok geura leungit atuh sia teh corona unggal poe matak gelo yeuh aing gogoleran	augmented
+joy	makan di warung sunda kuningan siang ditembak ku kopi hideung panas duh asa bagja pisan bebas asa merdeka	augmented
+anger	sok geura leungit atuh sia teh corona matak gelo yeuh aing unggal poe gogoleran	original
+fear	baru di depok aja update tentang corona bener aja kan tuh 2 orang udah positif sieun	augmented
+joy	wengi bingah pisan dipasihan suasana candle light dinner di kota sukabumi ieu	augmented
+joy	bari ngupingkeun lgu dina samak salambar pas heu rt cinggir panas2 goreng pisang nikmat dgn kecapi suling pas	augmented
+joy	dina samak bari ngupingkeun lgu salambar pas pisan heu rt cinggir panas2 goreng pisang nikmat dgn kecapi suling pas	augmented
+joy	bingah dipasihan suasana candle light dinner di kota sukabumi ieu wengi	augmented
+anger	anjing pisan eta budak letik wani ka awewe si aniing setan budak haram hungkul kesel	augmented
+joy	makan siang di warung sunda kuningan ditembak ku kopi hideung panas duh asa bagja bebas asa merdeka	augmented
+joy	makan siang di warung sunda kuningan ditembak ku kopi hideung panas duh asa bagja pisan bebas asa merdeka 	original
+fear	baru aja update tentang corona bener aja kan tuh 2 orang udah positif sieun di depok	augmented
+sadness	rada nyeredet kanu manah ngadangu suara bebeledagan petasan tiasa ngempeul sreng kluarga	augmented
+joy	makan siang ditembak ku kopi hideung panas duh asa bagja bebas asa merdeka di warung sunda kuningan	augmented
