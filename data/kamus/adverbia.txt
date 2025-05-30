@@ -25,6 +25,7 @@ poe ieu	keterangan_waktu
 saminggu	keterangan_waktu 
 wayah kieu	keterangan_waktu
 wengi	keterangan_waktu
+wengi ieu	keterangan_waktu
 minggu	keterangan_waktu
 taun	keterangan_waktu
 bulan puasa	keterangan_waktu

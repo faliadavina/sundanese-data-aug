@@ -24,7 +24,7 @@ output_wm = args.output_wm if args.output_wm else args.input.replace('.csv', '_a
 
 alpha_wr = args.alpha_wr if args.alpha_wr is not None else 0
 alpha_wd = args.alpha_wd if args.alpha_wd is not None else 0
-alpha_wi = args.alpha_wi is not None and args.alpha_wi or 0
+alpha_wi = args.alpha_wi if args.alpha_wi is not None else 0
 alpha_wm = args.alpha_wm if args.alpha_wm is not None else 0
 
 if alpha_wr == 0 and alpha_wd == 0 and alpha_wi == 0 and alpha_wm == 0:
@@ -42,7 +42,8 @@ def augment_and_balance(train_orig, output_file, alpha_type, alpha_value):
             print(f"Skipping invalid line {i}: {line}")
             continue
 
-        label, sentence = parts[0], get_only_chars(parts[1].strip()).lower()
+        label, sentence = parts[0], parts[1].strip().lower()
+        cleaned_sentence = get_only_chars(sentence)
 
         # Augment original sentence
         if alpha_type == "wr":
@@ -60,7 +61,8 @@ def augment_and_balance(train_orig, output_file, alpha_type, alpha_value):
             aug_sentences = [" ".join(aug) for aug in aug_sentences]
 
         # Tambahkan satu entri ke data utama
-        all_data.append((label, sentence, aug_sentences[1:]))  # index 0 = original, skip
+        all_data.append((label, cleaned_sentence, aug_sentences[1:]))  # index 0 = original, skip
+        
 
     # Save file 1: balanced (plain)
     balanced_output = output_file.replace(".txt", "_balanced.txt")

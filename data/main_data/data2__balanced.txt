@@ -1,0 +1,17 @@
+joy	bingah dipasihan suasana candle light dinner di kota sukabumi wengi ieu
+anger	anjing pisan eta budak letik keneh wani ka awewe si aniing setan budak haram hungkul kesel
+joy	makan siang di warung sunda kuningan ditembak ku kopi hideung panas duh asa bagja bebas asa merdeka
+joy	makan siang di warung sunda kuningan ditembak ku kopi hideung panas duh asa bagja pisan bebas asa merdeka 
+joy	bari ngupingkeun lgu dina samak salambar pas heu rt cinggir panas2 goreng pisang nikmat dgn kecapi suling pas
+sadness	nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga
+joy	bari ngupingkeun lgu dina samak salambar pas pisan heu rt cinggir panas2 goreng pisang nikmat dgn kecapi suling pas 
+sadness	nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga
+anger	sok geura leungit atuh sia teh corona matak gelo yeuh aing unggal poe gogoleran
+joy	bingah pisan dipasihan suasana candle light dinner di kota sukabumi wengi ieu 
+sadness	nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga
+anger	anjing pisan eta budak letik wani ka awewe si aniing setan budak haram hungkul kesel
+fear	baru aja update tentang corona-19 bener aja kan tuh di depok 2 orang udah positif sieun
+anger	anjing pisan eta budak letik wani ka awewe si aniing setan budak haram hungkul kesel
+sadness	rada nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga 
+sadness	rada nyeredet kanu manah ngadangu suara bebeledagan petasan tiasa ngempeul sreng kluarga
+anger	anjing pisan eta budak letik wani ka awewe si aniing setan budak haram hungkul kesel
