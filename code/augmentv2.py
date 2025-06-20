@@ -97,13 +97,18 @@ def augment_and_balance(train_orig, output_file, technique, alpha):
     # === Balancing ===
     label_counts = {label: len(data) for label, data in label_to_data.items()}
     max_count = max(label_counts.values())
+    unique_sentences = set()
 
     # Tambahkan hasil awal
     for label, sent_list in label_to_data.items():
         for orig, aug_list in sent_list:
-            all_data.append((label, orig, "original"))
+            if (label, orig) not in unique_sentences:
+                all_data.append((label, orig, "original"))
+                unique_sentences.add((label, orig))
             for aug in aug_list:
-                all_data.append((label, aug, "augmented"))
+                if (label, aug) not in unique_sentences:
+                    all_data.append((label, aug, "augmented"))
+                    unique_sentences.add((label, aug))
 
     # Tambahkan augmentasi tambahan jika dibutuhkan
     for label, sent_list in label_to_data.items():
@@ -134,7 +139,9 @@ def augment_and_balance(train_orig, output_file, technique, alpha):
             for aug in aug_sentences[1:]:
                 if len(additional_augmented) >= needed:
                     break
-                additional_augmented.append((label, aug, "augmented"))
+                if (label, aug) not in unique_sentences:
+                    additional_augmented.append((label, aug, "augmented"))
+                    unique_sentences.add((label, aug))
 
         if len(additional_augmented) < needed:
             print(f"[WARNING] Data untuk label '{label}' tidak cukup. Dapat {len(additional_augmented)} dari {needed}.")
@@ -142,8 +149,8 @@ def augment_and_balance(train_orig, output_file, technique, alpha):
         all_data.extend(additional_augmented)
 
     # === Simpan hasil ===
-    balanced_data = all_data.copy()
-    random.shuffle(balanced_data)
+    # balanced_data = all_data.copy()
+    balanced_data = [row for row in all_data if row[2] == "augmented"]
 
     balanced_output = output_file.replace(".txt", "_balanced.txt")
     with open(balanced_output, 'w', encoding='utf-8') as out_f:

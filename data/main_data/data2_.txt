@@ -3,9 +3,4 @@ joy	Makan Siang di Warung Sunda Kuningan.... Ditembak ku kopi hideung panas.... 
 joy	Bari ngupingkeun lgu dina samak salambar pas pisan heu RT @CINGGIR: Panas2 goreng pisang . Nikmat dgn kecapi suling. PAS !
 sadness	rada nyeredet kanu manah ngadangu suara bebeledagan petasan teu tiasa ngempeul sreng kluarga..
 anger	Anjing pisan eta budak letik keneh wani ka awewe si aniing setan budak haram hungkul kesel
-<<<<<<< HEAD
-fear	baru aja update tentang corona-19 :( bener aja kan tuh di depok 2 orang udah positif :( sieun
-=======
-fear	baru aja update tentang corona :( bener aja kan tuh di depok 2 orang udah positif :( sieun
-joy	Bingah pisan dipasihan suasana candle light dinner di Kota Sukabumi wengi ieu.
->>>>>>> 20d015a766e587b6009e893160c967a4b65d414b
+fear	baru aja update tentang corona-19 :( bener aja kan tuh di depok 2 orang udah positif :( wareg

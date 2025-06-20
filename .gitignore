@@ -22,3 +22,5 @@ pronouns_success.py
 extract_geojson.py
 eda-copy.py
 data2_.txt
+bersihkan-sinonim.py
+kata-duplikat.csv

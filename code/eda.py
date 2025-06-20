@@ -119,7 +119,7 @@ def get_unique_synonym(word, synonyms_dict, used_synonyms_map):
     used_synonyms_map[word] = used_synonyms
     return chosen
 
-file_path_synonym = 'data/kamus/sundanese_synonyms.csv'
+file_path_synonym = 'data/kamus/new_sundanese_synonyms.csv'
 synonyms_dict = load_synonyms(file_path_synonym)
 
 def synonym_replacement(words, indices, synonyms_dict, used_synonyms_map):
@@ -563,8 +563,8 @@ def word_movement(sentence, alpha=1.0):
             if [t.lower() for t in tokens[i:i + len_phrase]] == tokens_phrase:
                 tokens = tokens[:i] + tokens[i + len_phrase:]
                 break
-        
-        # Tentukan posisi baru
+
+        original_pos = get_position(' '.join(tokens), phrase)
         positions = ["awal", "tengah", "akhir"]
         new_position = random.choice(positions)
 
@@ -587,8 +587,11 @@ def word_movement(sentence, alpha=1.0):
 
 def generate_movement_augments(original_sentence, alpha, get_adverbia_func):
     """
-    Menghasilkan beberapa kalimat baru dengan memindahkan adverbia waktu/tempat
+    Menghasilkan augmentasi dengan memindahkan adverbia waktu/tempat dalam kalimat
     """
+    words = original_sentence.split()
+    total_len = len(words)
+
     time_adv, place_adv = get_adverbia_func(original_sentence)
     all_adverbials = time_adv + place_adv
 

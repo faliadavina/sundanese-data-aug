@@ -9003,7 +9003,6 @@ ngendoran	verba
 ngendorkeun	verba
 ngentelan	verba
 ngentelkeun	verba
-wareg	verba
 seubeuh	verba
 ngawaregkeun	verba
 ngeupeulkeun	verba

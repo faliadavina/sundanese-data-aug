@@ -1,107 +1,106 @@
-sia	orang_kedua
-maneh	orang_kedua
-anjeun	orang_kedua
-maneh	orang_kedua
-andika	orang_kedua
-aranjeun	orang_kedua
-hidep	orang_kedua
-hidep sarerea	orang_kedua
-maraneh	orang_kedua
-salira	orang_kedua
-silaing	orang_kedua
-silalaing	orang_kedua
-manehna	orang_ketiga
-anjeunna	orang_ketiga
-napsi-napsi	orang_ketiga
-maranehna	orang_ketiga
-aa	orang_ketiga
-aang	orang_ketiga
-abah	orang_ketiga
-ama	orang_ketiga
-aranjeunna	orang_ketiga
-babeh	orang_ketiga
-cuang	orang_ketiga
-dararia	orang_ketiga
-daria	orang_ketiga
-dia	orang_ketiga
-gamparan	orang_ketiga
-haridep	orang_ketiga
-ilaing	orang_ketiga
-inyana	orang_ketiga
-jidaeud	orang_ketiga
-juragan	orang_ketiga
-kandi	orang_ketiga
-mamah	orang_ketiga
-mantenna	orang_ketiga
-maranehanana	orang_ketiga
-nyana	orang_ketiga
-nyaneh	orang_ketiga
-nyanehna	orang_ketiga
-nyaraneh	orang_ketiga
-pun bapa	orang_ketiga
-saderek	orang_ketiga
-sararea	orang_ketiga
-sararia	orang_ketiga
-saria	orang_ketiga
-kuring	orang_pertama
-abdi	orang_pertama
-dewek	orang_pertama
-urang	orang_pertama
-abdi dalem	orang_pertama
-abdi gusti	orang_pertama
-abdi sadaya	orang_pertama
-abi	orang_pertama
-aing	orang_pertama
-arurang	orang_pertama
-dampal dalem	orang_pertama
-dampal gamparan	orang_pertama
-dampal gusti	orang_pertama
-kami	orang_pertama
-kita	orang_pertama
-pribados	orang_pertama
-sim kuring	orang_pertama
-sim kuring sadaya	orang_pertama
-ti palih dinya	pronomina_demonstratif
-ti dinya	pronomina_demonstratif
-ti palih dieu	pronomina_demonstratif
-ti dieun	pronomina_demonstratif
-kitu	pronomina_demonstratif
-saperti kitu	pronomina_demonstratif
-ieu	pronomina_demonstratif
-itu	pronomina_demonstratif
-hare-hare	pronomina_demonstratif
-ditu	pronomina_demonstratif
-salaku	pronomina_demonstratif
-sorangan	pronomina_demonstratif
-dieu	pronomina_demonstratif
-di dieu	pronomina_demonstratif
-di dinya	pronomina_demonstratif
-di ditu	pronomina_demonstratif
-di manten	pronomina_demonstratif
-didieu	pronomina_demonstratif
-didinya	pronomina_demonstratif
-dinih	pronomina_demonstratif
-eta	pronomina_demonstratif
-karita	pronomina_demonstratif
-kieu	pronomina_demonstratif
-palih dieu	pronomina_demonstratif
-palih ditu	pronomina_demonstratif
-yeuh	pronomina_demonstratif
-naon	pronomina_penanya
-ti mana	pronomina_penanya
-iraha	pronomina_penanya
-mana	pronomina_penanya
-saha	pronomina_penanya
-apa	pronomina_penanya
-di endi	pronomina_penanya
-di mendi	pronomina_penanya
-ka endi	pronomina_penanya
-ka mana	pronomina_penanya
-ka mendi	pronomina_penanya
-kamana	pronomina_penanya
-nyinaon	pronomina_penanya
-sabaraha	pronomina_penanya
-sanaon	pronomina_penanya
-ti endi	pronomina_penanya
-ti mendi	pronomina_penanya
-tindi	pronomina_penanya
+sia	orang_kedua_kasar
+maneh	orang_kedua_loma
+anjeun	orang_kedua_lemes
+andika	orang_kedua_lemes
+aranjeun	orang_kedua_lemes
+hidep	orang_kedua_lemes
+hidep sarerea	orang_kedua_lemes
+maraneh	orang_kedua_loma
+salira	orang_kedua_lemes
+silaing	orang_kedua_kasar
+silalaing	orang_kedua_kasar
+manehna	orang_ketiga_loma
+anjeunna	orang_ketiga_kasar
+napsi-napsi	orang_ketiga_loma
+maranehna	orang_ketiga_loma
+aa	orang_ketiga_loma
+aang	orang_ketiga_loma
+abah	orang_ketiga_loma
+ama	orang_ketiga_lemes
+aranjeunna	orang_ketiga_lemes
+babeh	orang_ketiga_loma
+cuang	orang_ketiga_lemes
+dararia	orang_ketiga_loma
+daria	orang_ketiga_loma
+dia	orang_ketiga_loma
+gamparan	orang_ketiga_kasar
+haridep	orang_ketiga_loma
+ilaing	orang_ketiga_kasar
+inyana	orang_ketiga_lemes
+jidaeud	orang_ketiga_lemes
+juragan	orang_ketiga_loma
+kandi	orang_ketiga_lemes
+mamah	orang_ketiga_lemes
+mantenna	orang_ketiga_loma
+maranehanana	orang_ketiga_loma
+nyana	orang_ketiga_loma
+nyaneh	orang_ketiga_loma
+nyanehna	orang_ketiga_loma
+nyaraneh	orang_ketiga_loma
+pun bapa	orang_ketiga_lemes
+saderek	orang_ketiga_loma
+sararea	orang_ketiga_loma
+sararia	orang_ketiga_kasar
+saria	orang_ketiga_kasar
+kuring	orang_pertama_loma
+abdi	orang_pertama_lemes
+dewek	orang_pertama_loma
+urang	orang_pertama_loma
+abdi dalem	orang_pertama_lemes
+abdi gusti	orang_pertama_lemes
+abdi sadaya	orang_pertama_lemes
+abi	orang_pertama_lemes
+aing	orang_pertama_kasar
+arurang	orang_pertama_loma
+dampal dalem	orang_pertama_lemes
+dampal gamparan	orang_pertama_lemes
+dampal gusti	orang_pertama_lemes
+kami	orang_pertama_loma
+kita	orang_pertama_loma
+pribados	orang_pertama_lemes
+sim kuring	orang_pertama_loma
+sim kuring sadaya	orang_pertama_loma
+ti palih dinya	pronomina_demonstratif_loma
+ti dinya	pronomina_demonstratif_loma
+ti palih dieu	pronomina_demonstratif_loma
+ti dieun	pronomina_demonstratif_loma
+kitu	pronomina_demonstratif_loma
+saperti kitu	pronomina_demonstratif_kasar
+ieu	pronomina_demonstratif_loma
+itu	pronomina_demonstratif_loma
+hare-hare	pronomina_demonstratif_loma
+ditu	pronomina_demonstratif_loma
+salaku	pronomina_demonstratif_loma
+sorangan	pronomina_demonstratif_kasar
+dieu	pronomina_demonstratif_loma
+di dieu	pronomina_demonstratif_loma
+di dinya	pronomina_demonstratif_loma
+di ditu	pronomina_demonstratif_loma
+di manten	pronomina_demonstratif_loma
+didieu	orang_pertama_loma
+didinya	orang_kedua_loma
+dinih	pronomina_demonstratif_loma
+eta	pronomina_demonstratif_loma
+karita	pronomina_demonstratif_loma
+kieu	pronomina_demonstratif_loma
+palih dieu	pronomina_demonstratif_loma
+palih ditu	pronomina_demonstratif_loma
+yeuh	pronomina_demonstratif_loma
+naon	pronomina_penanya_loma
+ti mana	pronomina_penanya_loma
+iraha	pronomina_penanya_loma
+mana	pronomina_penanya_loma
+saha	pronomina_penanya_loma
+apa	pronomina_penanya_loma
+di endi	pronomina_penanya_loma
+di mendi	pronomina_penanya_loma
+ka endi	pronomina_penanya_loma
+ka mana	pronomina_penanya_loma
+ka mendi	pronomina_penanya_loma
+kamana	pronomina_penanya_loma
+nyinaon	pronomina_penanya_loma
+sabaraha	pronomina_penanya_loma
+sanaon	pronomina_penanya_loma
+ti endi	pronomina_penanya_loma
+ti mendi	pronomina_penanya_loma
+tindi	pronomina_penanya_loma
