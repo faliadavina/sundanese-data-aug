@@ -13,6 +13,8 @@ data_augmented_old/
 test/
 eksperimenv3/
 ablation/
+result/
+log/
 
 
 # File

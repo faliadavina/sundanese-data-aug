@@ -1,0 +1,14 @@
+joy	bapa angkat
+joy	bapa jeung ibu angkat
+joy	Ujang angkat ka pasar isuk-isuk pikeun meuli sayuran jeung sangu.
+joy	Budak-budak ulin ka sawah bari lumpat-lumpat jeung seuri pinuh kabagjaan.
+joy	Dina lomba maca sajak téh, Dini meunang juara kahiji tina sakabéh peserta.
+joy	Sanggeus réngsé masak, indung ngabersihan dapur bari nyusun perabotan kana rak.
+sadness	Kuring diajar maca jeung nulis unggal peuting sanggeus ngadahar sorangan di kamar.
+sadness	Mobilna mogok di tengah jalan, jadi urang kudu ngadagoan montir lila teuing.
+sadness	Ujang jeung Euis saré di imah nini sabab kolotna indit ka luar kota.
+fear	Sanajan hujan téh deres, manéhna tetep angkat ka sakola pikeun diajar bari sieun telat.
+fear	Aya sora anéh di dapur peuting harita, urang kabéh kaluar ti kamar bari ngadéngék.
+anger	Aya nu ngadak-ngadak nyieun sora ribut tengah peuting nepi ka batur kabugah.
+anger	Peting tadi, tatanggana muragkeun runtah ka imah urang tanpa menta hampura.
+

@@ -1,0 +1,39 @@
+joy	bapa angkat
+joy	bapa jeung ibu angkat
+joy	kamari kuring indit ka pulau seribu
+joy	hayang ulin di taman aruman
+joy	hayang ulin ka imah budi
+joy	hayang ulin di imah budi
+joy	sore abdi bade jaga di rumah sakit
+joy	tuang di rumah sakit
+joy	akang teh keur maca
+joy	Haturan mamah sareng apa
+joy	Tawis asih kanggo ema miwah bapa
+joy	Kuring resep diajar di taman aruman
+joy	Alhamdulillah, abdi bingah pisan tiasa kempel deui sareng kulawarga di lembur.
+joy	Teu kiat nahan seuri, ningali polah si cepot matak nyeri beuteung pisan.
+joy	Hatur nuhun Gusti, dinten ieu abdi dipasihan rejeki anu teu disangka-sangka.
+anger	Cik atuh anjir cicing di imah, tong kaluyuran wae sia teh!
+anger	Dasar jelema teu boga kaera, geus dibantuan teh kalah malik ngagogoreng.
+anger	Lamun panggih di jalan, ku aing digaley siah nepi ka ampun.
+sadness	Teu wasa ningalna, deudeuh teuing nasibna kedah ngalaman cocoba sakieu beuratna.
+sadness	Cai soca teu katahan, inget deui kana sagala kalepatan ka almarhum bapa.
+sadness	Hate asa peurih kieu, ditinggalkeun ku anjeun tanpa alesan anu jelas.
+fear	Ya Allah, asa keueung kieu di imah sorangan pas keur hujan badag.
+fear	Ngadadak muringkak bulu punuk, pas ngaliwat ka imah kosong nu angker.
+fear	Kuring asa hariwang kieu, bisi aya nanaon di jalan basa balik peuting.
+fear	Abdi bungah pisan tiasa pendak sareng anjeun deui di tempat ieu.
+fear	Urang sadayana tuang bakso nikmat pisan di payuneun sakola wengi tadi.
+fear	Bapa badé ngajak kulawarga ameng ka kebon binatang dina dinten Minggu
+fear	Anjeun ulah ngaganggu kuring deui di bumi abdi iraha wae atuh.
+fear	Kuring henteu resep deui kana sagala kalakuan anjeun di payuneun balarea.
+fear	Geura angkat anjeun ti dieu, abdi parantos muak ningali beungeut anjeun.
+fear	Abdi ngarasa kaleungitan pisan saatos anjeunna angkat ti dieu salamina.
+
+
+
+
+
+
+
+

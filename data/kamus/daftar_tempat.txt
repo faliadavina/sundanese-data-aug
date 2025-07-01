@@ -236,6 +236,7 @@ masjid al fauzien
 mauk
 balaraja
 pulau panaitan
+pulau seribu
 pemerintah desa kemujan
 pulau watulawang
 leuwiliang
@@ -9610,6 +9611,7 @@ adimulyo
 panongan lor
 brontokusuman
 pohgedang
+taman aruman
 taruman
 karang sengon
 cicalengka wetan

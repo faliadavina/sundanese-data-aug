@@ -1,6 +1,7 @@
 baheula	keterangan_waktu
 bareto	keterangan_waktu
 kapungkur	keterangan_waktu
+kiwari	keterangan_waktu
 harita	keterangan_waktu
 mangkukna	keterangan_waktu
 kamari	keterangan_waktu
@@ -22,14 +23,20 @@ lohor	keterangan_waktu
 enjing	keterangan_waktu
 peuting	keterangan_waktu
 poe ieu	keterangan_waktu
+poe eta	keterangan_waktu
+poe	keterangan_waktu
 saminggu	keterangan_waktu 
 wayah kieu	keterangan_waktu
 wengi	keterangan_waktu
 wengi ieu	keterangan_waktu
+minggu eta	keterangan_waktu
+minggu ieu	keterangan_waktu
 minggu	keterangan_waktu
+abad	keterangan_waktu
 taun	keterangan_waktu
 bulan puasa	keterangan_waktu
 bulan ramadhan	keterangan_waktu
+bulan	keterangan_waktu
 isukan	keterangan_waktu
 jaman buhun	keterangan_waktu
 jaman	keterangan_waktu
@@ -95,3 +102,8 @@ leuweung	keterangan_tempat
 laut	keterangan_tempat
 mol	keterangan_tempat
 bioskop	keterangan_tempat
+handapeun	keterangan_tempat
+gigireun	keterangan_tempat
+kalereun	keterangan_tempat
+kiduleun	keterangan_tempat
+wetaneun	keterangan_tempat
