@@ -172,16 +172,30 @@ def greedy_match_tempat(tokens, index, daftar_tempat):
     return None, 0
 
 def load_synonyms(file_path):
-    synonyms_dict = defaultdict(list)
+    synonyms_dict = defaultdict(set)  # pakai set biar gak duplikat
     try:
         data = pd.read_csv(file_path)
         for _, row in data.iterrows():
-            word = row['kata']
-            syns = [s.strip() for s in str(row['sinonim']).split(',')]
-            synonyms_dict[word].extend(syns)
+            word = row['kata'].strip()
+            raw_syns = str(row['sinonim']).strip()
+
+            # Pisahkan jika pakai koma atau tanda kutip
+            if raw_syns.startswith('"') and raw_syns.endswith('"'):
+                raw_syns = raw_syns[1:-1]  # hilangkan tanda kutip
+
+            syns = [s.strip() for s in raw_syns.split(',') if s.strip()]
+            
+            # Tambahkan sinonim dua arah
+            for syn in syns:
+                synonyms_dict[word].add(syn)
+                synonyms_dict[syn].add(word)
+        
+        # ubah semua set ke list
+        return {k: list(v) for k, v in synonyms_dict.items()}
+    
     except Exception as e:
         print(f"Error memuat sinonim: {e}")
-    return synonyms_dict
+        return {}
 
 def load_pronouns(file_path):
     kata_ke_kategori = {}
@@ -220,21 +234,19 @@ def tree_to_sentence(tree):
 # ==========================================================================
 
 def list_to_nltk_tree(node):
-    """
-    Fungsi rekursif untuk mengubah pohon format nested list
-    menjadi objek nltk.Tree untuk visualisasi.
-    """
     if not isinstance(node, list) or not node:
         return node
-    
-    label = node[0]
-    # Cek jika ini adalah pre-terminal (node sebelum daun/kata)
-    if len(node) == 2 and not isinstance(node[1], list):
-        return nltk.Tree(label, [node[1]])
-    
-    # Jika ada anak (children), proses secara rekursif
-    children = [list_to_nltk_tree(child) for child in node[1:]]
-    return nltk.Tree(label, children)
+    if len(node) == 2 and isinstance(node[1], str):
+        return nltk.Tree(node[0], [node[1]])
+    elif len(node) >= 2:
+        try:
+            children = [list_to_nltk_tree(child) for child in node[1:] if isinstance(child, list)]
+            return nltk.Tree(node[0], children)
+        except Exception as e:
+            print(f"       [ERROR] Invalid tree node during conversion: {node}")
+            return nltk.Tree(node[0], [])  # fallback to empty children
+    return nltk.Tree(node[0], [])
+
 
 # ==========================================================================
 # AUGMENTASI BERBASIS STRUKTUR SINTAKSIS (DENGAN PERBAIKAN STRUKTUR POHON)
@@ -293,7 +305,8 @@ class AugmentationController:
                 num = int(original_word)
                 if 1 <= num <= 9: new_num = random.randint(1,9)
                 elif 10 <= num <= 99: new_num = random.randint(10,99)
-                else: new_num = num + random.randint(-5, 5)
+                elif 100 <= num <= 999: new_num = random.randint(100,999)
+                elif num >= 1000: new_num = random.randint(1000,9999)
                 node_to_replace[1] = str(new_num)
                 print(f"       > [REPLACEMENT-NUMERAL] Mengganti '{original_word}' -> '{new_num}'")
             except ValueError: pass
@@ -336,20 +349,20 @@ class AugmentationController:
         original_word = original_adjektiva_node[1]
         
         tingkat = random.choice([1, 2, 3])
+        node[1:] = []  # kosongkan anak-anak node
 
-        node[1:] = []
-        
         if tingkat == 1: 
             panganteb_list = self._get_words_from_grammar('PangantebTingkat1')
             if panganteb_list:
                 panganteb = random.choice(panganteb_list)
-                node.extend([['PangantebTingkat1', [panganteb]], original_adjektiva_node])
+                node.extend([['PangantebTingkat1', panganteb], original_adjektiva_node])
                 print(f"       > [INSERTION-ADJ] Menjadi Tingkat 1: '{panganteb} {original_word}'")
+
         elif tingkat == 2: 
             panganteb_list = self._get_words_from_grammar('PangantebTingkat2')
             if panganteb_list:
                 panganteb = random.choice(panganteb_list)
-                node.extend([['PangantebTingkat2', [panganteb]], original_adjektiva_node])
+                node.extend([['PangantebTingkat2', panganteb], original_adjektiva_node])
                 print(f"       > [INSERTION-ADJ] Menjadi Tingkat 2: '{panganteb} {original_word}'")
 
         elif tingkat == 3: 
@@ -357,28 +370,33 @@ class AugmentationController:
             if panganteb_list:
                 panganteb = random.choice(panganteb_list)
                 original_adjektiva_node[1] = original_word + 'na'
-                node.extend([['PangantebTingkat3', [panganteb]], original_adjektiva_node])
+                node.extend([['PangantebTingkat3', panganteb], original_adjektiva_node])
                 print(f"       > [INSERTION-ADJ] Menjadi Tingkat 3: '{panganteb} {original_word}na'")
-
         else:
             node.append(original_adjektiva_node)
 
 
+
     def _transform_verba(self, node):
-        original_verba_node = find_opportunities(node, {'verba'})[0]
+        verba_nodes = find_opportunities(node, {'verba'})
+        if not verba_nodes:
+            return
+
+        original_verba_node = verba_nodes[0]
         
-        # Hapus semua anak lama untuk dibangun ulang
+        # Hapus semua anak lama dari node FrasaVerba
         node[1:] = []
 
         tipe_transformasi = random.choice(['aspek', 'modalitas'])
         if tipe_transformasi == 'aspek':
             kecap_aspek = random.choice(self._get_words_from_grammar('KecapAspek'))
-            node.extend([['KecapAspek', [kecap_aspek]], original_verba_node])
-            print(f"       > [INSERTION-VERBA] Menambah Aspek: '{kecap_aspek}'")
+            node.extend([['KecapAspek', kecap_aspek], original_verba_node])
+            print(f"       > [INSERTION-VERBA] Menambah Aspek: '{kecap_aspek} {original_verba_node[1]}'")
         else:
             kecap_modalitas = random.choice(self._get_words_from_grammar('KecapModalitas'))
-            node.extend([['KecapModalitas', [kecap_modalitas]], original_verba_node])
-            print(f"       > [INSERTION-VERBA] Menambah Modalitas: '{kecap_modalitas}'")
+            node.extend([['KecapModalitas', kecap_modalitas], original_verba_node])
+            print(f"       > [INSERTION-VERBA] Menambah Modalitas: '{kecap_modalitas} {original_verba_node[1]}'")
+
 
     def insertion(self, tree, alpha):
         new_tree = copy.deepcopy(tree)
@@ -497,7 +515,6 @@ if __name__ == "__main__":
     parser_args.add_argument("--alpha_wm", type=float, default=0.0, help="Intensitas Word Movement (0.0 - 1.0)")
     args = parser_args.parse_args()
 
-    # --- PERBAIKAN DIMULAI DI SINI ---
     # Membuat nama file log secara dinamis berdasarkan alpha yang aktif
     active_alphas = []
     if args.alpha_wr > 0: active_alphas.append(f"wr{args.alpha_wr}")
@@ -511,7 +528,8 @@ if __name__ == "__main__":
     else:
         log_name_suffix = "_".join(active_alphas)
 
-    log_filename = f"log_{log_name_suffix}.txt"
+    log_folder = "data/fix-result/log"
+    log_filename = f"{log_folder}/log_{log_name_suffix}.txt"
     # --- AKHIR DARI BLOK PERBAIKAN ---
 
     log_file_handler = open(log_filename, "w", encoding="utf-8")
@@ -527,10 +545,9 @@ if __name__ == "__main__":
     augment_controller = AugmentationController(grammar, lexicon_dict, synonyms_dict, pronomina_map)
 
     output_writer = open(args.output, 'w', encoding='utf-8')
-    failure_log = open("parser_failures.log", "w", encoding='utf-8')
+    failure_log = open("data/fix-result/failure/parser_failures.log", "w", encoding='utf-8')
 
-    rekap_writer = open("rekap_augmentasi.tsv", "w", encoding="utf-8")
-    rekap_writer.write("No\tLabel\tKalimat Asli\tKalimat Augmentasi\tTeknik Augmentasi\n")
+    rekap_writer = open("data/fix-result/rekap/rekap_augmentasi.tsv", "w", encoding="utf-8")
     print(f"\nMemulai proses augmentasi dengan alpha: {log_name_suffix}...")
     successful_parses, failed_parses, augmented_count = 0, 0, 0
 
@@ -579,9 +596,22 @@ if __name__ == "__main__":
                     augmented_sentence = tree_to_sentence(augmented_tree)
                     if augmented_sentence != clean_sentence and augmented_sentence.strip():
                         print(f"       > Hasil Augmentasi: {augmented_sentence}")
+                        
+                        # =========================================================
+                        # VISUALISASI POHON HASIL AUGMENTASI
+                        # =========================================================
+                        print(f"\n       > Struktur Pohon Hasil Augmentasi:")
+                        try:
+                            nltk_aug_tree = list_to_nltk_tree(augmented_tree)
+                            nltk_aug_tree.pretty_print(stream=sys.stdout)
+                        except Exception as e:
+                            print(f"          [ERROR] Gagal menampilkan pohon hasil augmentasi: {e}")
+                        print("-" * 60)
+                        # =========================================================
+
                         output_writer.write(f"{label}\t{augmented_sentence.strip()}\n")
                         teknik_dipakai = ', '.join(teknik) if teknik else '-'
-                        rekap_writer.write(f"{i+1}\t{label}\t{clean_sentence}\t{augmented_sentence.strip()}\t{teknik_dipakai}\n")
+                        rekap_writer.write(f"{label}\t{augmented_sentence.strip()}\n")
                         augmented_count += 1
             else:
                 failed_parses += 1

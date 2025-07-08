@@ -51,15 +51,14 @@ abdi gusti	orang_pertama_lemes
 abdi sadaya	orang_pertama_lemes
 abi	orang_pertama_lemes
 aing	orang_pertama_kasar
-arurang	orang_pertama_loma
+
 dampal dalem	orang_pertama_lemes
 dampal gamparan	orang_pertama_lemes
 dampal gusti	orang_pertama_lemes
-kami	orang_pertama_loma
-kita	orang_pertama_loma
+
 pribados	orang_pertama_lemes
 sim kuring	orang_pertama_loma
-sim kuring sadaya	orang_pertama_loma
+
 ti palih dinya	pronomina_demonstratif_loma
 ti dinya	pronomina_demonstratif_loma
 ti palih dieu	pronomina_demonstratif_loma
@@ -77,7 +76,7 @@ di dieu	pronomina_demonstratif_loma
 di dinya	pronomina_demonstratif_loma
 di ditu	pronomina_demonstratif_loma
 di manten	pronomina_demonstratif_loma
-didieu	orang_pertama_loma
+
 didinya	orang_kedua_loma
 dinih	pronomina_demonstratif_loma
 eta	pronomina_demonstratif_loma

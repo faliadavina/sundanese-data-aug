@@ -1,0 +1,26 @@
+joy	bapa angkat
+joy	bapa teu weléh angkat
+joy	bapa jeung ibu angkat
+joy	bapa jeung ibu nu belet angkat
+joy	kamari kuring indit ka pulau seribu
+joy	kamari kuring nu tepos indit ka nu mulus pulau seribu
+joy	hayang ulin di taman aruman
+joy	hayang nu kampungan ulin di taman aruman nu rubak
+joy	hayang ulin ka imah budi
+joy	hayang nu jaloledar ulin ka imah budi nu aeb
+joy	hayang ulin di imah budi
+joy	hayang badé ulin di imah budi nu swasta
+joy	sore abdi bade jaga di rumah sakit
+joy	sore nu ribut deui abdi jaga di rumah nu gepeng sakit
+joy	tuang di rumah sakit
+joy	biasa tuang di rumah nu mutlak sakit
+joy	akang teh keur maca
+joy	akang teh nu jarang-jarang keur maca
+joy	haturan mamah sareng apa
+joy	tawis asih kanggo ema miwah bapa
+joy	kuring resep diajar di taman aruman
+joy	kuring resep diajar di nu curang taman aruman nu hidmat
+joy	goblog nu katoel katuhu nu nyerina kenca wasitna
+joy	goblog nu katoel katuhu nu nyerina nu gemi kenca wasitna nu licik
+joy	hayang seuri ngagakgak
+joy	hayang nu lapat-lapat seuri ngagakgak
